@@ -26,6 +26,8 @@ def generate_monthly_ranges(start_year, end_year):
             else:
                 end_m = months[m_idx + 1]
                 end_year_val = year
+            
+            end_date = f"{end_m}1.{end_year_val}" # ⚡ SUNTIKAN PERBAIKAN MUTLAK!
             ranges.append((f"{start_date}-{end_date}", f"{start_m.upper()} {year}"))
     return ranges
 
@@ -37,14 +39,13 @@ def start_cloud_mining():
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--remote-allow-origins=*") # ⚡ SUNTIKAN KEAMANAN PORT
+    chrome_options.add_argument("--remote-allow-origins=*") 
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
     
     driver = None
     all_news_extracted = []
     
     try:
-        # ⚡ PINDAH KE DALAM TRY: Agar jika gagal, penyebabnya langsung bocor di layar!
         print("🏗️ Launching Chrome Browser inside GitHub Action Runner...")
         driver = webdriver.Chrome(options=chrome_options)
         print("🚀 Chrome successfully launched!")
@@ -99,7 +100,7 @@ def start_cloud_mining():
     except Exception as e:
         print(f"❌ CRITICAL PYTHON CRASH DETECTED: {e}")
         if driver: driver.quit()
-        sys.exit(1) # Beri kode keluar 1 agar GitHub tahu ada eror asli
+        sys.exit(1)
         
     finally:
         if driver: 
