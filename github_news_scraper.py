@@ -8,26 +8,41 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 
-def generate_forward_months(months_ahead=13):
-    """Menghasilkan list biner bulan dan tahun dari sekarang hingga 13 bulan ke depan"""
+def generate_forward_ranges(months_ahead=13):
+    """Menghasilkan koordinat range resmi Forex Factory dari bulan ini hingga 13 bulan ke depan"""
     months_names = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
     current_date = datetime.now()
     
     y = current_date.year
     m = current_date.month
     
-    future_list = []
+    range_list = []
     for _ in range(months_ahead):
-        m_str = months_names[m - 1]
-        future_list.append((m_str, str(y)))
+        start_m = months_names[m - 1]
+        start_year = y
+        
+        # Cari patokan bulan berikutnya untuk batas akhir range sebulan penuh
+        next_m_idx = m
+        next_year = y
+        if next_m_idx > 11:
+            next_m_idx = 0
+            next_year += 1
+        end_m = months_names[next_m_idx]
+        
+        # Format resmi bursa: range=jun1.2026-jul1.2026
+        range_query = f"{start_m}1.{start_year}-{end_m}1.{next_year}"
+        label_name = f"{start_m.upper()} {start_year}"
+        
+        range_list.append((range_query, label_name, str(start_year)))
+        
         m += 1
         if m > 12:
             m = 1
             y += 1
-    return future_list
+    return range_list
 
 def start_cloud_mining():
-    print("🌐 STARTING WBS GLOBAL 13-MONTH FORWARD VISION RADAR ENGINE...")
+    print("🌐 STARTING WBS GLOBAL 13-MONTH FORWARD VISION RADAR ENGINE V2...")
     
     chrome_options = Options()
     chrome_options.add_argument("--headless=new") 
@@ -45,18 +60,14 @@ def start_cloud_mining():
         print("🏗️ Launching Multi-Month Stealth Chrome inside GitHub Runner...")
         driver = webdriver.Chrome(options=chrome_options)
         
-        # Ambil cetak biru target 13 bulan kedepan (Juni 2026 - Juni 2027)
-        target_months = generate_forward_months(13)
-        print(f"📅 Target Timeline Coordinates Locked: {target_months[0][0].upper()} {target_months[0][1]} to {target_months[-1][0].upper()} {target_months[-1][1]}")
+        target_ranges = generate_forward_ranges(13)
+        print(f"📅 Target Timeline Locked: {target_ranges[0][1]} to {target_ranges[-1][1]}")
         
-        for m_str, y_str in target_months:
-            label_name = f"{m_str.upper()} {y_str}"
-            url = f"https://www.forexfactory.com/calendar?month={m_str}.{y_str}"
-            
+        for range_query, label_name, y_str in target_ranges:
+            url = f"https://www.forexfactory.com/calendar?range={range_query}" # ⚡ REVISI UTAMA: Menggunakan parameter range bursa asli
             print(f"📡 Radar Scanning: {label_name} -> {url}")
             driver.get(url)
             
-            # Beri delay acak agak panjang agar aman dari blokir Cloudflare
             time.sleep(random.uniform(5.5, 7.5))
             
             soup = BeautifulSoup(driver.page_source, 'html.parser')
@@ -65,14 +76,16 @@ def start_cloud_mining():
             
             valid_rows = 0
             for row in table_rows:
+                # ⚡ REVISI UTAMA 2: Kunci deteksi tanggal di paling atas agar tidak terlewat oleh filter apa pun!
+                date_item = row.find('td', class_='calendar__date')
+                if date_item and date_item.text.strip():
+                    current_row_date = date_item.text.strip()
+                    
                 currency_item = row.find('td', class_='calendar__currency')
                 if not currency_item or not currency_item.text.strip():
                     continue
                     
                 currency_txt = currency_item.text.strip()
-                date_item = row.find('td', class_='calendar__date')
-                if date_item and date_item.text.strip():
-                    current_row_date = date_item.text.strip()
                 
                 impact_td = row.find('td', class_='calendar__impact')
                 impact_icon = impact_td.find('span') if impact_td else None
@@ -99,7 +112,7 @@ def start_cloud_mining():
                 })
                 valid_rows += 1
                 
-            print(f"📊 Extracted {valid_rows} events from {label_name}")
+            print(f"📊 Successfully extracted {valid_rows} events from {label_name}")
                 
     except Exception as e:
         print(f"❌ CRITICAL TIMELINE CRASH DETECTED: {e}")
@@ -126,7 +139,7 @@ def start_cloud_mining():
         df_new.to_csv(output_file, index=False)
         print("👑 BRANKAS BULLETPROOF FUTURE LEDGER SECURED SUCCESSFULLY!")
     else:
-        print("⚠️ Failed to parse any data across the timeline. Check block configurations.")
+        print("⚠️ Failed to parse any data across the timeline.")
 
 if __name__ == "__main__":
     start_cloud_mining()
