@@ -48,9 +48,9 @@ def start_cloud_mining():
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--remote-allow-origins=*") 
     
-    # SUNTIKAN AMUNISI ANTI-DETEKSI ROBOT
+    # SUNTIKAN AMUNISI ANTI-DETEKSI ROBOT (VERSI BERSIH FIXED)
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-    chrome_options.add_exclude_argument("enable-automation")
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"]) # ⚡ FIXED: Menggunakan jalur eksperimental resmi
     chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
     
     driver = None
@@ -60,7 +60,7 @@ def start_cloud_mining():
         print("🏗️ Launching Stealth Chrome inside GitHub Runner...")
         driver = webdriver.Chrome(options=chrome_options)
         
-        # ⚡ MANTRA UTAMA: Hapus jejak biner 'navigator.webdriver' dari radar Cloudflare
+        # Hapus jejak biner 'navigator.webdriver' dari radar Cloudflare
         driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
             "source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
         })
@@ -76,7 +76,6 @@ def start_cloud_mining():
             # Beri delay acak lebih panjang agar menyerupai ritme ketukan manusia membaca berita
             time.sleep(random.uniform(7.0, 10.0))
             
-            # DEBUG MONITOR: Cetak Judul Halaman untuk mendeteksi apakah diblokir Cloudflare
             print(f"📄 Page Title Captured: '{driver.title}'")
             
             soup = BeautifulSoup(driver.page_source, 'html.parser')
