@@ -2,6 +2,7 @@ import pandas as pd
 import time
 import random
 import os
+import sys
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -29,22 +30,27 @@ def generate_monthly_ranges(start_year, end_year):
     return ranges
 
 def start_cloud_mining():
-    print("🌐 STARTING WBS GLOBAL CLOUD NEWS MINER (NATIVE SELENIUM MODE)...")
+    print("🌐 STARTING WBS GLOBAL CLOUD NEWS MINER (SURGICAL SAFE MODE)...")
     
     chrome_options = Options()
-    chrome_options.add_argument("--headless=new") # ⚡ Menggunakan mode Headless baru standar industri
+    chrome_options.add_argument("--headless=new") 
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--remote-allow-origins=*") # ⚡ SUNTIKAN KEAMANAN PORT
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
     
-    # ⚡ KUNCI PERBAIKAN: Murni mengandalkan Selenium 4 Native Auto-Driver (Tanpa webdriver-manager)
-    driver = webdriver.Chrome(options=chrome_options)
-    
-    target_ranges = generate_monthly_ranges(2026, datetime.now().year)
+    driver = None
     all_news_extracted = []
     
     try:
+        # ⚡ PINDAH KE DALAM TRY: Agar jika gagal, penyebabnya langsung bocor di layar!
+        print("🏗️ Launching Chrome Browser inside GitHub Action Runner...")
+        driver = webdriver.Chrome(options=chrome_options)
+        print("🚀 Chrome successfully launched!")
+        
+        target_ranges = generate_monthly_ranges(2026, datetime.now().year)
+        
         for range_query, label_name in target_ranges:
             print(f"📡 Cloud Scrape: {label_name}...")
             url = f"https://www.forexfactory.com/calendar?range={range_query}"
@@ -61,7 +67,6 @@ def start_cloud_mining():
                     continue
                     
                 currency_txt = currency_item.text.strip()
-                
                 date_item = row.find('td', class_='calendar__date')
                 if date_item and date_item.text.strip():
                     current_row_date = date_item.text.strip()
@@ -90,23 +95,32 @@ def start_cloud_mining():
                     "Forecast": forecast_item.text.strip() if forecast_item and forecast_item.text.strip() else "-",
                     "Previous": previous_item.text.strip() if previous_item and previous_item.text.strip() else "-"
                 })
-    except Exception as e:
-        print(f"❌ Error: {e}")
-    finally:
-        driver.quit()
-        if all_news_extracted:
-            df_new = pd.DataFrame(all_news_extracted)
-            os.makedirs("data", exist_ok=True)
-            output_file = os.path.join("data", "forex_news_usd_2015_2026.csv")
-            
-            if os.path.exists(output_file):
-                try:
-                    df_old = pd.read_csv(output_file)
-                    df_new = pd.concat([df_old, df_new]).drop_duplicates(subset=['Date', 'Currency', 'Event'], keep='last')
-                except: pass
                 
-            df_new.to_csv(output_file, index=False)
-            print(f"👑 GLOBAL CLOUD MINING SUCCESS: Database Multi-Currency Berhasil Diperbarui!")
+    except Exception as e:
+        print(f"❌ CRITICAL PYTHON CRASH DETECTED: {e}")
+        if driver: driver.quit()
+        sys.exit(1) # Beri kode keluar 1 agar GitHub tahu ada eror asli
+        
+    finally:
+        if driver: 
+            driver.quit()
+            print("🔒 Browser session closed safely.")
+            
+    if all_news_extracted:
+        df_new = pd.DataFrame(all_news_extracted)
+        os.makedirs("data", exist_ok=True)
+        output_file = os.path.join("data", "forex_news_usd_2015_2026.csv")
+        
+        if os.path.exists(output_file):
+            try:
+                df_old = pd.read_csv(output_file)
+                df_new = pd.concat([df_old, df_new]).drop_duplicates(subset=['Date', 'Currency', 'Event'], keep='last')
+            except: pass
+            
+        df_new.to_csv(output_file, index=False)
+        print(f"👑 GLOBAL CLOUD MINING SUCCESS: Database Multi-Currency Berhasil Diperbarui!")
+    else:
+        print("⚠️ No data extracted. All rows filtered or page challenge detected.")
 
 if __name__ == "__main__":
     start_cloud_mining()
