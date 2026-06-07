@@ -1,0 +1,35 @@
+name: WBS HybridPro Cloud News Miner
+
+on:
+  schedule:
+    # Berjalan otomatis setiap hari pada jam 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Fitur tombol manual jika Jenderal mau tes jalan sekarang
+
+jobs:
+  mine-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository Aset
+        uses: actions/checkout@v3
+
+      - name: Setup Lingkungan Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Pasang Amunisi WebDriver & Library
+        run: |
+          pip install pandas selenium beautifulsoup4 webdriver-manager
+
+      - name: Jalankan Ekstraksi Range Forex Factory
+        run: |
+          python github_news_scraper.py
+
+      - name: Amankan dan Commit Data Baru ke Brankas Cloud
+        run: |
+          git config --global user.name "WBS Cloud Miner"
+          git config --global user.email "miner@wbs-hybridpro.ai"
+          git add data/forex_news_usd_2015_2026.csv
+          git diff-index --quiet HEAD || git commit -m "🤖 Auto-Update: Fundamental USD News Ledger [$(date +'%Y-%m-%d %H:%M')]"
+          git push
