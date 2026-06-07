@@ -29,7 +29,7 @@ def generate_monthly_ranges(start_year, end_year):
     return ranges
 
 def start_cloud_mining():
-    print("🌐 STARTING WBS CLOUD NEWS MINER ENGINE ON GITHUB RUNNER...")
+    print("🌐 STARTING WBS GLOBAL CLOUD NEWS MINER (ALL CURRENCIES & ALL IMPACTS)...")
     
     chrome_options = Options()
     chrome_options.add_argument("--headless") 
@@ -54,9 +54,11 @@ def start_cloud_mining():
             
             for row in table_rows:
                 currency_item = row.find('td', class_='calendar__currency')
-                if not currency_item or "USD" not in currency_item.text.strip():
+                if not currency_item or not currency_item.text.strip():
                     continue
                     
+                currency_txt = currency_item.text.strip()
+                
                 date_item = row.find('td', class_='calendar__date')
                 if date_item and date_item.text.strip():
                     current_row_date = date_item.text.strip()
@@ -68,9 +70,7 @@ def start_cloud_mining():
                     icon_class = "".join(impact_icon.get('class', []))
                     if 'high' in icon_class or 'red' in icon_class: impact_level = "High"
                     elif 'medium' in icon_class or 'orange' in icon_class: impact_level = "Medium"
-                
-                if impact_level not in ["High", "Medium"]:
-                    continue
+                    elif 'low' in icon_class or 'yellow' in icon_class: impact_level = "Low"
                 
                 event_item = row.find('td', class_='calendar__event')
                 actual_item = row.find('td', class_='calendar__actual')
@@ -81,11 +81,11 @@ def start_cloud_mining():
                 tanggal_final = f"{current_row_date} {tahun_aktif}".replace('\n', ' ').strip()
                 
                 all_news_extracted.append({
-                    "Date": tanggal_final, "Currency": "USD", "Impact": impact_level,
+                    "Date": tanggal_final, "Currency": currency_txt, "Impact": impact_level,
                     "Event": event_item.text.strip() if event_item else "-",
-                    "Actual": actual_item.text.strip() if actual_item else "-",
-                    "Forecast": forecast_item.text.strip() if forecast_item else "-",
-                    "Previous": previous_item.text.strip() if previous_item else "-"
+                    "Actual": actual_item.text.strip() if actual_item and actual_item.text.strip() else "-",
+                    "Forecast": forecast_item.text.strip() if forecast_item and forecast_item.text.strip() else "-",
+                    "Previous": previous_item.text.strip() if previous_item and previous_item.text.strip() else "-"
                 })
     except Exception as e:
         print(f"❌ Error: {e}")
@@ -96,7 +96,7 @@ def start_cloud_mining():
             os.makedirs("data", exist_ok=True)
             output_file = os.path.join("data", "forex_news_usd_2015_2026.csv")
             df_new.to_csv(output_file, index=False)
-            print(f"👑 CLOUD MINING SUCCESS: {len(df_new)} Berita USD Terkunci!")
+            print(f"👑 GLOBAL CLOUD MINING SUCCESS: {len(df_new)} Multi-Currency Berita Terkunci!")
 
 if __name__ == "__main__":
     start_cloud_mining()
