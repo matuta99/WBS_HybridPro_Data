@@ -8,31 +8,13 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 
-def generate_monthly_ranges(start_year, end_year):
-    months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
-    ranges = []
-    current_month_idx = datetime.now().month - 1
-    current_year = datetime.now().year
-    
-    for year in range(start_year, end_year + 1):
-        for m_idx in range(12):
-            if year == current_year and m_idx > current_month_idx:
-                break
-            start_m = months[m_idx]
-            start_date = f"{start_m}1.{year}"
-            if m_idx == 11:
-                end_m = months[0]
-                end_year_val = year + 1
-            else:
-                end_m = months[m_idx + 1]
-                end_year_val = year
-            
-            end_date = f"{end_m}1.{end_year_val}"
-            ranges.append((f"{start_date}-{end_date}", f"{start_m.upper()} {year}"))
-    return ranges
-
 def start_cloud_mining():
-    print("🌐 STARTING WBS GLOBAL CLOUD NEWS MINER (STEALTH ANTI-BLOCK MODE)...")
+    # Mengambil nama bulan dan tahun aktif PC saat ini secara otomatis (Misal: jun dan 2026)
+    current_month_str = datetime.now().strftime('%b').lower()
+    current_year_str = str(datetime.now().year)
+    label_name = f"{current_month_str.upper()} {current_year_str}"
+    
+    print(f"🌐 STARTING WBS STEALTH SINGLE-SHOT MINER FOR {label_name}...")
     
     chrome_options = Options()
     chrome_options.add_argument("--headless=new") 
@@ -41,95 +23,88 @@ def start_cloud_mining():
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--remote-allow-origins=*") 
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-    
-    # ⚡ SUNTIKAN SAKTI: Menyamar jadi Browser Windows asli biar lolos sensor Cloudflare
     chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
     
     driver = None
     all_news_extracted = []
     
     try:
-        print("🏗 ... Launching Stealth Chrome inside GitHub Environment ...")
         driver = webdriver.Chrome(options=chrome_options)
         
-        target_ranges = generate_monthly_ranges(2026, datetime.now().year)
+        # 🎯 STRATEGI UTAMA: Langsung tembak 1 URL bulan berjalan (Bebas dari blokir Cloudflare)
+        url = f"https://www.forexfactory.com/calendar?month={current_month_str}.{current_year_str}"
+        print(f"📡 Fetching Live Month Data Feed from: {url}")
+        driver.get(url)
+        time.sleep(8.0) # Beri waktu ekstra agar seluruh row termuat sempurna
         
-        for range_query, label_name in target_ranges:
-            print(f"📡 Cloud Scrape Action: {label_name}...")
-            url = f"https://www.forexfactory.com/calendar?range={range_query}"
-            driver.get(url)
-            time.sleep(random.uniform(5.0, 7.0))
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        table_rows = soup.find_all('tr', class_='calendar__row')
+        current_row_date = ""
+        
+        print(f"📊 Total rows discovered on page: {len(table_rows)}")
+        
+        for row in table_rows:
+            currency_item = row.find('td', class_='calendar__currency')
+            if not currency_item or not currency_item.text.strip():
+                continue
+                
+            currency_txt = currency_item.text.strip()
+            date_item = row.find('td', class_='calendar__date')
+            if date_item and date_item.text.strip():
+                current_row_date = date_item.text.strip()
             
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
-            table_rows = soup.find_all('tr', class_='calendar__row')
-            current_row_date = ""
+            impact_td = row.find('td', class_='calendar__impact')
+            impact_icon = impact_td.find('span') if impact_td else None
+            impact_level = "Low"
+            if impact_icon:
+                icon_class = "".join(impact_icon.get('class', []))
+                if 'high' in icon_class or 'red' in icon_class: impact_level = "High"
+                elif 'medium' in icon_class or 'orange' in icon_class: impact_level = "Medium"
+                elif 'low' in icon_class or 'yellow' in icon_class: impact_level = "Low"
             
-            print(f"📊 Row detected on page: {len(table_rows)} rows.")
+            event_item = row.find('td', class_='calendar__event')
+            actual_item = row.find('td', class_='calendar__actual')
+            forecast_item = row.find('td', class_='calendar__forecast')
+            previous_item = row.find('td', class_='calendar__previous')
             
-            for row in table_rows:
-                currency_item = row.find('td', class_='calendar__currency')
-                if not currency_item or not currency_item.text.strip():
-                    continue
-                    
-                currency_txt = currency_item.text.strip()
-                date_item = row.find('td', class_='calendar__date')
-                if date_item and date_item.text.strip():
-                    current_row_date = date_item.text.strip()
-                
-                impact_td = row.find('td', class_='calendar__impact')
-                impact_icon = impact_td.find('span') if impact_td else None
-                impact_level = "Low"
-                if impact_icon:
-                    icon_class = "".join(impact_icon.get('class', []))
-                    if 'high' in icon_class or 'red' in icon_class: impact_level = "High"
-                    elif 'medium' in icon_class or 'orange' in icon_class: impact_level = "Medium"
-                    elif 'low' in icon_class or 'yellow' in icon_class: impact_level = "Low"
-                
-                event_item = row.find('td', class_='calendar__event')
-                actual_item = row.find('td', class_='calendar__actual')
-                forecast_item = row.find('td', class_='calendar__forecast')
-                previous_item = row.find('td', class_='calendar__previous')
-                
-                tahun_aktif = range_query.split('-')[0].split('.')[-1]
-                tanggal_final = f"{current_row_date} {tahun_aktif}".replace('\n', ' ').strip()
-                
-                all_news_extracted.append({
-                    "Date": tanggal_final, "Currency": currency_txt, "Impact": impact_level,
-                    "Event": event_item.text.strip() if event_item else "-",
-                    "Actual": actual_item.text.strip() if actual_item and actual_item.text.strip() else "-",
-                    "Forecast": forecast_item.text.strip() if forecast_item and forecast_item.text.strip() else "-",
-                    "Previous": previous_item.text.strip() if previous_item and previous_item.text.strip() else "-"
-                })
+            tanggal_final = f"{current_row_date} {current_year_str}".replace('\n', ' ').strip()
+            
+            all_news_extracted.append({
+                "Date": tanggal_final, "Currency": currency_txt, "Impact": impact_level,
+                "Event": event_item.text.strip() if event_item else "-",
+                "Actual": actual_item.text.strip() if actual_item and actual_item.text.strip() else "-",
+                "Forecast": forecast_item.text.strip() if forecast_item and forecast_item.text.strip() else "-",
+                "Previous": previous_item.text.strip() if previous_item and previous_item.text.strip() else "-"
+            })
                 
     except Exception as e:
         print(f"❌ PYTHON EXECUTOR ERROR: {e}")
         if driver: driver.quit()
         sys.exit(1)
-        
     finally:
         if driver: 
             driver.quit()
-            print("🔒 Cloud browser closed safely.")
+            print("🔒 Cloud browser engine shut down cleanly.")
             
-    # ⚡ TAKTIK KUNCI: Wajib bikin file CSV template meskipun data kosong, biar Git aman sejahtera!
     os.makedirs("data", exist_ok=True)
     output_file = os.path.join("data", "forex_news_usd_2015_2026.csv")
     
     if all_news_extracted:
         df_new = pd.DataFrame(all_news_extracted)
-        print(f"🎉 Success extracted {len(df_new)} live eco-events!")
+        print(f"🎉 Successfully parsed {len(df_new)} economic indicators for this month!")
     else:
-        print("⚠️ Alert: Zero data extracted (Cloudflare Wall). Initializing template to secure Git execution.")
+        print("⚠️ Alert: Zero data parsed. Generating fallback placeholder template.")
         df_new = pd.DataFrame(columns=["Date", "Currency", "Impact", "Event", "Actual", "Forecast", "Previous"])
         
     if os.path.exists(output_file):
         try:
             df_old = pd.read_csv(output_file)
+            # Gabungkan sejarah lama (termasuk data Januari) dan timpa dengan update terbaru Juni
             df_new = pd.concat([df_old, df_new]).drop_duplicates(subset=['Date', 'Currency', 'Event'], keep='last')
         except: pass
         
     df_new.to_csv(output_file, index=False)
-    print("👑 BRANKAS LEDGER REPOSITORY FILE SECURED SUCCESSFULLY!")
+    print("👑 LIVE MONTH LEDGER MERGED AND SECURED SUCCESSFULLY!")
 
 if __name__ == "__main__":
     start_cloud_mining()
