@@ -9,6 +9,22 @@ Thu Jan 1 2026,USD,Low,Bank Holiday,-,-,-
 Thu Jan 1 2026,NZD,Low,Bank Holiday,-,-,-
 Thu Jan 1 2026,JPY,Low,Bank Holiday,-,-,-
 Thu Jan 1 2026,CNY,Low,Bank Holiday,-,-,-
+Mon Jun 1 2026,USD,Low,FOMC Member Kashkari Speaks,-,-,-
+Mon Jun 1 2026,EUR,Low,Italian Bank Holiday,-,-,-
+Mon Jun 1 2026,EUR,Low,French Gov Budget Balance,-69.6B,-,-42.9B
+Sun Jun 7 2026,All,Low,OPEC-JMMC Meetings,-,-,-
+Sun Jun 7 2026,All,Low,OPEC Meetings,-,-,-
+Sun Jun 7 2026,AUD,Low,Bank Holiday,-,-,-
+Sun Jun 7 2026,JPY,Low,Bank Lending y/y,-,5.6%,5.4%
+Sun Jun 7 2026,JPY,Low,Current Account,-,3.26T,3.90T
+Sun Jun 7 2026,JPY,Low,Final GDP Price Index y/y,-,3.4%,3.4%
+Sun Jun 7 2026,JPY,Low,Final GDP q/q,-,0.3%,0.5%
+Sun Jun 7 2026,JPY,Low,Economy Watchers Sentiment,-,41.9,40.8
+Sun Jun 7 2026,EUR,Low,German Factory Orders m/m,-,-2.2%,5.0%
+Mon Jun 1 2026,EUR,Low,German Retail Sales m/m,-0.3%,-0.4%,-0.3%
+Mon Jun 1 2026,GBP,Low,Nationwide HPI m/m,-0.6%,-0.1%,0.4%
+Mon Jun 1 2026,AUD,Low,Commodity Prices y/y,16.8%,-,15.0%
+Mon Jun 1 2026,CHF,Low,Retail Sales y/y,1.6%,0.2%,1.3%
 Mon Jun 1 2026,CHF,Low,GDP q/q,0.7%,0.6%,0.2%
 Mon Jun 1 2026,EUR,Low,Spanish Manufacturing PMI,51.2,53.7,51.7
 Mon Jun 1 2026,CHF,Low,Manufacturing PMI,57.3,54.0,54.5
@@ -31,15 +47,3 @@ Mon Jun 1 2026,AUD,Low,Building Approvals m/m,-3.4%,-1.5%,-10.5%
 Mon Jun 1 2026,AUD,Low,Company Operating Profits q/q,-1.3%,0.5%,5.9%
 Mon Jun 1 2026,AUD,Low,Current Account,-27.1B,-23.1B,-23.0B
 Mon Jun 1 2026,JPY,Low,10-y Bond Auction,2.65|3.5,-,2.54|3.9
-Mon Jun 1 2026,USD,Low,FOMC Member Kashkari Speaks,-,-,-
-Mon Jun 1 2026,EUR,Low,Italian Bank Holiday,-,-,-
-Mon Jun 1 2026,EUR,Low,French Gov Budget Balance,-69.6B,-,-42.9B
-Sun Jun 7 2026,All,Low,OPEC-JMMC Meetings,-,-,-
-Sun Jun 7 2026,All,Low,OPEC Meetings,-,-,-
-Sun Jun 7 2026,AUD,Low,Bank Holiday,-,-,-
-Sun Jun 7 2026,JPY,Low,Bank Lending y/y,-,5.6%,5.4%
-Sun Jun 7 2026,JPY,Low,Current Account,-,3.26T,3.90T
-Sun Jun 7 2026,JPY,Low,Final GDP Price Index y/y,-,3.4%,3.4%
-Sun Jun 7 2026,JPY,Low,Final GDP q/q,-,0.3%,0.5%
-Sun Jun 7 2026,JPY,Low,Economy Watchers Sentiment,-,41.9,40.8
-Sun Jun 7 2026,EUR,Low,German Factory Orders m/m,-,-2.2%,5.0%
