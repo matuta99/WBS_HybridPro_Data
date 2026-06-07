@@ -9,7 +9,6 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 
 def generate_forward_ranges(months_ahead=13):
-    """Menghasilkan koordinat range resmi Forex Factory dari bulan ini hingga 13 bulan ke depan"""
     months_names = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
     current_date = datetime.now()
     
@@ -21,7 +20,6 @@ def generate_forward_ranges(months_ahead=13):
         start_m = months_names[m - 1]
         start_year = y
         
-        # Cari patokan bulan berikutnya untuk batas akhir range sebulan penuh
         next_m_idx = m
         next_year = y
         if next_m_idx > 11:
@@ -29,7 +27,6 @@ def generate_forward_ranges(months_ahead=13):
             next_year += 1
         end_m = months_names[next_m_idx]
         
-        # Format resmi bursa: range=jun1.2026-jul1.2026
         range_query = f"{start_m}1.{start_year}-{end_m}1.{next_year}"
         label_name = f"{start_m.upper()} {start_year}"
         
@@ -42,7 +39,7 @@ def generate_forward_ranges(months_ahead=13):
     return range_list
 
 def start_cloud_mining():
-    print("🌐 STARTING WBS GLOBAL 13-MONTH FORWARD VISION RADAR ENGINE V2...")
+    print("🌐 STARTING WBS GLOBAL 13-MONTH FORWARD VISION RADAR (ULTRA STEALTH MODE)...")
     
     chrome_options = Options()
     chrome_options.add_argument("--headless=new") 
@@ -50,25 +47,37 @@ def start_cloud_mining():
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--remote-allow-origins=*") 
+    
+    # SUNTIKAN AMUNISI ANTI-DETEKSI ROBOT
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-    chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36")
+    chrome_options.add_exclude_argument("enable-automation")
+    chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
     
     driver = None
     all_news_extracted = []
     
     try:
-        print("🏗️ Launching Multi-Month Stealth Chrome inside GitHub Runner...")
+        print("🏗️ Launching Stealth Chrome inside GitHub Runner...")
         driver = webdriver.Chrome(options=chrome_options)
+        
+        # ⚡ MANTRA UTAMA: Hapus jejak biner 'navigator.webdriver' dari radar Cloudflare
+        driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+            "source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+        })
         
         target_ranges = generate_forward_ranges(13)
         print(f"📅 Target Timeline Locked: {target_ranges[0][1]} to {target_ranges[-1][1]}")
         
         for range_query, label_name, y_str in target_ranges:
-            url = f"https://www.forexfactory.com/calendar?range={range_query}" # ⚡ REVISI UTAMA: Menggunakan parameter range bursa asli
+            url = f"https://www.forexfactory.com/calendar?range={range_query}"
             print(f"📡 Radar Scanning: {label_name} -> {url}")
             driver.get(url)
             
-            time.sleep(random.uniform(5.5, 7.5))
+            # Beri delay acak lebih panjang agar menyerupai ritme ketukan manusia membaca berita
+            time.sleep(random.uniform(7.0, 10.0))
+            
+            # DEBUG MONITOR: Cetak Judul Halaman untuk mendeteksi apakah diblokir Cloudflare
+            print(f"📄 Page Title Captured: '{driver.title}'")
             
             soup = BeautifulSoup(driver.page_source, 'html.parser')
             table_rows = soup.find_all('tr', class_='calendar__row')
@@ -76,7 +85,6 @@ def start_cloud_mining():
             
             valid_rows = 0
             for row in table_rows:
-                # ⚡ REVISI UTAMA 2: Kunci deteksi tanggal di paling atas agar tidak terlewat oleh filter apa pun!
                 date_item = row.find('td', class_='calendar__date')
                 if date_item and date_item.text.strip():
                     current_row_date = date_item.text.strip()
