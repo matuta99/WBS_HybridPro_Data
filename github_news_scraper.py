@@ -5,8 +5,6 @@ import os
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service # ⚡ SUNTIKAN BARU
-from webdriver_manager.chrome import ChromeDriverManager # ⚡ SUNTIKAN BARU
 from bs4 import BeautifulSoup
 
 def generate_monthly_ranges(start_year, end_year):
@@ -31,19 +29,18 @@ def generate_monthly_ranges(start_year, end_year):
     return ranges
 
 def start_cloud_mining():
-    print("🌐 STARTING WBS GLOBAL CLOUD NEWS MINER (ALL CURRENCIES & ALL IMPACTS)...")
+    print("🌐 STARTING WBS GLOBAL CLOUD NEWS MINER (NATIVE SELENIUM MODE)...")
     
     chrome_options = Options()
-    chrome_options.add_argument("--headless") 
+    chrome_options.add_argument("--headless=new") # ⚡ Menggunakan mode Headless baru standar industri
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
     
-    # ⚡ PERBAIKAN UTAMA: Menggunakan Service dari WebDriver Manager agar auto-singkron di Linux
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+    # ⚡ KUNCI PERBAIKAN: Murni mengandalkan Selenium 4 Native Auto-Driver (Tanpa webdriver-manager)
+    driver = webdriver.Chrome(options=chrome_options)
     
-    # 💡 TIPS TRADING: Untuk run harian, mulailah dari tahun berjalan (misal 2026) 
-    # agar tidak terkena blokir Cloudflare karena melakukan 130+ request sekaligus setiap hari.
     target_ranges = generate_monthly_ranges(2026, datetime.now().year)
     all_news_extracted = []
     
@@ -102,7 +99,6 @@ def start_cloud_mining():
             os.makedirs("data", exist_ok=True)
             output_file = os.path.join("data", "forex_news_usd_2015_2026.csv")
             
-            # Jika file sudah ada, gabungkan datanya agar sejarah lama tidak hilang
             if os.path.exists(output_file):
                 try:
                     df_old = pd.read_csv(output_file)
