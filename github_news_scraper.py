@@ -9,17 +9,15 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 
 def generate_sniper_weeks():
-    """Hanya mengambil Minggu Ini dan Minggu Depan (2 Request) untuk Live Update Harian"""
+    """Hanya mengambil Minggu Ini dan Minggu Depan untuk Papan Tulis Harian"""
     current = datetime.date.today()
     
-    # Mundur ke hari Minggu terdekat (Awal minggu bursa)
     while current.weekday() != 6:
         current -= datetime.timedelta(days=1)
         
     months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
     weeks = []
     
-    # ⚡ TAKTIK SNIPER: Tarik 2 minggu saja agar cepat, ringan, & lolos Cloudflare
     for _ in range(2): 
         m_str = months[current.month - 1]
         day_str = str(current.day).zfill(2)
@@ -31,8 +29,8 @@ def generate_sniper_weeks():
         
     return weeks
 
-def start_hourly_cloud_mining():
-    print("🌐 STARTING WBS HOURLY LIVE TRACKER (SNIPER MODE)...")
+def start_amnesia_cloud_mining():
+    print("🌐 STARTING WBS HOURLY LIVE TRACKER (AMNESIA MODE)...")
     
     chrome_options = Options()
     chrome_options.add_argument("--headless=new") 
@@ -61,7 +59,6 @@ def start_hourly_cloud_mining():
             print(f"📡 Sniper Scanning: {url}")
             driver.get(url)
             
-            # Delay super natural
             time.sleep(random.uniform(6.0, 8.5))
             
             soup = BeautifulSoup(driver.page_source, 'html.parser')
@@ -114,31 +111,22 @@ def start_hourly_cloud_mining():
         if driver: driver.quit()
             
     os.makedirs("data", exist_ok=True)
-    # ⚡ PERHATIAN NAMA FILE: Pastikan ini sama persis dengan yang ada di GitHub Jenderal!
     output_file = os.path.join("data", "forex_news_usd_2015_2026.csv")
     
     df_new = pd.DataFrame(all_news_extracted)
     
-    if os.path.exists(output_file):
+    if not df_new.empty:
+        # ⚡ TAKTIK OVERWRITE TOTAL: Tidak ada lagi pd.concat dengan df_old!
+        # Data lama dari bulan-bulan sebelumnya resmi DIHANCURKAN dan ditimpa full data baru ini.
         try:
-            df_old = pd.read_csv(output_file)
-            # ⚡ TAKTIK UPDATE: keep='last' otomatis akan menimpa baris lama yang Actual-nya kosong dengan data Actual terbaru!
-            df_final = pd.concat([df_old, df_new]).drop_duplicates(subset=['Date', 'Currency', 'Event'], keep='last')
-        except:
-            df_final = df_new
-    else:
-        df_final = df_new
-
-    if not df_final.empty:
-        try:
-            df_final['temp_sort_date'] = pd.to_datetime(df_final['Date'], format='%a %b %d %Y', errors='coerce')
-            df_final = df_final.sort_values(by='temp_sort_date', ascending=True).drop(columns=['temp_sort_date'])
+            df_new['temp_sort_date'] = pd.to_datetime(df_new['Date'], format='%a %b %d %Y', errors='coerce')
+            df_new = df_new.sort_values(by='temp_sort_date', ascending=True).drop(columns=['temp_sort_date'])
         except Exception: pass
             
-        df_final.to_csv(output_file, index=False)
-        print("👑 HOURLY LIVE LEDGER SECURED SUCCESSFULLY!")
+        df_new.to_csv(output_file, index=False)
+        print("👑 AMNESIA MODE SUCCESS: Old data destroyed! Fresh Ledger SECURED!")
     else:
         print("⚠️ No data to save.")
 
 if __name__ == "__main__":
-    start_hourly_cloud_mining()
+    start_amnesia_cloud_mining()
