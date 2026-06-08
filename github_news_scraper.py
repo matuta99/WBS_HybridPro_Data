@@ -9,7 +9,7 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 
 def generate_sniper_weeks():
-    """Hanya mengambil Minggu Ini dan Minggu Depan untuk Papan Tulis Harian"""
+    """Mengambil Minggu Ini dan Minggu Depan TANPA ANGKA NOL di URL agar bursa tidak error!"""
     current = datetime.date.today()
     
     while current.weekday() != 6:
@@ -20,7 +20,8 @@ def generate_sniper_weeks():
     
     for _ in range(2): 
         m_str = months[current.month - 1]
-        day_str = str(current.day).zfill(2)
+        # ⚡ DOSA TERHAPUS: zfill(2) sudah dibuang! Sekarang pakai angka natural (7, 8, 9)
+        day_str = str(current.day) 
         week_query = f"{m_str}{day_str}.{current.year}"
         
         label_display = f"Minggu {day_str} {m_str.upper()} {current.year}"
@@ -30,7 +31,7 @@ def generate_sniper_weeks():
     return weeks
 
 def start_amnesia_cloud_mining():
-    print("🌐 STARTING WBS HOURLY LIVE TRACKER (AMNESIA MODE)...")
+    print("🌐 STARTING WBS HOURLY LIVE TRACKER (AMNESIA MODE - FIX URL)...")
     
     chrome_options = Options()
     chrome_options.add_argument("--headless=new") 
@@ -116,8 +117,6 @@ def start_amnesia_cloud_mining():
     df_new = pd.DataFrame(all_news_extracted)
     
     if not df_new.empty:
-        # ⚡ TAKTIK OVERWRITE TOTAL: Tidak ada lagi pd.concat dengan df_old!
-        # Data lama dari bulan-bulan sebelumnya resmi DIHANCURKAN dan ditimpa full data baru ini.
         try:
             df_new['temp_sort_date'] = pd.to_datetime(df_new['Date'], format='%a %b %d %Y', errors='coerce')
             df_new = df_new.sort_values(by='temp_sort_date', ascending=True).drop(columns=['temp_sort_date'])
