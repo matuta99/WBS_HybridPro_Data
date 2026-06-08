@@ -2,9 +2,8 @@ name: WBS HybridPro Cloud News Miner
 
 on:
   schedule:
-    # Berjalan otomatis setiap hari pada jam 00:00 UTC
-    - cron: '0 0 * * *'
-  workflow_dispatch: # Fitur tombol manual jika Jenderal mau tes jalan sekarang
+    - cron: '0 * * * *'  # ⚡ ALARM BARU: Robot akan menyala otomatis SETIAP JAM 
+  workflow_dispatch:     # Tombol manual tetap aktif
 
 jobs:
   mine-news:
