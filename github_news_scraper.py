@@ -8,28 +8,31 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 
-def generate_stealth_weeks(weeks_ahead=4):
-    """Hanya mengambil minggu ini sampai 4 minggu ke depan agar lolos blokir Cloudflare awan"""
+def generate_sniper_weeks():
+    """Hanya mengambil Minggu Ini dan Minggu Depan (2 Request) untuk Live Update Harian"""
     current = datetime.date.today()
     
-    # Mundur ke hari Minggu terdekat (Awal minggu bursa Forex Factory)
+    # Mundur ke hari Minggu terdekat (Awal minggu bursa)
     while current.weekday() != 6:
         current -= datetime.timedelta(days=1)
         
     months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
     weeks = []
     
-    for _ in range(weeks_ahead):
+    # ⚡ TAKTIK SNIPER: Tarik 2 minggu saja agar cepat, ringan, & lolos Cloudflare
+    for _ in range(2): 
         m_str = months[current.month - 1]
-        week_query = f"{m_str}{current.day}.{current.year}"
-        label_display = f"Minggu {current.strftime('%d %b %Y')}"
+        day_str = str(current.day).zfill(2)
+        week_query = f"{m_str}{day_str}.{current.year}"
+        
+        label_display = f"Minggu {day_str} {m_str.upper()} {current.year}"
         weeks.append((week_query, label_display))
         current += datetime.timedelta(days=7)
         
     return weeks
 
-def start_cloud_mining():
-    print("🌐 STARTING WBS CLOUD WEEKLY STREAM MINER (CHRONOLOGICAL SORT ACTIVE)...")
+def start_hourly_cloud_mining():
+    print("🌐 STARTING WBS HOURLY LIVE TRACKER (SNIPER MODE)...")
     
     chrome_options = Options()
     chrome_options.add_argument("--headless=new") 
@@ -50,15 +53,16 @@ def start_cloud_mining():
             "source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
         })
         
-        target_weeks = generate_stealth_weeks(4)
-        print(f"📅 Tactical Lookout Locked: {target_weeks[0][1]} to {target_weeks[-1][1]}")
+        target_weeks = generate_sniper_weeks()
+        print(f"📅 Hourly Radar Locked: {target_weeks[0][1]} to {target_weeks[-1][1]}")
         
         for week_query, label_name in target_weeks:
             url = f"https://www.forexfactory.com/calendar?week={week_query}"
-            print(f"📡 Radar Scanning: {label_name} -> {url}")
+            print(f"📡 Sniper Scanning: {url}")
             driver.get(url)
             
-            time.sleep(random.uniform(7.0, 10.0))
+            # Delay super natural
+            time.sleep(random.uniform(6.0, 8.5))
             
             soup = BeautifulSoup(driver.page_source, 'html.parser')
             table_rows = soup.find_all('tr', class_='calendar__row')
@@ -100,7 +104,7 @@ def start_cloud_mining():
                 })
                 valid_rows += 1
                 
-            print(f"📊 Extracted {valid_rows} events from {label_name}")
+            print(f"📊 Live Data Updated: {valid_rows} events from {label_name}")
                 
     except Exception as e:
         print(f"❌ CRITICAL TIMELINE CRASH: {e}")
@@ -110,14 +114,15 @@ def start_cloud_mining():
         if driver: driver.quit()
             
     os.makedirs("data", exist_ok=True)
-    output_file = os.path.join("data", "forex_news_usd_2026.csv")
+    # ⚡ PERHATIAN NAMA FILE: Pastikan ini sama persis dengan yang ada di GitHub Jenderal!
+    output_file = os.path.join("data", "forex_news_usd_2015_2026.csv")
     
     df_new = pd.DataFrame(all_news_extracted)
     
-    # Membaca data induk yang sudah diupload Jenderal agar sejarahnya tidak hilang
     if os.path.exists(output_file):
         try:
             df_old = pd.read_csv(output_file)
+            # ⚡ TAKTIK UPDATE: keep='last' otomatis akan menimpa baris lama yang Actual-nya kosong dengan data Actual terbaru!
             df_final = pd.concat([df_old, df_new]).drop_duplicates(subset=['Date', 'Currency', 'Event'], keep='last')
         except:
             df_final = df_new
@@ -125,18 +130,15 @@ def start_cloud_mining():
         df_final = df_new
 
     if not df_final.empty:
-        # ⚡ MANTRA KUNCI: Konversi string ke format datetime, urutkan dari masa lalu ke masa depan, lalu kembalikan ke string
         try:
             df_final['temp_sort_date'] = pd.to_datetime(df_final['Date'], format='%a %b %d %Y', errors='coerce')
             df_final = df_final.sort_values(by='temp_sort_date', ascending=True).drop(columns=['temp_sort_date'])
-            print("👑 SUCCESS: Database has been chronologically sorted!")
-        except Exception as sort_err:
-            print(f"⚠️ Sorting Warning: {sort_err}")
+        except Exception: pass
             
         df_final.to_csv(output_file, index=False)
-        print("👑 BRANKAS BULLETPROOF KRONOLOGIS LEDGER SECURED!")
+        print("👑 HOURLY LIVE LEDGER SECURED SUCCESSFULLY!")
     else:
         print("⚠️ No data to save.")
 
 if __name__ == "__main__":
-    start_cloud_mining()
+    start_hourly_cloud_mining()
