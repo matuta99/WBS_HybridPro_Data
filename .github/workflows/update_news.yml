@@ -1,34 +1,37 @@
-name: WBS HybridPro Cloud News Miner
+name: Hourly Forex News Scraper
 
 on:
   schedule:
-    - cron: '0 * * * *'  # ⚡ ALARM BARU: Robot akan menyala otomatis SETIAP JAM 
-  workflow_dispatch:     # Tombol manual tetap aktif
+    - cron: '0 * * * *'  # Robot menyala setiap jam
+  workflow_dispatch:     # Tombol manual
+
+permissions:
+  contents: write        # ⚡ SANGAT PENTING: Beri izin robot untuk menulis/mengubah file di repo!
 
 jobs:
-  mine-news:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository Aset
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup Lingkungan Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: Pasang Amunisi WebDriver & Library
+      - name: Install Dependencies
         run: |
-          pip install pandas selenium beautifulsoup4 webdriver-manager
+          pip install pandas selenium bs4 webdriver-manager
 
-      - name: Jalankan Ekstraksi Range Forex Factory
-        run: |
-          python github_news_scraper.py
+      - name: Execute WBS Cloud Miner
+        run: python github_news_scraper.py
 
-      - name: Amankan dan Commit Data Baru ke Brankas Cloud
+      # ⚡ INI DIA KUNCI JAWABANNYA: Paksa robot nge-save dan push file CSV ke GitHub Jenderal!
+      - name: Commit and Push Database Update
         run: |
-          git config --global user.name "WBS Cloud Miner"
-          git config --global user.email "miner@wbs-hybridpro.ai"
+          git config --local user.email "action@github.com"
+          git config --local user.name "WBS Cloud Robot"
           git add data/forex_news_usd_2015_2026.csv
-          git diff-index --quiet HEAD || git commit -m "🤖 Auto-Update: Fundamental USD News Ledger [$(date +'%Y-%m-%d %H:%M')]"
+          git commit -m "🔥 Auto-Update: Live Amnesia News Ledger Sync" || echo "Tidak ada perubahan data"
           git push
