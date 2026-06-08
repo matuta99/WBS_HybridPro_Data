@@ -7,50 +7,47 @@ Tue Mar 31 2026,USD,Low,Chicago PMI,52.8,54.8,57.7
 Tue Mar 31 2026,USD,High,JOLTS Job Openings,6.88M,6.89M,7.24M
 Tue Mar 31 2026,USD,Low,CB Consumer Confidence,91.8,87.8,91.0
 Tue Mar 31 2026,USD,Low,FOMC Member Goolsbee Speaks,,,
-Wed Apr 1 2026,USD,Low,FOMC Member Schmid Speaks,,,
+Wed Apr 1 2026,USD,Low,Crude Oil Inventories,5.5M,1.8M,6.9M
+Wed Apr 1 2026,USD,Low,Omdia Total Vehicle Sales,16.3M,15.9M,15.8M
+Wed Apr 1 2026,USD,Low,Business Inventories m/m,-0.1%,0.0%,0.0%
+Wed Apr 1 2026,USD,Low,ISM Manufacturing Prices,78.3,74.0,70.5
+Wed Apr 1 2026,USD,High,ISM Manufacturing PMI,52.7,52.3,52.4
+Wed Apr 1 2026,USD,Low,Final Manufacturing PMI,52.3,52.3,52.4
 Wed Apr 1 2026,USD,Low,FOMC Member Barr Speaks,,,
-Wed Apr 1 2026,USD,Low,API Weekly Statistical Bulletin,,,
-Wed Apr 1 2026,USD,Low,FOMC Member Bowman Speaks,,,
-Wed Apr 1 2026,USD,High,ADP Non-Farm Employment Change,62K,41K,66K
 Wed Apr 1 2026,USD,High,Core Retail Sales m/m,0.5%,0.3%,0.0%
 Wed Apr 1 2026,USD,High,Retail Sales m/m,0.6%,0.5%,-0.1%
+Wed Apr 1 2026,USD,High,ADP Non-Farm Employment Change,62K,41K,66K
+Wed Apr 1 2026,USD,Low,FOMC Member Bowman Speaks,,,
+Wed Apr 1 2026,USD,Low,API Weekly Statistical Bulletin,,,
+Wed Apr 1 2026,USD,Low,FOMC Member Schmid Speaks,,,
 Wed Apr 1 2026,USD,Low,FOMC Member Musalem Speaks,,,
-Wed Apr 1 2026,USD,Low,FOMC Member Barr Speaks,,,
-Wed Apr 1 2026,USD,Low,Final Manufacturing PMI,52.3,52.3,52.4
-Wed Apr 1 2026,USD,High,ISM Manufacturing PMI,52.7,52.3,52.4
-Wed Apr 1 2026,USD,Low,ISM Manufacturing Prices,78.3,74.0,70.5
-Wed Apr 1 2026,USD,Low,Business Inventories m/m,-0.1%,0.0%,0.0%
-Wed Apr 1 2026,USD,Low,Omdia Total Vehicle Sales,16.3M,15.9M,15.8M
-Wed Apr 1 2026,USD,Low,Crude Oil Inventories,5.5M,1.8M,6.9M
-Thu Apr 2 2026,USD,High,President Trump Speaks,,,
-Thu Apr 2 2026,USD,Low,Challenger Job Cuts y/y,-78.0%,,-71.9%
-Thu Apr 2 2026,USD,High,Unemployment Claims,202K,212K,211K
-Thu Apr 2 2026,USD,Low,Goods Trade Balance,-83.5B,,-80.9B
-Thu Apr 2 2026,USD,Low,Trade Balance,-57.3B,-60.5B,-54.7B
 Thu Apr 2 2026,USD,Low,FOMC Member Logan Speaks,,,
-Thu Apr 2 2026,USD,Low,Natural Gas Storage,36B,38B,-54B
 Thu Apr 2 2026,USD,Low,FOMC Member Bowman Speaks,,,
+Thu Apr 2 2026,USD,Low,Natural Gas Storage,36B,38B,-54B
+Thu Apr 2 2026,USD,Low,Trade Balance,-57.3B,-60.5B,-54.7B
+Thu Apr 2 2026,USD,High,President Trump Speaks,,,
+Thu Apr 2 2026,USD,High,Unemployment Claims,202K,212K,211K
+Thu Apr 2 2026,USD,Low,Challenger Job Cuts y/y,-78.0%,,-71.9%
+Thu Apr 2 2026,USD,Low,Goods Trade Balance,-83.5B,,-80.9B
 Fri Apr 3 2026,USD,High,Average Hourly Earnings m/m,0.2%,0.3%,0.4%
 Fri Apr 3 2026,USD,High,Non-Farm Employment Change,178K,65K,-133K
 Fri Apr 3 2026,USD,High,Unemployment Rate,4.3%,4.4%,4.4%
 Fri Apr 3 2026,USD,Low,Final Services PMI,49.8,51.1,51.1
 Mon Apr 13 2026,USD,Low,Existing Home Sales,3.98M,4.07M,4.13M
-Tue Apr 14 2026,USD,Low,FOMC Member Miran Speaks,,,
-Tue Apr 14 2026,USD,Low,NFIB Small Business Index,95.8,97.8,98.8
-Tue Apr 14 2026,USD,Low,ADP Weekly Employment Change,39.3K,,26.0K
-Tue Apr 14 2026,USD,High,Core PPI m/m,0.1%,0.4%,0.3%
-Tue Apr 14 2026,USD,High,PPI m/m,0.5%,1.1%,0.5%
-Tue Apr 14 2026,USD,Low,FOMC Member Goolsbee Speaks,,,
-Tue Apr 14 2026,USD,Low,FOMC Member Goolsbee Speaks,,,
-Tue Apr 14 2026,USD,Low,FOMC Member Goolsbee Speaks,,,
 Tue Apr 14 2026,USD,Low,FOMC Member Barr Speaks,,,
-Tue Apr 21 2026,USD,Low,ADP Weekly Employment Change,54.8K,,40.3K
-Tue Apr 21 2026,USD,High,Core Retail Sales m/m,1.9%,1.4%,0.7%
-Tue Apr 21 2026,USD,High,Retail Sales m/m,1.7%,1.4%,0.7%
-Tue Apr 21 2026,USD,Low,President Trump Speaks,,,
+Tue Apr 14 2026,USD,Low,FOMC Member Goolsbee Speaks,,,
+Tue Apr 14 2026,USD,High,PPI m/m,0.5%,1.1%,0.5%
+Tue Apr 14 2026,USD,Low,FOMC Member Miran Speaks,,,
+Tue Apr 14 2026,USD,Low,ADP Weekly Employment Change,39.3K,,26.0K
+Tue Apr 14 2026,USD,Low,NFIB Small Business Index,95.8,97.8,98.8
+Tue Apr 14 2026,USD,High,Core PPI m/m,0.1%,0.4%,0.3%
 Tue Apr 21 2026,USD,High,Fed Chairman Warsh Testifies,,,
-Tue Apr 21 2026,USD,Low,Pending Home Sales m/m,1.5%,0.0%,2.5%
 Tue Apr 21 2026,USD,Low,Business Inventories m/m,0.4%,0.4%,0.0%
+Tue Apr 21 2026,USD,Low,President Trump Speaks,,,
+Tue Apr 21 2026,USD,Low,Pending Home Sales m/m,1.5%,0.0%,2.5%
+Tue Apr 21 2026,USD,High,Core Retail Sales m/m,1.9%,1.4%,0.7%
+Tue Apr 21 2026,USD,Low,ADP Weekly Employment Change,54.8K,,40.3K
+Tue Apr 21 2026,USD,High,Retail Sales m/m,1.7%,1.4%,0.7%
 Sun Apr 26 2026,USD,Low,President Trump Speaks,,,
 Mon Apr 27 2026,USD,Low,President Trump Speaks,,,
 Tue Apr 28 2026,USD,Low,ADP Weekly Employment Change,39.3K,,40.3K
@@ -58,38 +55,35 @@ Tue Apr 28 2026,USD,Low,HPI m/m,0.0%,0.1%,0.2%
 Tue Apr 28 2026,USD,Low,S&P/CS Composite-20 HPI y/y,0.9%,1.1%,1.2%
 Tue Apr 28 2026,USD,Low,CB Consumer Confidence,92.8,89.0,92.2
 Tue Apr 28 2026,USD,Low,Richmond Manufacturing Index,3,2,0
-Wed Apr 29 2026,USD,Low,API Weekly Statistical Bulletin,,,
-Wed Apr 29 2026,USD,Low,Building Permits,1.54M,,1.39M
-Wed Apr 29 2026,USD,Low,Housing Starts,1.36M,,1.40M
-Wed Apr 29 2026,USD,Low,Building Permits,1.37M,1.39M,1.54M
-Wed Apr 29 2026,USD,Low,Core Durable Goods Orders m/m,0.9%,0.4%,0.9%
-Wed Apr 29 2026,USD,Low,Durable Goods Orders m/m,0.8%,0.4%,-1.3%
-Wed Apr 29 2026,USD,Low,Goods Trade Balance,-87.9B,-87.5B,-83.5B
-Wed Apr 29 2026,USD,Low,Housing Starts,1.50M,1.38M,1.36M
-Wed Apr 29 2026,USD,Low,Prelim Wholesale Inventories m/m,1.4%,0.4%,0.9%
 Wed Apr 29 2026,USD,Low,Crude Oil Inventories,-6.2M,0.3M,1.9M
+Wed Apr 29 2026,USD,Low,Prelim Wholesale Inventories m/m,1.4%,0.4%,0.9%
+Wed Apr 29 2026,USD,Low,Housing Starts,1.50M,1.38M,1.36M
+Wed Apr 29 2026,USD,Low,Goods Trade Balance,-87.9B,-87.5B,-83.5B
+Wed Apr 29 2026,USD,Low,Durable Goods Orders m/m,0.8%,0.4%,-1.3%
+Wed Apr 29 2026,USD,Low,Core Durable Goods Orders m/m,0.9%,0.4%,0.9%
+Wed Apr 29 2026,USD,Low,API Weekly Statistical Bulletin,,,
+Wed Apr 29 2026,USD,Low,Building Permits,1.37M,1.39M,1.54M
 Mon May 4 2026,USD,Low,Factory Orders m/m,1.5%,0.5%,0.3%
 Mon May 4 2026,USD,Low,FOMC Member Williams Speaks,,,
-Tue May 5 2026,USD,Low,Loan Officer Survey,,,
-Tue May 5 2026,USD,Low,Trade Balance,-60.3B,-61.0B,-57.8B
-Tue May 5 2026,USD,Low,Final Services PMI,51.0,51.3,51.3
-Tue May 5 2026,USD,Low,New Home Sales,635K,,583K
-Tue May 5 2026,USD,High,ISM Services PMI,53.6,53.7,54.0
-Tue May 5 2026,USD,High,JOLTS Job Openings,6.87M,6.86M,6.92M
 Tue May 5 2026,USD,Low,New Home Sales,682K,652K,635K
-Tue May 5 2026,USD,Low,FOMC Member Bowman Speaks,,,
 Tue May 5 2026,USD,Low,RCM/TIPP Economic Optimism,42.6,42.0,42.8
+Tue May 5 2026,USD,Low,FOMC Member Bowman Speaks,,,
 Tue May 5 2026,USD,Low,FOMC Member Barr Speaks,,,
+Tue May 5 2026,USD,High,JOLTS Job Openings,6.87M,6.86M,6.92M
+Tue May 5 2026,USD,Low,Final Services PMI,51.0,51.3,51.3
+Tue May 5 2026,USD,Low,Trade Balance,-60.3B,-61.0B,-57.8B
+Tue May 5 2026,USD,Low,Loan Officer Survey,,,
+Tue May 5 2026,USD,High,ISM Services PMI,53.6,53.7,54.0
 Mon May 11 2026,USD,Low,Cleveland Fed Inflation Expectations,3.7%,,3.1%
 Mon May 11 2026,USD,Low,Existing Home Sales,4.02M,4.05M,4.01M
-Tue May 12 2026,USD,Low,FOMC Member Williams Speaks,,,
-Tue May 12 2026,USD,Low,NFIB Small Business Index,95.9,96.1,95.8
-Tue May 12 2026,USD,Low,ADP Weekly Employment Change,33.0K,,39.3K
-Tue May 12 2026,USD,High,Core CPI m/m,0.4%,0.3%,0.2%
-Tue May 12 2026,USD,High,Core CPI y/y,2.8%,2.7%,2.6%
-Tue May 12 2026,USD,High,CPI m/m,0.6%,0.6%,0.9%
-Tue May 12 2026,USD,High,CPI y/y,3.8%,3.7%,3.3%
 Tue May 12 2026,USD,Low,FOMC Member Goolsbee Speaks,,,
+Tue May 12 2026,USD,High,CPI m/m,0.6%,0.6%,0.9%
+Tue May 12 2026,USD,High,Core CPI y/y,2.8%,2.7%,2.6%
+Tue May 12 2026,USD,High,CPI y/y,3.8%,3.7%,3.3%
+Tue May 12 2026,USD,Low,ADP Weekly Employment Change,33.0K,,39.3K
+Tue May 12 2026,USD,Low,NFIB Small Business Index,95.9,96.1,95.8
+Tue May 12 2026,USD,Low,FOMC Member Williams Speaks,,,
+Tue May 12 2026,USD,High,Core CPI m/m,0.4%,0.3%,0.2%
 Mon May 18 2026,USD,Low,NAHB Housing Market Index,37,34,34
 Tue May 19 2026,USD,Low,FOMC Member Goolsbee Speaks,,,
 Tue May 19 2026,USD,Low,TIC Long-Term Purchases,81.3B,87.2B,57.0B
@@ -97,23 +91,23 @@ Tue May 19 2026,USD,Low,FOMC Member Waller Speaks,,,
 Tue May 19 2026,USD,Low,ADP Weekly Employment Change,42.3K,,33.0K
 Tue May 19 2026,USD,Low,Pending Home Sales m/m,1.4%,1.0%,1.7%
 Mon May 25 2026,USD,Low,Bank Holiday,,,
+Tue May 26 2026,USD,Low,CB Consumer Confidence,93.1,91.9,93.8
 Tue May 26 2026,USD,Low,HPI m/m,0.1%,0.1%,-0.1%
 Tue May 26 2026,USD,Low,S&P/CS Composite-20 HPI y/y,0.8%,0.9%,0.9%
-Tue May 26 2026,USD,Low,CB Consumer Confidence,93.1,91.9,93.8
-Wed May 27 2026,USD,Low,FOMC Member Logan Speaks,,,
-Wed May 27 2026,USD,Low,ADP Weekly Employment Change,35.8K,,40.8K
 Wed May 27 2026,USD,Low,Richmond Manufacturing Index,13,4,3
+Wed May 27 2026,USD,Low,ADP Weekly Employment Change,35.8K,,40.8K
+Wed May 27 2026,USD,Low,FOMC Member Logan Speaks,,,
 Sun May 31 2026,USD,Low,FOMC Member Waller Speaks,,,
 Mon Jun 1 2026,USD,Low,FOMC Member Powell Speaks,,,
 Mon Jun 1 2026,USD,Low,Final Manufacturing PMI,55.1,55.3,55.3
 Mon Jun 1 2026,USD,High,ISM Manufacturing PMI,54.0,53.3,52.7
 Mon Jun 1 2026,USD,Low,ISM Manufacturing Prices,82.1,85.3,84.6
 Mon Jun 1 2026,USD,Low,Construction Spending m/m,0.4%,0.3%,0.2%
+Tue Jun 2 2026,USD,Low,RCM/TIPP Economic Optimism,42.5,44.5,42.6
+Tue Jun 2 2026,USD,Low,JOLTS Job Openings,7.62M,6.87M,6.89M
+Tue Jun 2 2026,USD,Low,Omdia Total Vehicle Sales,16.1M,16.0M,15.9M
 Tue Jun 2 2026,USD,Low,FOMC Member Kashkari Speaks,,,
 Tue Jun 2 2026,USD,Low,FOMC Member Hammack Speaks,,,
-Tue Jun 2 2026,USD,Low,JOLTS Job Openings,7.62M,6.87M,6.89M
-Tue Jun 2 2026,USD,Low,RCM/TIPP Economic Optimism,42.5,44.5,42.6
-Tue Jun 2 2026,USD,Low,Omdia Total Vehicle Sales,16.1M,16.0M,15.9M
 Tue Jun 8 2026,USD,Low,NFIB Small Business Index,,96.0,95.9
 Tue Jun 8 2026,USD,Low,ADP Weekly Employment Change,,,35.8K
 Tue Jun 9 2026,USD,Low,Trade Balance,,-55.2B,-60.3B
@@ -123,48 +117,48 @@ Mon Jun 15 2026,USD,Low,Empire State Manufacturing Index,,,19.6
 Mon Jun 15 2026,USD,Low,Capacity Utilization Rate,,,76.1%
 Mon Jun 15 2026,USD,Low,Industrial Production m/m,,,0.7%
 Mon Jun 15 2026,USD,Low,NAHB Housing Market Index,,,37
+Tue Jun 16 2026,USD,Low,Import Prices m/m,,,1.9%
+Tue Jun 16 2026,USD,Low,Housing Starts,,,1.47M
 Tue Jun 16 2026,USD,Low,ADP Weekly Employment Change,,,
 Tue Jun 16 2026,USD,Low,Building Permits,,,1.44M
-Tue Jun 16 2026,USD,Low,Housing Starts,,,1.47M
-Tue Jun 16 2026,USD,Low,Import Prices m/m,,,1.9%
 Tue Jun 23 2026,USD,Low,ADP Weekly Employment Change,,,
 Tue Jun 23 2026,USD,Low,Flash Manufacturing PMI,,,55.1
 Tue Jun 23 2026,USD,Low,Flash Services PMI,,,50.9
 Tue Jun 23 2026,USD,Low,Richmond Manufacturing Index,,,13
+Wed Jun 24 2026,USD,Low,Crude Oil Inventories,,,
 Wed Jun 24 2026,USD,Low,API Weekly Statistical Bulletin,,,
 Wed Jun 24 2026,USD,Low,Current Account,,,-191B
 Wed Jun 24 2026,USD,Low,New Home Sales,,,622K
-Wed Jun 24 2026,USD,Low,Crude Oil Inventories,,,
-Thu Jun 25 2026,USD,High,Core PCE Price Index m/m,,,0.2%
-Thu Jun 25 2026,USD,High,Final GDP q/q,,,1.6%
-Thu Jun 25 2026,USD,Low,Final GDP Price Index q/q,,,3.5%
-Thu Jun 25 2026,USD,Low,Unemployment Claims,,,
-Thu Jun 25 2026,USD,Low,Core Durable Goods Orders m/m,,,1.1%
-Thu Jun 25 2026,USD,Low,Durable Goods Orders m/m,,,7.9%
 Thu Jun 25 2026,USD,Low,Personal Income m/m,,,0.0%
+Thu Jun 25 2026,USD,Low,Durable Goods Orders m/m,,,7.9%
+Thu Jun 25 2026,USD,Low,Core Durable Goods Orders m/m,,,1.1%
+Thu Jun 25 2026,USD,High,Core PCE Price Index m/m,,,0.2%
+Thu Jun 25 2026,USD,Low,Final GDP Price Index q/q,,,3.5%
+Thu Jun 25 2026,USD,High,Final GDP q/q,,,1.6%
 Thu Jun 25 2026,USD,Low,Personal Spending m/m,,,0.5%
+Thu Jun 25 2026,USD,Low,Unemployment Claims,,,
 Thu Jun 25 2026,USD,Low,Natural Gas Storage,,,
-Fri Jun 26 2026,USD,Low,Bank Stress Test Results,,,
+Fri Jun 26 2026,USD,Low,Revised UoM Inflation Expectations,,,
+Fri Jun 26 2026,USD,Low,Revised UoM Consumer Sentiment,,,
+Fri Jun 26 2026,USD,Low,Fed Monetary Policy Report,,,
 Fri Jun 26 2026,USD,Low,Goods Trade Balance,,,-82.4B
 Fri Jun 26 2026,USD,Low,Prelim Wholesale Inventories m/m,,,0.5%
-Fri Jun 26 2026,USD,Low,Revised UoM Consumer Sentiment,,,
-Fri Jun 26 2026,USD,Low,Revised UoM Inflation Expectations,,,
-Fri Jun 26 2026,USD,Low,Fed Monetary Policy Report,,,
+Fri Jun 26 2026,USD,Low,Bank Stress Test Results,,,
 Sat Jun 27 2026,USD,Low,Treasury Currency Report,,,
 Tue Jun 30 2026,USD,Low,HPI m/m,,,
 Tue Jun 30 2026,USD,Low,S&P/CS Composite-20 HPI y/y,,,
 Tue Jun 30 2026,USD,Low,Chicago PMI,,,
 Tue Jun 30 2026,USD,Low,CB Consumer Confidence,,,
 Tue Jun 30 2026,USD,Low,JOLTS Job Openings,,,
-Wed Jul 1 2026,USD,Low,API Weekly Statistical Bulletin,,,
-Wed Jul 1 2026,USD,Low,Challenger Job Cuts y/y,,,
-Wed Jul 1 2026,USD,High,ADP Non-Farm Employment Change,,,
-Wed Jul 1 2026,USD,Low,Final Manufacturing PMI,,,
 Wed Jul 1 2026,USD,High,ISM Manufacturing PMI,,,
-Wed Jul 1 2026,USD,Low,ISM Manufacturing Prices,,,
-Wed Jul 1 2026,USD,Low,Construction Spending m/m,,,
-Wed Jul 1 2026,USD,Low,Omdia Total Vehicle Sales,,,
 Wed Jul 1 2026,USD,Low,Crude Oil Inventories,,,
+Wed Jul 1 2026,USD,Low,Omdia Total Vehicle Sales,,,
+Wed Jul 1 2026,USD,Low,Construction Spending m/m,,,
+Wed Jul 1 2026,USD,Low,ISM Manufacturing Prices,,,
+Wed Jul 1 2026,USD,Low,Final Manufacturing PMI,,,
+Wed Jul 1 2026,USD,High,ADP Non-Farm Employment Change,,,
+Wed Jul 1 2026,USD,Low,Challenger Job Cuts y/y,,,
+Wed Jul 1 2026,USD,Low,API Weekly Statistical Bulletin,,,
 Thu Jul 2 2026,USD,High,Average Hourly Earnings m/m,,,
 Thu Jul 2 2026,USD,High,Non-Farm Employment Change,,,
 Thu Jul 2 2026,USD,High,Unemployment Rate,,,
@@ -172,8 +166,8 @@ Thu Jul 2 2026,USD,Low,Unemployment Claims,,,
 Thu Jul 2 2026,USD,Low,Factory Orders m/m,,,
 Thu Jul 2 2026,USD,Low,Natural Gas Storage,,,
 Fri Jul 3 2026,USD,Low,Bank Holiday,,,
-Mon Jul 6 2026,USD,Low,Final Services PMI,,,
 Mon Jul 6 2026,USD,High,ISM Services PMI,,,
+Mon Jul 6 2026,USD,Low,Final Services PMI,,,
 Tue Jul 7 2026,USD,Low,ADP Weekly Employment Change,,,
 Tue Jul 7 2026,USD,Low,Trade Balance,,,
 Tue Jul 7 2026,USD,Low,RCM/TIPP Economic Optimism,,,
@@ -195,34 +189,34 @@ Fri Jul 24 2026,USD,Low,Flash Services PMI,,,
 Fri Jul 24 2026,USD,Low,New Home Sales,,,
 Mon Jul 27 2026,USD,Low,Core Durable Goods Orders m/m,,,
 Mon Jul 27 2026,USD,Low,Durable Goods Orders m/m,,,
-Tue Jul 28 2026,USD,Low,ADP Weekly Employment Change,,,
+Tue Jul 28 2026,USD,Low,Richmond Manufacturing Index,,,
+Tue Jul 28 2026,USD,Low,CB Consumer Confidence,,,
+Tue Jul 28 2026,USD,Low,S&P/CS Composite-20 HPI y/y,,,
 Tue Jul 28 2026,USD,Low,Goods Trade Balance,,,
 Tue Jul 28 2026,USD,Low,Prelim Wholesale Inventories m/m,,,
 Tue Jul 28 2026,USD,Low,HPI m/m,,,
-Tue Jul 28 2026,USD,Low,S&P/CS Composite-20 HPI y/y,,,
-Tue Jul 28 2026,USD,Low,CB Consumer Confidence,,,
-Tue Jul 28 2026,USD,Low,Richmond Manufacturing Index,,,
+Tue Jul 28 2026,USD,Low,ADP Weekly Employment Change,,,
 Wed Jul 29 2026,USD,Low,API Weekly Statistical Bulletin,,,
 Wed Jul 29 2026,USD,Low,Crude Oil Inventories,,,
-Thu Jul 30 2026,USD,High,Federal Funds Rate,,,
-Thu Jul 30 2026,USD,High,FOMC Statement,,,
-Thu Jul 30 2026,USD,High,FOMC Press Conference,,,
-Thu Jul 30 2026,USD,High,Advance GDP q/q,,,
-Thu Jul 30 2026,USD,High,Core PCE Price Index m/m,,,
-Thu Jul 30 2026,USD,Low,Advance GDP Price Index q/q,,,
-Thu Jul 30 2026,USD,Low,Unemployment Claims,,,
-Thu Jul 30 2026,USD,Low,Personal Income m/m,,,
-Thu Jul 30 2026,USD,Low,Personal Spending m/m,,,
 Thu Jul 30 2026,USD,Low,Natural Gas Storage,,,
+Thu Jul 30 2026,USD,Low,Personal Spending m/m,,,
+Thu Jul 30 2026,USD,Low,Personal Income m/m,,,
+Thu Jul 30 2026,USD,Low,Unemployment Claims,,,
+Thu Jul 30 2026,USD,Low,Advance GDP Price Index q/q,,,
+Thu Jul 30 2026,USD,High,Advance GDP q/q,,,
+Thu Jul 30 2026,USD,High,FOMC Press Conference,,,
+Thu Jul 30 2026,USD,High,FOMC Statement,,,
+Thu Jul 30 2026,USD,High,Federal Funds Rate,,,
+Thu Jul 30 2026,USD,High,Core PCE Price Index m/m,,,
 Fri Jul 31 2026,USD,Low,Employment Cost Index q/q,,,
 Fri Jul 31 2026,USD,Low,Chicago PMI,,,
 Fri Jul 31 2026,USD,Low,Revised UoM Consumer Sentiment,,,
 Fri Jul 31 2026,USD,Low,Revised UoM Inflation Expectations,,,
+Mon Aug 3 2026,USD,Low,Construction Spending m/m,,,
+Mon Aug 3 2026,USD,Low,ISM Manufacturing Prices,,,
+Mon Aug 3 2026,USD,Low,Omdia Total Vehicle Sales,,,
 Mon Aug 3 2026,USD,Low,Final Manufacturing PMI,,,
 Mon Aug 3 2026,USD,High,ISM Manufacturing PMI,,,
-Mon Aug 3 2026,USD,Low,ISM Manufacturing Prices,,,
-Mon Aug 3 2026,USD,Low,Construction Spending m/m,,,
-Mon Aug 3 2026,USD,Low,Omdia Total Vehicle Sales,,,
 Tue Aug 4 2026,USD,Low,Loan Officer Survey,,,
 Tue Aug 4 2026,USD,Low,Trade Balance,,,
 Tue Aug 4 2026,USD,Low,JOLTS Job Openings,,,
@@ -232,8 +226,8 @@ Mon Aug 10 2026,USD,Low,Cleveland Fed Inflation Expectations,,,
 Tue Aug 11 2026,USD,Low,NFIB Small Business Index,,,
 Tue Aug 11 2026,USD,Low,ADP Weekly Employment Change,,,
 Tue Aug 11 2026,USD,Low,Existing Home Sales,,,
-Mon Aug 17 2026,USD,Low,Empire State Manufacturing Index,,,
 Mon Aug 17 2026,USD,Low,NAHB Housing Market Index,,,
+Mon Aug 17 2026,USD,Low,Empire State Manufacturing Index,,,
 Tue Aug 18 2026,USD,Low,TIC Long-Term Purchases,,,
 Tue Aug 18 2026,USD,Low,ADP Weekly Employment Change,,,
 Tue Aug 18 2026,USD,Low,Building Permits,,,
@@ -245,11 +239,11 @@ Tue Aug 18 2026,USD,Low,Pending Home Sales m/m,,,
 Wed Aug 19 2026,USD,Low,API Weekly Statistical Bulletin,,,
 Wed Aug 19 2026,USD,High,Prelim Benchmark Payrolls Revision,,,-911K
 Wed Aug 19 2026,USD,Low,Crude Oil Inventories,,,
+Thu Aug 20 2026,USD,Low,Natural Gas Storage,,,
+Thu Aug 20 2026,USD,Low,CB Leading Index m/m,,,
 Thu Aug 20 2026,USD,High,FOMC Meeting Minutes,,,
 Thu Aug 20 2026,USD,Low,Philly Fed Manufacturing Index,,,
 Thu Aug 20 2026,USD,Low,Unemployment Claims,,,
-Thu Aug 20 2026,USD,Low,CB Leading Index m/m,,,
-Thu Aug 20 2026,USD,Low,Natural Gas Storage,,,
 Fri Aug 21 2026,USD,Low,Flash Manufacturing PMI,,,
 Fri Aug 21 2026,USD,Low,Flash Services PMI,,,
 Tue Aug 25 2026,USD,Low,ADP Weekly Employment Change,,,
@@ -258,22 +252,22 @@ Tue Aug 25 2026,USD,Low,S&P/CS Composite-20 HPI y/y,,,
 Tue Aug 25 2026,USD,Low,CB Consumer Confidence,,,
 Tue Aug 25 2026,USD,Low,New Home Sales,,,
 Tue Aug 25 2026,USD,Low,Richmond Manufacturing Index,,,
-Wed Aug 26 2026,USD,Low,API Weekly Statistical Bulletin,,,
-Wed Aug 26 2026,USD,High,Core PCE Price Index m/m,,,
-Wed Aug 26 2026,USD,High,Prelim GDP q/q,,,
-Wed Aug 26 2026,USD,Low,Prelim GDP Price Index q/q,,,
-Wed Aug 26 2026,USD,Low,Core Durable Goods Orders m/m,,,
-Wed Aug 26 2026,USD,Low,Durable Goods Orders m/m,,,
-Wed Aug 26 2026,USD,Low,Personal Income m/m,,,
-Wed Aug 26 2026,USD,Low,Personal Spending m/m,,,
 Wed Aug 26 2026,USD,Low,Crude Oil Inventories,,,
-Tue Sep 1 2026,USD,Low,Final Manufacturing PMI,,,
-Tue Sep 1 2026,USD,High,ISM Manufacturing PMI,,,
-Tue Sep 1 2026,USD,Low,ISM Manufacturing Prices,,,
-Tue Sep 1 2026,USD,Low,JOLTS Job Openings,,,
+Wed Aug 26 2026,USD,Low,Personal Spending m/m,,,
+Wed Aug 26 2026,USD,Low,Personal Income m/m,,,
+Wed Aug 26 2026,USD,Low,Durable Goods Orders m/m,,,
+Wed Aug 26 2026,USD,High,Core PCE Price Index m/m,,,
+Wed Aug 26 2026,USD,Low,Prelim GDP Price Index q/q,,,
+Wed Aug 26 2026,USD,High,Prelim GDP q/q,,,
+Wed Aug 26 2026,USD,Low,Core Durable Goods Orders m/m,,,
+Wed Aug 26 2026,USD,Low,API Weekly Statistical Bulletin,,,
+Tue Sep 1 2026,USD,Low,Omdia Total Vehicle Sales,,,
 Tue Sep 1 2026,USD,Low,Construction Spending m/m,,,
 Tue Sep 1 2026,USD,Low,RCM/TIPP Economic Optimism,,,
-Tue Sep 1 2026,USD,Low,Omdia Total Vehicle Sales,,,
+Tue Sep 1 2026,USD,Low,ISM Manufacturing Prices,,,
+Tue Sep 1 2026,USD,High,ISM Manufacturing PMI,,,
+Tue Sep 1 2026,USD,Low,Final Manufacturing PMI,,,
+Tue Sep 1 2026,USD,Low,JOLTS Job Openings,,,
 Mon Sep 7 2026,USD,Low,Bank Holiday,,,
 Tue Sep 8 2026,USD,Low,NFIB Small Business Index,,,
 Tue Sep 8 2026,USD,Low,ADP Weekly Employment Change,,,
@@ -281,19 +275,19 @@ Tue Sep 15 2026,USD,Low,ADP Weekly Employment Change,,,
 Tue Sep 15 2026,USD,Low,Empire State Manufacturing Index,,,
 Tue Sep 22 2026,USD,Low,ADP Weekly Employment Change,,,
 Tue Sep 22 2026,USD,Low,Richmond Manufacturing Index,,,
+Wed Sep 23 2026,USD,Low,Crude Oil Inventories,,,
+Wed Sep 23 2026,USD,Low,Flash Services PMI,,,
 Wed Sep 23 2026,USD,Low,API Weekly Statistical Bulletin,,,
 Wed Sep 23 2026,USD,Low,Flash Manufacturing PMI,,,
-Wed Sep 23 2026,USD,Low,Flash Services PMI,,,
-Wed Sep 23 2026,USD,Low,Crude Oil Inventories,,,
 Tue Sep 29 2026,USD,Low,HPI m/m,,,
 Tue Sep 29 2026,USD,Low,S&P/CS Composite-20 HPI y/y,,,
 Tue Sep 29 2026,USD,Low,CB Consumer Confidence,,,
 Tue Sep 29 2026,USD,Low,JOLTS Job Openings,,,
-Mon Oct 5 2026,USD,Low,Final Services PMI,,,
 Mon Oct 5 2026,USD,High,ISM Services PMI,,,
-Tue Oct 6 2026,USD,Low,ADP Weekly Employment Change,,,
+Mon Oct 5 2026,USD,Low,Final Services PMI,,,
 Tue Oct 6 2026,USD,Low,Trade Balance,,,
 Tue Oct 6 2026,USD,Low,RCM/TIPP Economic Optimism,,,
+Tue Oct 6 2026,USD,Low,ADP Weekly Employment Change,,,
 Mon Oct 12 2026,USD,Low,Bank Holiday,,,
 Tue Oct 13 2026,USD,Low,NFIB Small Business Index,,,
 Tue Oct 13 2026,USD,Low,ADP Weekly Employment Change,,,
@@ -303,33 +297,34 @@ Tue Oct 20 2026,USD,Low,ADP Weekly Employment Change,,,
 Tue Oct 20 2026,USD,Low,Building Permits,,,
 Tue Oct 20 2026,USD,Low,Housing Starts,,,
 Tue Oct 20 2026,USD,Low,Pending Home Sales m/m,,,
-Tue Oct 27 2026,USD,Low,ADP Weekly Employment Change,,,
-Tue Oct 27 2026,USD,Low,Core Durable Goods Orders m/m,,,
-Tue Oct 27 2026,USD,Low,Durable Goods Orders m/m,,,
-Tue Oct 27 2026,USD,Low,HPI m/m,,,
-Tue Oct 27 2026,USD,Low,S&P/CS Composite-20 HPI y/y,,,
-Tue Oct 27 2026,USD,Low,CB Consumer Confidence,,,
-Tue Oct 27 2026,USD,Low,New Home Sales,,,
 Tue Oct 27 2026,USD,Low,Richmond Manufacturing Index,,,
+Tue Oct 27 2026,USD,Low,New Home Sales,,,
+Tue Oct 27 2026,USD,Low,CB Consumer Confidence,,,
+Tue Oct 27 2026,USD,Low,S&P/CS Composite-20 HPI y/y,,,
+Tue Oct 27 2026,USD,Low,Durable Goods Orders m/m,,,
+Tue Oct 27 2026,USD,Low,Core Durable Goods Orders m/m,,,
+Tue Oct 27 2026,USD,Low,ADP Weekly Employment Change,,,
+Tue Oct 27 2026,USD,Low,HPI m/m,,,
 Wed Oct 28 2026,USD,Low,API Weekly Statistical Bulletin,,,
 Wed Oct 28 2026,USD,Low,Goods Trade Balance,,,
 Wed Oct 28 2026,USD,Low,Prelim Wholesale Inventories m/m,,,
 Wed Oct 28 2026,USD,Low,Crude Oil Inventories,,,
 Sun Nov 1 2026,USD,Low,Daylight Saving Time Shift,,,
-Mon Nov 2 2026,USD,Low,Final Manufacturing PMI,,,
-Mon Nov 2 2026,USD,High,ISM Manufacturing PMI,,,
-Mon Nov 2 2026,USD,Low,ISM Manufacturing Prices,,,
 Mon Nov 2 2026,USD,Low,Construction Spending m/m,,,
 Mon Nov 2 2026,USD,Low,Omdia Total Vehicle Sales,,,
+Mon Nov 2 2026,USD,High,ISM Manufacturing PMI,,,
+Mon Nov 2 2026,USD,Low,Final Manufacturing PMI,,,
+Mon Nov 2 2026,USD,Low,ISM Manufacturing Prices,,,
 Mon Nov 9 2026,USD,Low,Cleveland Fed Inflation Expectations,,,
 Mon Nov 9 2026,USD,Low,Final Wholesale Inventories m/m,,,
-Tue Nov 10 2026,USD,Low,NFIB Small Business Index,,,
-Tue Nov 10 2026,USD,Low,ADP Weekly Employment Change,,,
-Tue Nov 10 2026,USD,High,Core CPI m/m,,,
-Tue Nov 10 2026,USD,High,Core CPI y/y,,,
 Tue Nov 10 2026,USD,High,CPI m/m,,,
+Tue Nov 10 2026,USD,High,Core CPI y/y,,,
 Tue Nov 10 2026,USD,High,CPI y/y,,,
+Tue Nov 10 2026,USD,Low,ADP Weekly Employment Change,,,
+Tue Nov 10 2026,USD,Low,NFIB Small Business Index,,,
+Tue Nov 10 2026,USD,High,Core CPI m/m,,,
 Mon Nov 16 2026,USD,Low,Empire State Manufacturing Index,,,
+Tue Nov 17 2026,USD,Low,NAHB Housing Market Index,,,
 Tue Nov 17 2026,USD,Low,ADP Weekly Employment Change,,,
 Tue Nov 17 2026,USD,High,Core Retail Sales m/m,,,
 Tue Nov 17 2026,USD,High,Retail Sales m/m,,,
@@ -337,54 +332,53 @@ Tue Nov 17 2026,USD,Low,Import Prices m/m,,,
 Tue Nov 17 2026,USD,Low,Capacity Utilization Rate,,,
 Tue Nov 17 2026,USD,Low,Industrial Production m/m,,,
 Tue Nov 17 2026,USD,Low,Business Inventories m/m,,,
-Tue Nov 17 2026,USD,Low,NAHB Housing Market Index,,,
-Mon Nov 23 2026,USD,Low,Flash Manufacturing PMI,,,
 Mon Nov 23 2026,USD,Low,Flash Services PMI,,,
+Mon Nov 23 2026,USD,Low,Flash Manufacturing PMI,,,
+Tue Nov 24 2026,USD,Low,Richmond Manufacturing Index,,,
+Tue Nov 24 2026,USD,Low,CB Consumer Confidence,,,
 Tue Nov 24 2026,USD,Low,ADP Weekly Employment Change,,,
 Tue Nov 24 2026,USD,Low,HPI m/m,,,
 Tue Nov 24 2026,USD,Low,S&P/CS Composite-20 HPI y/y,,,
-Tue Nov 24 2026,USD,Low,CB Consumer Confidence,,,
-Tue Nov 24 2026,USD,Low,Richmond Manufacturing Index,,,
 Mon Nov 30 2026,USD,Low,Chicago PMI,,,
-Tue Dec 1 2026,USD,Low,Final Manufacturing PMI,,,
-Tue Dec 1 2026,USD,High,ISM Manufacturing PMI,,,
-Tue Dec 1 2026,USD,Low,ISM Manufacturing Prices,,,
-Tue Dec 1 2026,USD,Low,JOLTS Job Openings,,,
-Tue Dec 1 2026,USD,Low,Construction Spending m/m,,,
-Tue Dec 1 2026,USD,Low,RCM/TIPP Economic Optimism,,,
 Tue Dec 1 2026,USD,Low,Omdia Total Vehicle Sales,,,
+Tue Dec 1 2026,USD,Low,Construction Spending m/m,,,
+Tue Dec 1 2026,USD,Low,JOLTS Job Openings,,,
+Tue Dec 1 2026,USD,Low,RCM/TIPP Economic Optimism,,,
+Tue Dec 1 2026,USD,High,ISM Manufacturing PMI,,,
+Tue Dec 1 2026,USD,Low,Final Manufacturing PMI,,,
+Tue Dec 1 2026,USD,Low,ISM Manufacturing Prices,,,
 Mon Dec 7 2026,USD,Low,Consumer Credit m/m,,,
 Tue Dec 8 2026,USD,Low,NFIB Small Business Index,,,
 Tue Dec 8 2026,USD,Low,ADP Weekly Employment Change,,,
 Tue Dec 8 2026,USD,Low,Revised Nonfarm Productivity q/q,,,
 Tue Dec 8 2026,USD,Low,Revised Unit Labor Costs q/q,,,
 Tue Dec 8 2026,USD,Low,Trade Balance,,,
+Tue Dec 15 2026,USD,Low,Empire State Manufacturing Index,,,
+Tue Dec 15 2026,USD,High,PPI m/m,,,
+Tue Dec 15 2026,USD,Low,NAHB Housing Market Index,,,
 Tue Dec 15 2026,USD,Low,ADP Weekly Employment Change,,,
 Tue Dec 15 2026,USD,High,Core PPI m/m,,,
-Tue Dec 15 2026,USD,High,PPI m/m,,,
-Tue Dec 15 2026,USD,Low,Empire State Manufacturing Index,,,
-Tue Dec 15 2026,USD,Low,NAHB Housing Market Index,,,
 Tue Dec 22 2026,USD,Low,ADP Weekly Employment Change,,,
 Tue Dec 22 2026,USD,Low,CB Consumer Confidence,,,
 Tue Dec 22 2026,USD,Low,Richmond Manufacturing Index,,,
-Wed Dec 23 2026,USD,Low,API Weekly Statistical Bulletin,,,
-Wed Dec 23 2026,USD,High,Core PCE Price Index m/m,,,
-Wed Dec 23 2026,USD,High,Final GDP q/q,,,
-Wed Dec 23 2026,USD,Low,Final GDP Price Index q/q,,,
-Wed Dec 23 2026,USD,Low,Core Durable Goods Orders m/m,,,
+Wed Dec 23 2026,USD,Low,Crude Oil Inventories,,,
+Wed Dec 23 2026,USD,Low,New Home Sales,,,
+Wed Dec 23 2026,USD,Low,Personal Spending m/m,,,
 Wed Dec 23 2026,USD,Low,Durable Goods Orders m/m,,,
 Wed Dec 23 2026,USD,Low,Personal Income m/m,,,
-Wed Dec 23 2026,USD,Low,Personal Spending m/m,,,
-Wed Dec 23 2026,USD,Low,New Home Sales,,,
-Wed Dec 23 2026,USD,Low,Crude Oil Inventories,,,
+Wed Dec 23 2026,USD,Low,Final GDP Price Index q/q,,,
+Wed Dec 23 2026,USD,High,Final GDP q/q,,,
+Wed Dec 23 2026,USD,High,Core PCE Price Index m/m,,,
+Wed Dec 23 2026,USD,Low,API Weekly Statistical Bulletin,,,
+Wed Dec 23 2026,USD,Low,Core Durable Goods Orders m/m,,,
 Mon Dec 28 2026,USD,Low,Goods Trade Balance,,,
 Mon Dec 28 2026,USD,Low,Prelim Wholesale Inventories m/m,,,
 Tue Dec 29 2026,USD,Low,ADP Weekly Employment Change,,,
 Tue Dec 29 2026,USD,Low,HPI m/m,,,
 Tue Dec 29 2026,USD,Low,S&P/CS Composite-20 HPI y/y,,,
-Wed Dec 30 2026,USD,Low,API Weekly Statistical Bulletin,,,
 Wed Dec 30 2026,USD,Low,Chicago PMI,,,
+Wed Dec 30 2026,USD,Low,API Weekly Statistical Bulletin,,,
 Wed Dec 30 2026,USD,Low,Crude Oil Inventories,,,
-Thu Dec 31 2026,USD,High,FOMC Meeting Minutes,,,
 Thu Dec 31 2026,USD,Low,Unemployment Claims,,,
+Thu Dec 31 2026,USD,High,FOMC Meeting Minutes,,,
 Thu Dec 31 2026,USD,Low,Natural Gas Storage,,,
