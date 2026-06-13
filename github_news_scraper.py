@@ -7,15 +7,28 @@ from datetime import datetime, timedelta
 def start_tradingview_news_mining():
     print("🌐 STARTING WBS FUNDAMENTAL TRACKER (TRADINGVIEW REAL-TIME API)...")
     
-    # ⚡ 1. Ambil jangkauan tanggal: 7 hari lalu s/d 7 hari ke depan agar data historis minggu ini aman!
+    # ⚡ 1. Ambil jangkauan tanggal historis & masa depan
     now = datetime.utcnow()
     start_date = (now - timedelta(days=7)).strftime("%Y-%m-%dT00:00:00Z")
     end_date = (now + timedelta(days=7)).strftime("%Y-%m-%dT23:59:59Z")
     
     url = f"https://economic-calendar.tradingview.com/events?from={start_date}&to={end_date}"
+    
+    # ⚡ 2. BENGKEL TAMENG HEADERS: Identitas super lengkap agar lolos sensor 403 di GitHub Actions!
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Referer': 'https://www.tradingview.com/'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+        'Accept': 'application/json, text/plain, */*',
+        'Accept-Language': 'en-US,en;q=0.9,id;q=0.8',
+        'Origin': 'https://www.tradingview.com',
+        'Referer': 'https://www.tradingview.com/',
+        'Sec-Ch-Ua': '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"',
+        'Sec-Ch-Ua-Mobile': '?0',
+        'Sec-Ch-Ua-Platform': '"Windows"',
+        'Sec-Fetch-Dest': 'empty',
+        'Sec-Fetch-Mode': 'cors',
+        'Sec-Fetch-Site': 'same-site',
+        'Cache-Control': 'no-cache',
+        'Pragma': 'no-cache'
     }
     
     print(f"📡 Menembak API Institusional TradingView: {url}")
@@ -26,7 +39,6 @@ def start_tradingview_news_mining():
         if response.status_code == 200:
             data = response.json()
             
-            # Pengaman struktur array/object JSON
             events = []
             if isinstance(data, list): events = data
             elif isinstance(data, dict): events = data.get('result', data.get('events', []))
@@ -35,7 +47,6 @@ def start_tradingview_news_mining():
                 # Filter ketat hanya berita Amerika Serikat (USD)
                 if item.get('country') == 'US':
                     
-                    # ⚡ 2. Format tanggal disamakan dengan selera UI Jenderal (Contoh: Tue Jun 9 2026)
                     try:
                         raw_time = item.get('time')
                         dt = pd.to_datetime(raw_time)
@@ -43,20 +54,18 @@ def start_tradingview_news_mining():
                     except:
                         date_str = datetime.now().strftime("%a %b %d %Y")
                     
-                    # ⚡ 3. Mapping Kasta Dampak (Importance)
-                    # TradingView: -1 = Low, 0 = Medium, 1 = High
+                    # Mapping Tingkat Kepentingan (Importance)
                     importance = item.get('importance', -1)
                     if importance == 1: impact = "High"
                     elif importance == 0: impact = "Medium"
                     else: impact = "Low"
                     
-                    # Fungsi pembersih angka Zonk
                     def clean_val(val):
                         if val is None or str(val).strip().lower() in ['nan', 'none', '']:
                             return "-"
                         return str(val).strip()
 
-                    # ⚡ 4. RAMPAS HARTA KARUN UTAMA (ACTUAL VALUE!)
+                    # Rampas data inti, termasuk nilai ACTUAL!
                     actual = clean_val(item.get('actual'))
                     forecast = clean_val(item.get('forecast'))
                     previous = clean_val(item.get('previous'))
@@ -79,7 +88,7 @@ def start_tradingview_news_mining():
         print(f"❌ Gagal Total mengekstrak API: {e}")
         sys.exit(1)
 
-    # ⚡ 5. Bangun ulang folder data dan simpan hasilnya
+    # ⚡ 3. Tulis ulang database lokal/cloud
     os.makedirs("data", exist_ok=True)
     output_file = os.path.join("data", "forex_news_usd_2015_2026.csv")
     
