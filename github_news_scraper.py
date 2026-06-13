@@ -7,14 +7,13 @@ from datetime import datetime, timedelta
 def start_tradingview_news_mining():
     print("🌐 STARTING WBS FUNDAMENTAL TRACKER (TRADINGVIEW REAL-TIME API)...")
     
-    # ⚡ 1. Ambil jangkauan tanggal historis & masa depan
+    # ⚡ 1. Ambil jangkauan tanggal historis & masa depan (Aman untuk 1 minggu)
     now = datetime.utcnow()
     start_date = (now - timedelta(days=7)).strftime("%Y-%m-%dT00:00:00Z")
     end_date = (now + timedelta(days=7)).strftime("%Y-%m-%dT23:59:59Z")
     
     url = f"https://economic-calendar.tradingview.com/events?from={start_date}&to={end_date}"
     
-    # ⚡ 2. BENGKEL TAMENG HEADERS: Identitas super lengkap agar lolos sensor 403 di GitHub Actions!
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
         'Accept': 'application/json, text/plain, */*',
@@ -47,11 +46,26 @@ def start_tradingview_news_mining():
                 # Filter ketat hanya berita Amerika Serikat (USD)
                 if item.get('country') == 'US':
                     
+                    # ⚡ 2. BENGKEL TANGGAL BULLETPROOF: Mencegah Time-Warp Hari Ini!
                     try:
-                        raw_time = item.get('time')
-                        dt = pd.to_datetime(raw_time)
+                        raw_time = item.get('time') or item.get('date')
+                        if raw_time is None:
+                            raise ValueError("Key waktu tidak ditemukan")
+                        
+                        # Jika berupa angka murni atau string angka murni (Epoch Timestamp)
+                        if str(raw_time).replace('.', '', 1).isdigit():
+                            val = int(float(raw_time))
+                            # Deteksi milidetik (13 digit) vs detik (10 digit)
+                            if val > 9999999999:
+                                dt = pd.to_datetime(val, unit='ms')
+                            else:
+                                dt = pd.to_datetime(val, unit='s')
+                        else:
+                            # Jika berupa string ISO standar bursa
+                            dt = pd.to_datetime(raw_time)
+                            
                         date_str = f"{dt.strftime('%a %b')} {dt.day} {dt.strftime('%Y')}"
-                    except:
+                    except Exception:
                         date_str = datetime.now().strftime("%a %b %d %Y")
                     
                     # Mapping Tingkat Kepentingan (Importance)
@@ -65,7 +79,6 @@ def start_tradingview_news_mining():
                             return "-"
                         return str(val).strip()
 
-                    # Rampas data inti, termasuk nilai ACTUAL!
                     actual = clean_val(item.get('actual'))
                     forecast = clean_val(item.get('forecast'))
                     previous = clean_val(item.get('previous'))
@@ -88,7 +101,7 @@ def start_tradingview_news_mining():
         print(f"❌ Gagal Total mengekstrak API: {e}")
         sys.exit(1)
 
-    # ⚡ 3. Tulis ulang database lokal/cloud
+    # ⚡ 3. Tulis ulang database cloud
     os.makedirs("data", exist_ok=True)
     output_file = os.path.join("data", "forex_news_usd_2015_2026.csv")
     
