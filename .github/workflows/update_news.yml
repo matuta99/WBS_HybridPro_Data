@@ -2,7 +2,7 @@ name: Hourly Forex News Scraper
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Robot menyala setiap jam
+    - cron: '*/15 * * * *'  # Bangun setiap menit ke-0, 15, 30, dan 45
   workflow_dispatch:     # Tombol manual
 
 permissions:
