@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 def start_tradingview_news_mining():
     print("🌐 STARTING WBS FUNDAMENTAL TRACKER (TRADINGVIEW REAL-TIME API)...")
     
-    # ⚡ 1. Ambil jangkauan tanggal historis & masa depan (Aman untuk 1 minggu)
+    # ⚡ 1. Ambil jangkauan tanggal historis & masa depan
     now = datetime.utcnow()
     start_date = (now - timedelta(days=7)).strftime("%Y-%m-%dT00:00:00Z")
     end_date = (now + timedelta(days=7)).strftime("%Y-%m-%dT23:59:59Z")
@@ -46,7 +46,7 @@ def start_tradingview_news_mining():
                 # Filter ketat hanya berita Amerika Serikat (USD)
                 if item.get('country') == 'US':
                     
-                    # ⚡ BENGKEL TANGGAL & JAM BULLETPROOF
+                    # ⚡ 2. BENGKEL TANGGAL & JAM + SUNTIK CONVERTER WIB (UTC + 7 JAM)
                     try:
                         raw_time = item.get('time') or item.get('date')
                         if raw_time is None:
@@ -60,11 +60,15 @@ def start_tradingview_news_mining():
                                 dt = pd.to_datetime(val, unit='s')
                         else:
                             dt = pd.to_datetime(raw_time)
+                        
+                        # 🚀 PROSES KRUSIAL: Geser Waktu Internasional (UTC) ke Waktu Indonesia Barat (WIB)
+                        dt_wib = dt + timedelta(hours=7)
                             
-                        date_str = f"{dt.strftime('%a %b')} {dt.day} {dt.strftime('%Y')}"
-                        time_str = dt.strftime('%H:%M') # 🚀 NOS 1: Rampas info Jam Menit!
+                        date_str = f"{dt_wib.strftime('%a %b')} {dt_wib.day} {dt_wib.strftime('%Y')}"
+                        time_str = dt_wib.strftime('%H:%M')
                     except Exception:
-                        date_str = datetime.now().strftime("%a %b %d %Y")
+                        dt_now_wib = datetime.utcnow() + timedelta(hours=7)
+                        date_str = dt_now_wib.strftime("%a %b %d %Y")
                         time_str = "--:--"
                     
                     # Mapping Tingkat Kepentingan (Importance)
@@ -84,7 +88,7 @@ def start_tradingview_news_mining():
                     
                     all_news_extracted.append({
                         "Date": date_str,
-                        "Time": time_str, # 🚀 NOS 2: Suntik jam ke dalam barisan database!
+                        "Time": time_str,
                         "Currency": "USD",
                         "Impact": impact,
                         "Event": item.get('title', '-'),
@@ -110,7 +114,7 @@ def start_tradingview_news_mining():
     if not df_new.empty:
         df_new['Scrape_Time'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         df_new.to_csv(output_file, index=False)
-        print(f"👑 GOD MODE SUCCESS: {len(df_new)} Berita Fundamental REAL-TIME + ACTUAL berhasil dijinakkan!")
+        print(f"👑 GOD MODE SUCCESS: {len(df_new)} Berita Fundamental REAL-TIME (WIB CONVERTED) diamankan!")
     else:
         print("⚠️ Alarm! Tidak ada berita USD yang tersaring.")
         sys.exit(1)
