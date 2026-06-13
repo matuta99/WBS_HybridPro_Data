@@ -46,27 +46,26 @@ def start_tradingview_news_mining():
                 # Filter ketat hanya berita Amerika Serikat (USD)
                 if item.get('country') == 'US':
                     
-                    # ⚡ 2. BENGKEL TANGGAL BULLETPROOF: Mencegah Time-Warp Hari Ini!
+                    # ⚡ BENGKEL TANGGAL & JAM BULLETPROOF
                     try:
                         raw_time = item.get('time') or item.get('date')
                         if raw_time is None:
                             raise ValueError("Key waktu tidak ditemukan")
                         
-                        # Jika berupa angka murni atau string angka murni (Epoch Timestamp)
                         if str(raw_time).replace('.', '', 1).isdigit():
                             val = int(float(raw_time))
-                            # Deteksi milidetik (13 digit) vs detik (10 digit)
                             if val > 9999999999:
                                 dt = pd.to_datetime(val, unit='ms')
                             else:
                                 dt = pd.to_datetime(val, unit='s')
                         else:
-                            # Jika berupa string ISO standar bursa
                             dt = pd.to_datetime(raw_time)
                             
                         date_str = f"{dt.strftime('%a %b')} {dt.day} {dt.strftime('%Y')}"
+                        time_str = dt.strftime('%H:%M') # 🚀 NOS 1: Rampas info Jam Menit!
                     except Exception:
                         date_str = datetime.now().strftime("%a %b %d %Y")
+                        time_str = "--:--"
                     
                     # Mapping Tingkat Kepentingan (Importance)
                     importance = item.get('importance', -1)
@@ -85,6 +84,7 @@ def start_tradingview_news_mining():
                     
                     all_news_extracted.append({
                         "Date": date_str,
+                        "Time": time_str, # 🚀 NOS 2: Suntik jam ke dalam barisan database!
                         "Currency": "USD",
                         "Impact": impact,
                         "Event": item.get('title', '-'),
