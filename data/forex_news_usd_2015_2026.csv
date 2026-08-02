@@ -1,164 +1,164 @@
 Date,Time,Currency,Impact,Event,Actual,Forecast,Previous,Scrape_Time
-Mon Jul 27 2026,19:30,USD,Low,Durable Goods Orders ex Defense MoM,0.3,-,-4.3,2026-08-02 11:50:55
-Mon Jul 27 2026,19:30,USD,High,Durable Goods Orders MoM,0.3,2.5,-4,2026-08-02 11:50:55
-Mon Jul 27 2026,19:30,USD,Low,Non Defense Goods Orders Ex Air,0.9,0.8,1.9,2026-08-02 11:50:55
-Mon Jul 27 2026,19:30,USD,Medium,Durable Goods Orders Ex Transp MoM,0.6,0.8,1.8,2026-08-02 11:50:55
-Mon Jul 27 2026,21:30,USD,Medium,Dallas Fed Manufacturing Index,1.3,-,0,2026-08-02 11:50:55
-Mon Jul 27 2026,22:30,USD,Low,6-Month Bill Auction,3.945,-,3.835,2026-08-02 11:50:55
-Mon Jul 27 2026,22:30,USD,Low,2-Year Note Auction,4.315,-,4.189,2026-08-02 11:50:55
-Tue Jul 28 2026,00:00,USD,Low,3-Month Bill Auction,3.815,-,3.73,2026-08-02 11:50:55
-Tue Jul 28 2026,00:00,USD,Low,5-Year Note Auction,4.408,-,4.2,2026-08-02 11:50:55
-Tue Jul 28 2026,19:15,USD,Medium,ADP Employment Change Weekly,15,-,16.25,2026-08-02 11:50:55
-Tue Jul 28 2026,19:30,USD,Medium,Retail Inventories Ex Autos MoM Adv,-0.2,-,0.2,2026-08-02 11:50:55
-Tue Jul 28 2026,19:30,USD,Medium,Goods Trade Balance Adv,-101.5,-100,-105.89,2026-08-02 11:50:55
-Tue Jul 28 2026,19:30,USD,Medium,Wholesale Inventories MoM Adv,0.3,0.2,0.3,2026-08-02 11:50:55
-Tue Jul 28 2026,19:55,USD,Low,Redbook YoY,8.3,-,7.8,2026-08-02 11:50:55
-Tue Jul 28 2026,20:00,USD,Low,S&P/Case-Shiller Home Price MoM,0.9,-,1,2026-08-02 11:50:55
-Tue Jul 28 2026,20:00,USD,Medium,S&P/Case-Shiller Home Price YoY,1.6,1.3,1.2,2026-08-02 11:50:55
-Tue Jul 28 2026,20:00,USD,Low,House Price Index MoM,0.3,0.2,-0.1,2026-08-02 11:50:55
-Tue Jul 28 2026,20:00,USD,Low,House Price Index,442.4,-,441.3,2026-08-02 11:50:55
-Tue Jul 28 2026,20:00,USD,Low,House Price Index YoY,2.2,-,2,2026-08-02 11:50:55
-Tue Jul 28 2026,21:00,USD,Low,Richmond Fed Manufacturing Shipments Index,8,-,4,2026-08-02 11:50:55
-Tue Jul 28 2026,21:00,USD,Low,Richmond Fed Manufacturing Index,5,10,4,2026-08-02 11:50:55
-Tue Jul 28 2026,21:00,USD,Low,Richmond Fed Services Revenues Index,-3,-,0,2026-08-02 11:50:55
-Tue Jul 28 2026,21:00,USD,Medium,CB Consumer Confidence,90.8,92.3,92.2,2026-08-02 11:50:55
-Tue Jul 28 2026,21:30,USD,Low,Dallas Fed Services Revenues Index,9.5,-,9.8,2026-08-02 11:50:55
-Tue Jul 28 2026,21:30,USD,Low,Dallas Fed Services Index,6.6,-,2.9,2026-08-02 11:50:55
-Tue Jul 28 2026,22:30,USD,Low,6-Week Bill Auction,3.7,-,3.65,2026-08-02 11:50:55
-Wed Jul 29 2026,00:00,USD,Low,Money Supply,23.15,-,23.05,2026-08-02 11:50:55
-Wed Jul 29 2026,00:00,USD,Low,7-Year Note Auction,4.473,-,4.26,2026-08-02 11:50:55
-Wed Jul 29 2026,03:50,USD,Medium,API Crude Oil Stock Change,3.296,-2.5,2.603,2026-08-02 11:50:55
-Wed Jul 29 2026,18:00,USD,Low,MBA Mortgage Refinance Index,723.1,-,802.3,2026-08-02 11:50:55
-Wed Jul 29 2026,18:00,USD,Low,MBA Mortgage Market Index,247.2,-,264,2026-08-02 11:50:55
-Wed Jul 29 2026,18:00,USD,Low,MBA Mortgage Applications,-6.4,-,1.9,2026-08-02 11:50:55
-Wed Jul 29 2026,18:00,USD,Low,MBA Purchase Index,159.8,-,165.8,2026-08-02 11:50:55
-Wed Jul 29 2026,18:00,USD,Medium,MBA 30-Year Mortgage Rate,6.76,-,6.69,2026-08-02 11:50:55
-Wed Jul 29 2026,21:30,USD,Medium,EIA Crude Oil Stocks Change,-7.167,-1.3,2.011,2026-08-02 11:50:55
-Wed Jul 29 2026,21:30,USD,Low,EIA Gasoline Production Change,0.178,-,0.06,2026-08-02 11:50:55
-Wed Jul 29 2026,21:30,USD,Low,EIA Distillate Stocks Change,1.062,0.2,1.395,2026-08-02 11:50:55
-Wed Jul 29 2026,21:30,USD,Low,EIA Refinery Crude Runs Change,0.271,-,-0.058,2026-08-02 11:50:55
-Wed Jul 29 2026,21:30,USD,Low,EIA Distillate Fuel Production Change,0.015,-,0.09,2026-08-02 11:50:55
-Wed Jul 29 2026,21:30,USD,Low,EIA Cushing Crude Oil Stocks Change,-0.771,-,-0.674,2026-08-02 11:50:55
-Wed Jul 29 2026,21:30,USD,Medium,EIA Gasoline Stocks Change,0.007,-0.7,0.765,2026-08-02 11:50:55
-Wed Jul 29 2026,21:30,USD,Low,EIA Heating Oil Stocks Change,0.308,-,0.231,2026-08-02 11:50:55
-Wed Jul 29 2026,21:30,USD,Low,EIA Crude Oil Imports Change,-0.237,-,0.485,2026-08-02 11:50:55
-Wed Jul 29 2026,22:30,USD,Low,2-Year FRN Auction,0.05,-,0.079,2026-08-02 11:50:55
-Wed Jul 29 2026,22:30,USD,Low,17-Week Bill Auction,3.875,-,3.845,2026-08-02 11:50:55
-Thu Jul 30 2026,01:00,USD,High,Fed Interest Rate Decision,3.75,3.75,3.75,2026-08-02 11:50:55
-Thu Jul 30 2026,01:30,USD,High,Fed Press Conference,-,-,-,2026-08-02 11:50:55
-Thu Jul 30 2026,19:30,USD,Medium,Initial Jobless Claims,197,200,188,2026-08-02 11:50:55
-Thu Jul 30 2026,19:30,USD,Low,Jobless Claims 4-week Average,202.75,-,207.75,2026-08-02 11:50:55
-Thu Jul 30 2026,19:30,USD,Low,Continuing Jobless Claims,1782,1800,1789,2026-08-02 11:50:55
-Thu Jul 30 2026,19:30,USD,Low,Core PCE Prices QoQ Adv,3.4,3.5,4.4,2026-08-02 11:50:55
-Thu Jul 30 2026,19:30,USD,Low,GDP Sales QoQ Adv,2.2,-,1.9,2026-08-02 11:50:55
-Thu Jul 30 2026,19:30,USD,High,GDP Growth Rate QoQ Adv,1.5,2.1,2.1,2026-08-02 11:50:55
-Thu Jul 30 2026,19:30,USD,High,Personal Spending MoM,0.3,0.3,0.9,2026-08-02 11:50:55
-Thu Jul 30 2026,19:30,USD,Low,Core PCE Price Index YoY,3.3,3.3,3.4,2026-08-02 11:50:55
-Thu Jul 30 2026,19:30,USD,High,Core PCE Price Index MoM,0.1,0.2,0.3,2026-08-02 11:50:55
-Thu Jul 30 2026,19:30,USD,Low,PCE Prices QoQ Adv,5.1,-,4.6,2026-08-02 11:50:55
-Thu Jul 30 2026,19:30,USD,Low,Real Consumer Spending QoQ Adv,3.2,-,0.5,2026-08-02 11:50:55
-Thu Jul 30 2026,19:30,USD,High,Personal Income MoM,0.2,0.3,0.7,2026-08-02 11:50:55
-Thu Jul 30 2026,19:30,USD,Medium,PCE Price Index MoM,-0.1,-0.1,0.5,2026-08-02 11:50:55
-Thu Jul 30 2026,19:30,USD,Medium,PCE Price Index YoY,3.7,3.7,4.1,2026-08-02 11:50:55
-Thu Jul 30 2026,19:30,USD,Medium,GDP Price Index QoQ Adv,6.3,3.6,3.6,2026-08-02 11:50:55
-Thu Jul 30 2026,19:30,USD,Low,Real Personal Spending MoM,0.4,-,0.4,2026-08-02 11:50:55
-Thu Jul 30 2026,20:20,USD,Low,NY Fed Bill Purchases 1 to 4 months,-,5.179,-,2026-08-02 11:50:55
-Thu Jul 30 2026,21:30,USD,Low,EIA Natural Gas Stocks Change,28,35,32,2026-08-02 11:50:55
-Thu Jul 30 2026,22:30,USD,Low,8-Week Bill Auction,3.675,-,3.795,2026-08-02 11:50:55
-Thu Jul 30 2026,22:30,USD,Low,4-Week Bill Auction,3.63,-,3.73,2026-08-02 11:50:55
-Thu Jul 30 2026,23:00,USD,Low,30-Year Mortgage Rate,6.66,-,6.58,2026-08-02 11:50:55
-Thu Jul 30 2026,23:00,USD,Low,15-Year Mortgage Rate,6.04,-,5.96,2026-08-02 11:50:55
-Fri Jul 31 2026,03:30,USD,Low,Fed Balance Sheet,6.738,-,6.747,2026-08-02 11:50:55
-Fri Jul 31 2026,19:30,USD,Medium,Employment Cost - Wages QoQ,0.9,-,0.8,2026-08-02 11:50:55
-Fri Jul 31 2026,19:30,USD,Medium,Employment Cost - Benefits QoQ,1,-,1.2,2026-08-02 11:50:55
-Fri Jul 31 2026,19:30,USD,Medium,Employment Cost Index QoQ,0.9,0.8,0.9,2026-08-02 11:50:55
-Fri Jul 31 2026,20:45,USD,Medium,Chicago PMI,57.6,56,56.7,2026-08-02 11:50:55
-Fri Jul 31 2026,21:00,USD,Low,Michigan Current Conditions Final,54.8,-,47.7,2026-08-02 11:50:55
-Fri Jul 31 2026,21:00,USD,Medium,Michigan Consumer Sentiment Final,55.2,54,49.5,2026-08-02 11:50:55
-Fri Jul 31 2026,21:00,USD,Low,Michigan Inflation Expectations Final,4.2,-,4.6,2026-08-02 11:50:55
-Fri Jul 31 2026,21:00,USD,Low,Michigan Consumer Expectations Final,55.4,-,50.7,2026-08-02 11:50:55
-Fri Jul 31 2026,21:00,USD,Low,Michigan 5 Year Inflation Expectations Final,3.3,-,3.3,2026-08-02 11:50:55
-Sat Aug 1 2026,00:00,USD,Low,Baker Hughes Total Rigs Count,588,-,587,2026-08-02 11:50:55
-Sat Aug 1 2026,00:00,USD,Low,Baker Hughes Oil Rig Count,451,-,450,2026-08-02 11:50:55
-Mon Aug 3 2026,20:45,USD,Low,S&P Global Manufacturing PMI Final,-,53.8,53.9,2026-08-02 11:50:55
-Mon Aug 3 2026,21:00,USD,Low,ISM Manufacturing Prices,-,70,73,2026-08-02 11:50:55
-Mon Aug 3 2026,21:00,USD,High,ISM Manufacturing PMI,-,54,53.3,2026-08-02 11:50:55
-Mon Aug 3 2026,21:00,USD,Low,ISM Manufacturing New Orders,-,-,56,2026-08-02 11:50:55
-Mon Aug 3 2026,21:00,USD,Medium,ISM Manufacturing Employment,-,-,49.7,2026-08-02 11:50:55
-Mon Aug 3 2026,21:00,USD,Low,Construction Spending MoM,-,0.2,0.1,2026-08-02 11:50:55
-Mon Aug 3 2026,22:30,USD,Low,3-Month Bill Auction,-,-,3.815,2026-08-02 11:50:55
-Mon Aug 3 2026,22:30,USD,Low,6-Month Bill Auction,-,-,3.945,2026-08-02 11:50:55
-Tue Aug 4 2026,01:00,USD,Low,Loan Officer Survey,-,-,-,2026-08-02 11:50:55
-Tue Aug 4 2026,02:00,USD,Low,Treasury Refunding Financing Estimates,-,-,-,2026-08-02 11:50:55
-Tue Aug 4 2026,17:00,USD,Low,LMI Logistics Managers Index,-,-,71.1,2026-08-02 11:50:55
-Tue Aug 4 2026,19:30,USD,Medium,Imports,-,-,395.3,2026-08-02 11:50:55
-Tue Aug 4 2026,19:30,USD,Medium,Balance of Trade,-,-73,-77.6,2026-08-02 11:50:55
-Tue Aug 4 2026,19:30,USD,Medium,Exports,-,-,317.7,2026-08-02 11:50:55
-Tue Aug 4 2026,19:55,USD,Low,Redbook YoY,-,-,8.3,2026-08-02 11:50:55
-Tue Aug 4 2026,20:20,USD,Low,NY Fed Bill Purchases 1 to 4 months,-,5.179,-,2026-08-02 11:50:55
-Tue Aug 4 2026,21:00,USD,Low,JOLTs Job Quits,-,-,3.065,2026-08-02 11:50:55
-Tue Aug 4 2026,21:00,USD,Low,RCM/TIPP Economic Optimism Index,-,47.5,45.5,2026-08-02 11:50:55
-Tue Aug 4 2026,21:00,USD,Low,Factory Orders ex Transportation,-,-,1.9,2026-08-02 11:50:55
-Tue Aug 4 2026,21:00,USD,Medium,Factory Orders MoM,-,0.5,-1.3,2026-08-02 11:50:55
-Tue Aug 4 2026,21:00,USD,High,JOLTs Job Openings,-,7.25,7.594,2026-08-02 11:50:55
-Tue Aug 4 2026,22:30,USD,Low,52-Week Bill Auction,-,-,3.86,2026-08-02 11:50:55
-Tue Aug 4 2026,22:30,USD,Low,6-Week Bill Auction,-,-,3.7,2026-08-02 11:50:55
-Wed Aug 5 2026,01:00,USD,Low,Total Vehicle Sales,-,-,16.5,2026-08-02 11:50:55
-Wed Aug 5 2026,03:30,USD,Medium,API Crude Oil Stock Change,-,-,3.296,2026-08-02 11:50:55
-Wed Aug 5 2026,18:00,USD,Low,MBA Mortgage Applications,-,-,-6.4,2026-08-02 11:50:55
-Wed Aug 5 2026,18:00,USD,Low,MBA Purchase Index,-,-,159.8,2026-08-02 11:50:55
-Wed Aug 5 2026,18:00,USD,Medium,MBA 30-Year Mortgage Rate,-,-,6.76,2026-08-02 11:50:55
-Wed Aug 5 2026,18:00,USD,Low,MBA Mortgage Market Index,-,-,247.2,2026-08-02 11:50:55
-Wed Aug 5 2026,18:00,USD,Low,MBA Mortgage Refinance Index,-,-,723.1,2026-08-02 11:50:55
-Wed Aug 5 2026,19:15,USD,Medium,ADP Employment Change,-,75,98,2026-08-02 11:50:55
-Wed Aug 5 2026,19:30,USD,Low,Treasury Refunding Announcement,-,-,-,2026-08-02 11:50:55
-Wed Aug 5 2026,20:45,USD,Low,S&P Global Services PMI Final,-,53.6,51.2,2026-08-02 11:50:55
-Wed Aug 5 2026,20:45,USD,Low,S&P Global Composite PMI Final,-,53.6,51.9,2026-08-02 11:50:55
-Wed Aug 5 2026,21:00,USD,Low,ISM Services Prices,-,-,67.7,2026-08-02 11:50:55
-Wed Aug 5 2026,21:00,USD,Low,ISM Services Business Activity,-,-,55.4,2026-08-02 11:50:55
-Wed Aug 5 2026,21:00,USD,High,ISM Services PMI,-,54.2,54,2026-08-02 11:50:55
-Wed Aug 5 2026,21:00,USD,Low,ISM Services Employment,-,-,51.2,2026-08-02 11:50:55
-Wed Aug 5 2026,21:00,USD,Low,ISM Services New Orders,-,-,55.1,2026-08-02 11:50:55
-Wed Aug 5 2026,21:30,USD,Low,EIA Distillate Stocks Change,-,-,1.062,2026-08-02 11:50:55
-Wed Aug 5 2026,21:30,USD,Low,EIA Crude Oil Imports Change,-,-,-0.237,2026-08-02 11:50:55
-Wed Aug 5 2026,21:30,USD,Low,EIA Distillate Fuel Production Change,-,-,0.015,2026-08-02 11:50:55
-Wed Aug 5 2026,21:30,USD,Low,EIA Heating Oil Stocks Change,-,-,0.308,2026-08-02 11:50:55
-Wed Aug 5 2026,21:30,USD,Medium,EIA Gasoline Stocks Change,-,-,0.007,2026-08-02 11:50:55
-Wed Aug 5 2026,21:30,USD,Low,EIA Cushing Crude Oil Stocks Change,-,-,-0.771,2026-08-02 11:50:55
-Wed Aug 5 2026,21:30,USD,Medium,EIA Crude Oil Stocks Change,-,-,-7.167,2026-08-02 11:50:55
-Wed Aug 5 2026,21:30,USD,Low,EIA Refinery Crude Runs Change,-,-,0.271,2026-08-02 11:50:55
-Wed Aug 5 2026,21:30,USD,Low,EIA Gasoline Production Change,-,-,0.178,2026-08-02 11:50:55
-Wed Aug 5 2026,22:30,USD,Low,17-Week Bill Auction,-,-,3.875,2026-08-02 11:50:55
-Thu Aug 6 2026,03:05,USD,Medium,Fed Cook Speech,-,-,-,2026-08-02 11:50:55
-Thu Aug 6 2026,16:30,USD,Low,Challenger Job Cuts,-,-,45.849,2026-08-02 11:50:55
-Thu Aug 6 2026,19:30,USD,Low,Continuing Jobless Claims,-,-,1782,2026-08-02 11:50:55
-Thu Aug 6 2026,19:30,USD,Low,Jobless Claims 4-week Average,-,-,202.75,2026-08-02 11:50:55
-Thu Aug 6 2026,19:30,USD,Medium,Initial Jobless Claims,-,200,197,2026-08-02 11:50:55
-Thu Aug 6 2026,19:30,USD,Medium,Unit Labour Costs QoQ Prel,-,2.7,1.8,2026-08-02 11:50:55
-Thu Aug 6 2026,19:30,USD,Medium,Nonfarm Productivity QoQ Prel,-,0.7,0.3,2026-08-02 11:50:55
-Thu Aug 6 2026,20:20,USD,Low,NY Fed Bill Purchases 4 to 12 months,-,3.453,-,2026-08-02 11:50:55
-Thu Aug 6 2026,21:00,USD,Low,Wholesale Inventories MoM,-,0.3,0.3,2026-08-02 11:50:55
-Thu Aug 6 2026,21:30,USD,Low,EIA Natural Gas Stocks Change,-,-,28,2026-08-02 11:50:55
-Thu Aug 6 2026,22:30,USD,Low,4-Week Bill Auction,-,-,3.63,2026-08-02 11:50:55
-Thu Aug 6 2026,22:30,USD,Low,8-Week Bill Auction,-,-,3.675,2026-08-02 11:50:55
-Thu Aug 6 2026,23:00,USD,Low,30-Year Mortgage Rate,-,-,6.66,2026-08-02 11:50:55
-Thu Aug 6 2026,23:00,USD,Low,15-Year Mortgage Rate,-,-,6.04,2026-08-02 11:50:55
-Fri Aug 7 2026,03:30,USD,Low,Fed Balance Sheet,-,-,6.738,2026-08-02 11:50:55
-Fri Aug 7 2026,04:30,USD,Medium,Fed Musalem Speech,-,-,-,2026-08-02 11:50:55
-Fri Aug 7 2026,19:30,USD,Medium,Participation Rate,-,-,61.5,2026-08-02 11:50:55
-Fri Aug 7 2026,19:30,USD,High,Non Farm Payrolls,-,91,57,2026-08-02 11:50:55
-Fri Aug 7 2026,19:30,USD,Low,Government Payrolls,-,-,8,2026-08-02 11:50:55
-Fri Aug 7 2026,19:30,USD,Low,Nonfarm Payrolls Private,-,-,49,2026-08-02 11:50:55
-Fri Aug 7 2026,19:30,USD,Medium,Average Hourly Earnings YoY,-,-,3.5,2026-08-02 11:50:55
-Fri Aug 7 2026,19:30,USD,High,Unemployment Rate,-,4.3,4.2,2026-08-02 11:50:55
-Fri Aug 7 2026,19:30,USD,Medium,Average Hourly Earnings MoM,-,0.3,0.3,2026-08-02 11:50:55
-Fri Aug 7 2026,19:30,USD,Low,U-6 Unemployment Rate,-,-,7.9,2026-08-02 11:50:55
-Fri Aug 7 2026,19:30,USD,Low,Average Weekly Hours,-,-,34.3,2026-08-02 11:50:55
-Fri Aug 7 2026,19:30,USD,Low,Manufacturing Payrolls,-,-,3,2026-08-02 11:50:55
-Fri Aug 7 2026,20:00,USD,Low,Used Car Prices YoY,-,-,2.1,2026-08-02 11:50:55
-Fri Aug 7 2026,20:00,USD,Low,Used Car Prices MoM,-,-,0.1,2026-08-02 11:50:55
-Fri Aug 7 2026,21:00,USD,Medium,Fed Barkin Speech,-,-,-,2026-08-02 11:50:55
-Fri Aug 7 2026,22:00,USD,Low,Consumer Inflation Expectations,-,-,3.7,2026-08-02 11:50:55
-Sat Aug 8 2026,00:00,USD,Low,Baker Hughes Total Rigs Count,-,-,588,2026-08-02 11:50:55
-Sat Aug 8 2026,00:00,USD,Low,Baker Hughes Oil Rig Count,-,-,451,2026-08-02 11:50:55
-Sat Aug 8 2026,02:00,USD,Low,Consumer Credit Change,-,12.1,-0.18,2026-08-02 11:50:55
+Mon Jul 27 2026,19:30,USD,Low,Durable Goods Orders ex Defense MoM,0.3,-,-4.3,2026-08-02 12:51:30
+Mon Jul 27 2026,19:30,USD,High,Durable Goods Orders MoM,0.3,2.5,-4,2026-08-02 12:51:30
+Mon Jul 27 2026,19:30,USD,Low,Non Defense Goods Orders Ex Air,0.9,0.8,1.9,2026-08-02 12:51:30
+Mon Jul 27 2026,19:30,USD,Medium,Durable Goods Orders Ex Transp MoM,0.6,0.8,1.8,2026-08-02 12:51:30
+Mon Jul 27 2026,21:30,USD,Medium,Dallas Fed Manufacturing Index,1.3,-,0,2026-08-02 12:51:30
+Mon Jul 27 2026,22:30,USD,Low,6-Month Bill Auction,3.945,-,3.835,2026-08-02 12:51:30
+Mon Jul 27 2026,22:30,USD,Low,2-Year Note Auction,4.315,-,4.189,2026-08-02 12:51:30
+Tue Jul 28 2026,00:00,USD,Low,3-Month Bill Auction,3.815,-,3.73,2026-08-02 12:51:30
+Tue Jul 28 2026,00:00,USD,Low,5-Year Note Auction,4.408,-,4.2,2026-08-02 12:51:30
+Tue Jul 28 2026,19:15,USD,Medium,ADP Employment Change Weekly,15,-,16.25,2026-08-02 12:51:30
+Tue Jul 28 2026,19:30,USD,Medium,Retail Inventories Ex Autos MoM Adv,-0.2,-,0.2,2026-08-02 12:51:30
+Tue Jul 28 2026,19:30,USD,Medium,Goods Trade Balance Adv,-101.5,-100,-105.89,2026-08-02 12:51:30
+Tue Jul 28 2026,19:30,USD,Medium,Wholesale Inventories MoM Adv,0.3,0.2,0.3,2026-08-02 12:51:30
+Tue Jul 28 2026,19:55,USD,Low,Redbook YoY,8.3,-,7.8,2026-08-02 12:51:30
+Tue Jul 28 2026,20:00,USD,Low,S&P/Case-Shiller Home Price MoM,0.9,-,1,2026-08-02 12:51:30
+Tue Jul 28 2026,20:00,USD,Medium,S&P/Case-Shiller Home Price YoY,1.6,1.3,1.2,2026-08-02 12:51:30
+Tue Jul 28 2026,20:00,USD,Low,House Price Index MoM,0.3,0.2,-0.1,2026-08-02 12:51:30
+Tue Jul 28 2026,20:00,USD,Low,House Price Index,442.4,-,441.3,2026-08-02 12:51:30
+Tue Jul 28 2026,20:00,USD,Low,House Price Index YoY,2.2,-,2,2026-08-02 12:51:30
+Tue Jul 28 2026,21:00,USD,Low,Richmond Fed Manufacturing Shipments Index,8,-,4,2026-08-02 12:51:30
+Tue Jul 28 2026,21:00,USD,Low,Richmond Fed Manufacturing Index,5,10,4,2026-08-02 12:51:30
+Tue Jul 28 2026,21:00,USD,Low,Richmond Fed Services Revenues Index,-3,-,0,2026-08-02 12:51:30
+Tue Jul 28 2026,21:00,USD,Medium,CB Consumer Confidence,90.8,92.3,92.2,2026-08-02 12:51:30
+Tue Jul 28 2026,21:30,USD,Low,Dallas Fed Services Revenues Index,9.5,-,9.8,2026-08-02 12:51:30
+Tue Jul 28 2026,21:30,USD,Low,Dallas Fed Services Index,6.6,-,2.9,2026-08-02 12:51:30
+Tue Jul 28 2026,22:30,USD,Low,6-Week Bill Auction,3.7,-,3.65,2026-08-02 12:51:30
+Wed Jul 29 2026,00:00,USD,Low,Money Supply,23.15,-,23.05,2026-08-02 12:51:30
+Wed Jul 29 2026,00:00,USD,Low,7-Year Note Auction,4.473,-,4.26,2026-08-02 12:51:30
+Wed Jul 29 2026,03:50,USD,Medium,API Crude Oil Stock Change,3.296,-2.5,2.603,2026-08-02 12:51:30
+Wed Jul 29 2026,18:00,USD,Low,MBA Mortgage Refinance Index,723.1,-,802.3,2026-08-02 12:51:30
+Wed Jul 29 2026,18:00,USD,Low,MBA Mortgage Market Index,247.2,-,264,2026-08-02 12:51:30
+Wed Jul 29 2026,18:00,USD,Low,MBA Mortgage Applications,-6.4,-,1.9,2026-08-02 12:51:30
+Wed Jul 29 2026,18:00,USD,Low,MBA Purchase Index,159.8,-,165.8,2026-08-02 12:51:30
+Wed Jul 29 2026,18:00,USD,Medium,MBA 30-Year Mortgage Rate,6.76,-,6.69,2026-08-02 12:51:30
+Wed Jul 29 2026,21:30,USD,Medium,EIA Crude Oil Stocks Change,-7.167,-1.3,2.011,2026-08-02 12:51:30
+Wed Jul 29 2026,21:30,USD,Low,EIA Gasoline Production Change,0.178,-,0.06,2026-08-02 12:51:30
+Wed Jul 29 2026,21:30,USD,Low,EIA Distillate Stocks Change,1.062,0.2,1.395,2026-08-02 12:51:30
+Wed Jul 29 2026,21:30,USD,Low,EIA Refinery Crude Runs Change,0.271,-,-0.058,2026-08-02 12:51:30
+Wed Jul 29 2026,21:30,USD,Low,EIA Distillate Fuel Production Change,0.015,-,0.09,2026-08-02 12:51:30
+Wed Jul 29 2026,21:30,USD,Low,EIA Cushing Crude Oil Stocks Change,-0.771,-,-0.674,2026-08-02 12:51:30
+Wed Jul 29 2026,21:30,USD,Medium,EIA Gasoline Stocks Change,0.007,-0.7,0.765,2026-08-02 12:51:30
+Wed Jul 29 2026,21:30,USD,Low,EIA Heating Oil Stocks Change,0.308,-,0.231,2026-08-02 12:51:30
+Wed Jul 29 2026,21:30,USD,Low,EIA Crude Oil Imports Change,-0.237,-,0.485,2026-08-02 12:51:30
+Wed Jul 29 2026,22:30,USD,Low,2-Year FRN Auction,0.05,-,0.079,2026-08-02 12:51:30
+Wed Jul 29 2026,22:30,USD,Low,17-Week Bill Auction,3.875,-,3.845,2026-08-02 12:51:30
+Thu Jul 30 2026,01:00,USD,High,Fed Interest Rate Decision,3.75,3.75,3.75,2026-08-02 12:51:30
+Thu Jul 30 2026,01:30,USD,High,Fed Press Conference,-,-,-,2026-08-02 12:51:30
+Thu Jul 30 2026,19:30,USD,Medium,Initial Jobless Claims,197,200,188,2026-08-02 12:51:30
+Thu Jul 30 2026,19:30,USD,Low,Jobless Claims 4-week Average,202.75,-,207.75,2026-08-02 12:51:30
+Thu Jul 30 2026,19:30,USD,Low,Continuing Jobless Claims,1782,1800,1789,2026-08-02 12:51:30
+Thu Jul 30 2026,19:30,USD,Low,Core PCE Prices QoQ Adv,3.4,3.5,4.4,2026-08-02 12:51:30
+Thu Jul 30 2026,19:30,USD,Low,GDP Sales QoQ Adv,2.2,-,1.9,2026-08-02 12:51:30
+Thu Jul 30 2026,19:30,USD,High,GDP Growth Rate QoQ Adv,1.5,2.1,2.1,2026-08-02 12:51:30
+Thu Jul 30 2026,19:30,USD,High,Personal Spending MoM,0.3,0.3,0.9,2026-08-02 12:51:30
+Thu Jul 30 2026,19:30,USD,Low,Core PCE Price Index YoY,3.3,3.3,3.4,2026-08-02 12:51:30
+Thu Jul 30 2026,19:30,USD,High,Core PCE Price Index MoM,0.1,0.2,0.3,2026-08-02 12:51:30
+Thu Jul 30 2026,19:30,USD,Low,PCE Prices QoQ Adv,5.1,-,4.6,2026-08-02 12:51:30
+Thu Jul 30 2026,19:30,USD,Low,Real Consumer Spending QoQ Adv,3.2,-,0.5,2026-08-02 12:51:30
+Thu Jul 30 2026,19:30,USD,High,Personal Income MoM,0.2,0.3,0.7,2026-08-02 12:51:30
+Thu Jul 30 2026,19:30,USD,Medium,PCE Price Index MoM,-0.1,-0.1,0.5,2026-08-02 12:51:30
+Thu Jul 30 2026,19:30,USD,Medium,PCE Price Index YoY,3.7,3.7,4.1,2026-08-02 12:51:30
+Thu Jul 30 2026,19:30,USD,Medium,GDP Price Index QoQ Adv,6.3,3.6,3.6,2026-08-02 12:51:30
+Thu Jul 30 2026,19:30,USD,Low,Real Personal Spending MoM,0.4,-,0.4,2026-08-02 12:51:30
+Thu Jul 30 2026,20:20,USD,Low,NY Fed Bill Purchases 1 to 4 months,-,5.179,-,2026-08-02 12:51:30
+Thu Jul 30 2026,21:30,USD,Low,EIA Natural Gas Stocks Change,28,35,32,2026-08-02 12:51:30
+Thu Jul 30 2026,22:30,USD,Low,8-Week Bill Auction,3.675,-,3.795,2026-08-02 12:51:30
+Thu Jul 30 2026,22:30,USD,Low,4-Week Bill Auction,3.63,-,3.73,2026-08-02 12:51:30
+Thu Jul 30 2026,23:00,USD,Low,30-Year Mortgage Rate,6.66,-,6.58,2026-08-02 12:51:30
+Thu Jul 30 2026,23:00,USD,Low,15-Year Mortgage Rate,6.04,-,5.96,2026-08-02 12:51:30
+Fri Jul 31 2026,03:30,USD,Low,Fed Balance Sheet,6.738,-,6.747,2026-08-02 12:51:30
+Fri Jul 31 2026,19:30,USD,Medium,Employment Cost - Wages QoQ,0.9,-,0.8,2026-08-02 12:51:30
+Fri Jul 31 2026,19:30,USD,Medium,Employment Cost - Benefits QoQ,1,-,1.2,2026-08-02 12:51:30
+Fri Jul 31 2026,19:30,USD,Medium,Employment Cost Index QoQ,0.9,0.8,0.9,2026-08-02 12:51:30
+Fri Jul 31 2026,20:45,USD,Medium,Chicago PMI,57.6,56,56.7,2026-08-02 12:51:30
+Fri Jul 31 2026,21:00,USD,Low,Michigan Current Conditions Final,54.8,-,47.7,2026-08-02 12:51:30
+Fri Jul 31 2026,21:00,USD,Medium,Michigan Consumer Sentiment Final,55.2,54,49.5,2026-08-02 12:51:30
+Fri Jul 31 2026,21:00,USD,Low,Michigan Inflation Expectations Final,4.2,-,4.6,2026-08-02 12:51:30
+Fri Jul 31 2026,21:00,USD,Low,Michigan Consumer Expectations Final,55.4,-,50.7,2026-08-02 12:51:30
+Fri Jul 31 2026,21:00,USD,Low,Michigan 5 Year Inflation Expectations Final,3.3,-,3.3,2026-08-02 12:51:30
+Sat Aug 1 2026,00:00,USD,Low,Baker Hughes Total Rigs Count,588,-,587,2026-08-02 12:51:30
+Sat Aug 1 2026,00:00,USD,Low,Baker Hughes Oil Rig Count,451,-,450,2026-08-02 12:51:30
+Mon Aug 3 2026,20:45,USD,Low,S&P Global Manufacturing PMI Final,-,53.8,53.9,2026-08-02 12:51:30
+Mon Aug 3 2026,21:00,USD,Low,ISM Manufacturing Prices,-,70,73,2026-08-02 12:51:30
+Mon Aug 3 2026,21:00,USD,High,ISM Manufacturing PMI,-,54,53.3,2026-08-02 12:51:30
+Mon Aug 3 2026,21:00,USD,Low,ISM Manufacturing New Orders,-,-,56,2026-08-02 12:51:30
+Mon Aug 3 2026,21:00,USD,Medium,ISM Manufacturing Employment,-,-,49.7,2026-08-02 12:51:30
+Mon Aug 3 2026,21:00,USD,Low,Construction Spending MoM,-,0.2,0.1,2026-08-02 12:51:30
+Mon Aug 3 2026,22:30,USD,Low,3-Month Bill Auction,-,-,3.815,2026-08-02 12:51:30
+Mon Aug 3 2026,22:30,USD,Low,6-Month Bill Auction,-,-,3.945,2026-08-02 12:51:30
+Tue Aug 4 2026,01:00,USD,Low,Loan Officer Survey,-,-,-,2026-08-02 12:51:30
+Tue Aug 4 2026,02:00,USD,Low,Treasury Refunding Financing Estimates,-,-,-,2026-08-02 12:51:30
+Tue Aug 4 2026,17:00,USD,Low,LMI Logistics Managers Index,-,-,71.1,2026-08-02 12:51:30
+Tue Aug 4 2026,19:30,USD,Medium,Imports,-,-,395.3,2026-08-02 12:51:30
+Tue Aug 4 2026,19:30,USD,Medium,Balance of Trade,-,-73,-77.6,2026-08-02 12:51:30
+Tue Aug 4 2026,19:30,USD,Medium,Exports,-,-,317.7,2026-08-02 12:51:30
+Tue Aug 4 2026,19:55,USD,Low,Redbook YoY,-,-,8.3,2026-08-02 12:51:30
+Tue Aug 4 2026,20:20,USD,Low,NY Fed Bill Purchases 1 to 4 months,-,5.179,-,2026-08-02 12:51:30
+Tue Aug 4 2026,21:00,USD,Low,JOLTs Job Quits,-,-,3.065,2026-08-02 12:51:30
+Tue Aug 4 2026,21:00,USD,Low,RCM/TIPP Economic Optimism Index,-,47.5,45.5,2026-08-02 12:51:30
+Tue Aug 4 2026,21:00,USD,Low,Factory Orders ex Transportation,-,-,1.9,2026-08-02 12:51:30
+Tue Aug 4 2026,21:00,USD,Medium,Factory Orders MoM,-,0.5,-1.3,2026-08-02 12:51:30
+Tue Aug 4 2026,21:00,USD,High,JOLTs Job Openings,-,7.25,7.594,2026-08-02 12:51:30
+Tue Aug 4 2026,22:30,USD,Low,52-Week Bill Auction,-,-,3.86,2026-08-02 12:51:30
+Tue Aug 4 2026,22:30,USD,Low,6-Week Bill Auction,-,-,3.7,2026-08-02 12:51:30
+Wed Aug 5 2026,01:00,USD,Low,Total Vehicle Sales,-,-,16.5,2026-08-02 12:51:30
+Wed Aug 5 2026,03:30,USD,Medium,API Crude Oil Stock Change,-,-,3.296,2026-08-02 12:51:30
+Wed Aug 5 2026,18:00,USD,Low,MBA Mortgage Applications,-,-,-6.4,2026-08-02 12:51:30
+Wed Aug 5 2026,18:00,USD,Low,MBA Purchase Index,-,-,159.8,2026-08-02 12:51:30
+Wed Aug 5 2026,18:00,USD,Medium,MBA 30-Year Mortgage Rate,-,-,6.76,2026-08-02 12:51:30
+Wed Aug 5 2026,18:00,USD,Low,MBA Mortgage Market Index,-,-,247.2,2026-08-02 12:51:30
+Wed Aug 5 2026,18:00,USD,Low,MBA Mortgage Refinance Index,-,-,723.1,2026-08-02 12:51:30
+Wed Aug 5 2026,19:15,USD,Medium,ADP Employment Change,-,75,98,2026-08-02 12:51:30
+Wed Aug 5 2026,19:30,USD,Low,Treasury Refunding Announcement,-,-,-,2026-08-02 12:51:30
+Wed Aug 5 2026,20:45,USD,Low,S&P Global Services PMI Final,-,53.6,51.2,2026-08-02 12:51:30
+Wed Aug 5 2026,20:45,USD,Low,S&P Global Composite PMI Final,-,53.6,51.9,2026-08-02 12:51:30
+Wed Aug 5 2026,21:00,USD,Low,ISM Services Prices,-,-,67.7,2026-08-02 12:51:30
+Wed Aug 5 2026,21:00,USD,Low,ISM Services Business Activity,-,-,55.4,2026-08-02 12:51:30
+Wed Aug 5 2026,21:00,USD,High,ISM Services PMI,-,54.2,54,2026-08-02 12:51:30
+Wed Aug 5 2026,21:00,USD,Low,ISM Services Employment,-,-,51.2,2026-08-02 12:51:30
+Wed Aug 5 2026,21:00,USD,Low,ISM Services New Orders,-,-,55.1,2026-08-02 12:51:30
+Wed Aug 5 2026,21:30,USD,Low,EIA Distillate Stocks Change,-,-,1.062,2026-08-02 12:51:30
+Wed Aug 5 2026,21:30,USD,Low,EIA Crude Oil Imports Change,-,-,-0.237,2026-08-02 12:51:30
+Wed Aug 5 2026,21:30,USD,Low,EIA Distillate Fuel Production Change,-,-,0.015,2026-08-02 12:51:30
+Wed Aug 5 2026,21:30,USD,Low,EIA Heating Oil Stocks Change,-,-,0.308,2026-08-02 12:51:30
+Wed Aug 5 2026,21:30,USD,Medium,EIA Gasoline Stocks Change,-,-,0.007,2026-08-02 12:51:30
+Wed Aug 5 2026,21:30,USD,Low,EIA Cushing Crude Oil Stocks Change,-,-,-0.771,2026-08-02 12:51:30
+Wed Aug 5 2026,21:30,USD,Medium,EIA Crude Oil Stocks Change,-,-,-7.167,2026-08-02 12:51:30
+Wed Aug 5 2026,21:30,USD,Low,EIA Refinery Crude Runs Change,-,-,0.271,2026-08-02 12:51:30
+Wed Aug 5 2026,21:30,USD,Low,EIA Gasoline Production Change,-,-,0.178,2026-08-02 12:51:30
+Wed Aug 5 2026,22:30,USD,Low,17-Week Bill Auction,-,-,3.875,2026-08-02 12:51:30
+Thu Aug 6 2026,03:05,USD,Medium,Fed Cook Speech,-,-,-,2026-08-02 12:51:30
+Thu Aug 6 2026,16:30,USD,Low,Challenger Job Cuts,-,-,45.849,2026-08-02 12:51:30
+Thu Aug 6 2026,19:30,USD,Low,Continuing Jobless Claims,-,-,1782,2026-08-02 12:51:30
+Thu Aug 6 2026,19:30,USD,Low,Jobless Claims 4-week Average,-,-,202.75,2026-08-02 12:51:30
+Thu Aug 6 2026,19:30,USD,Medium,Initial Jobless Claims,-,200,197,2026-08-02 12:51:30
+Thu Aug 6 2026,19:30,USD,Medium,Unit Labour Costs QoQ Prel,-,2.7,1.8,2026-08-02 12:51:30
+Thu Aug 6 2026,19:30,USD,Medium,Nonfarm Productivity QoQ Prel,-,0.7,0.3,2026-08-02 12:51:30
+Thu Aug 6 2026,20:20,USD,Low,NY Fed Bill Purchases 4 to 12 months,-,3.453,-,2026-08-02 12:51:30
+Thu Aug 6 2026,21:00,USD,Low,Wholesale Inventories MoM,-,0.3,0.3,2026-08-02 12:51:30
+Thu Aug 6 2026,21:30,USD,Low,EIA Natural Gas Stocks Change,-,-,28,2026-08-02 12:51:30
+Thu Aug 6 2026,22:30,USD,Low,4-Week Bill Auction,-,-,3.63,2026-08-02 12:51:30
+Thu Aug 6 2026,22:30,USD,Low,8-Week Bill Auction,-,-,3.675,2026-08-02 12:51:30
+Thu Aug 6 2026,23:00,USD,Low,30-Year Mortgage Rate,-,-,6.66,2026-08-02 12:51:30
+Thu Aug 6 2026,23:00,USD,Low,15-Year Mortgage Rate,-,-,6.04,2026-08-02 12:51:30
+Fri Aug 7 2026,03:30,USD,Low,Fed Balance Sheet,-,-,6.738,2026-08-02 12:51:30
+Fri Aug 7 2026,04:30,USD,Medium,Fed Musalem Speech,-,-,-,2026-08-02 12:51:30
+Fri Aug 7 2026,19:30,USD,Medium,Participation Rate,-,-,61.5,2026-08-02 12:51:30
+Fri Aug 7 2026,19:30,USD,High,Non Farm Payrolls,-,91,57,2026-08-02 12:51:30
+Fri Aug 7 2026,19:30,USD,Low,Government Payrolls,-,-,8,2026-08-02 12:51:30
+Fri Aug 7 2026,19:30,USD,Low,Nonfarm Payrolls Private,-,-,49,2026-08-02 12:51:30
+Fri Aug 7 2026,19:30,USD,Medium,Average Hourly Earnings YoY,-,-,3.5,2026-08-02 12:51:30
+Fri Aug 7 2026,19:30,USD,High,Unemployment Rate,-,4.3,4.2,2026-08-02 12:51:30
+Fri Aug 7 2026,19:30,USD,Medium,Average Hourly Earnings MoM,-,0.3,0.3,2026-08-02 12:51:30
+Fri Aug 7 2026,19:30,USD,Low,U-6 Unemployment Rate,-,-,7.9,2026-08-02 12:51:30
+Fri Aug 7 2026,19:30,USD,Low,Average Weekly Hours,-,-,34.3,2026-08-02 12:51:30
+Fri Aug 7 2026,19:30,USD,Low,Manufacturing Payrolls,-,-,3,2026-08-02 12:51:30
+Fri Aug 7 2026,20:00,USD,Low,Used Car Prices YoY,-,-,2.1,2026-08-02 12:51:30
+Fri Aug 7 2026,20:00,USD,Low,Used Car Prices MoM,-,-,0.1,2026-08-02 12:51:30
+Fri Aug 7 2026,21:00,USD,Medium,Fed Barkin Speech,-,-,-,2026-08-02 12:51:30
+Fri Aug 7 2026,22:00,USD,Low,Consumer Inflation Expectations,-,-,3.7,2026-08-02 12:51:30
+Sat Aug 8 2026,00:00,USD,Low,Baker Hughes Total Rigs Count,-,-,588,2026-08-02 12:51:30
+Sat Aug 8 2026,00:00,USD,Low,Baker Hughes Oil Rig Count,-,-,451,2026-08-02 12:51:30
+Sat Aug 8 2026,02:00,USD,Low,Consumer Credit Change,-,12.1,-0.18,2026-08-02 12:51:30
