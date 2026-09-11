@@ -1,156 +1,157 @@
 Date,Time,Currency,Impact,Event,Actual,Forecast,Previous,Scrape_Time
-Fri Sep 4 2026,19:30,USD,Low,Government Payrolls,35,-,-50,2026-09-11 06:00:46
-Fri Sep 4 2026,19:30,USD,Low,Nonfarm Payrolls Private,127,45,71,2026-09-11 06:00:46
-Fri Sep 4 2026,19:30,USD,Low,Manufacturing Payrolls,16,5,14,2026-09-11 06:00:46
-Fri Sep 4 2026,19:30,USD,High,Unemployment Rate,4.1,4.1,4.1,2026-09-11 06:00:46
-Fri Sep 4 2026,19:30,USD,High,Non Farm Payrolls,162,56,21,2026-09-11 06:00:46
-Fri Sep 4 2026,19:30,USD,Medium,Participation Rate,61.6,-,61.4,2026-09-11 06:00:46
-Fri Sep 4 2026,19:30,USD,Medium,Average Hourly Earnings YoY,3.1,3,3.2,2026-09-11 06:00:46
-Fri Sep 4 2026,19:30,USD,Medium,Average Hourly Earnings MoM,0.3,0.3,0.2,2026-09-11 06:00:46
-Fri Sep 4 2026,19:30,USD,Low,Average Weekly Hours,34.4,34.3,34.3,2026-09-11 06:00:46
-Fri Sep 4 2026,19:30,USD,Low,U-6 Unemployment Rate,7.7,-,7.9,2026-09-11 06:00:46
-Sat Sep 5 2026,00:00,USD,Low,Baker Hughes Total Rigs Count,588,-,588,2026-09-11 06:00:46
-Sat Sep 5 2026,00:00,USD,Low,Baker Hughes Oil Rig Count,449,-,447,2026-09-11 06:00:46
-Mon Sep 7 2026,07:00,USD,Low,Labor Day,-,-,-,2026-09-11 06:00:46
-Tue Sep 8 2026,17:00,USD,Low,NFIB Business Optimism Index,98.7,99.3,99.8,2026-09-11 06:00:46
-Tue Sep 8 2026,20:00,USD,Low,Used Car Prices YoY,0.4,-,1.3,2026-09-11 06:00:46
-Tue Sep 8 2026,20:00,USD,Low,Used Car Prices MoM,-0.9,-,-1.4,2026-09-11 06:00:46
-Tue Sep 8 2026,22:00,USD,Low,Consumer Inflation Expectations,3.6,-,3.6,2026-09-11 06:00:46
-Tue Sep 8 2026,22:30,USD,Low,3-Month Bill Auction,3.8,-,3.77,2026-09-11 06:00:46
-Tue Sep 8 2026,22:30,USD,Low,6-Month Bill Auction,3.89,-,3.885,2026-09-11 06:00:46
-Wed Sep 9 2026,00:00,USD,Low,6-Week Bill Auction,3.74,-,3.735,2026-09-11 06:00:46
-Wed Sep 9 2026,00:00,USD,Low,3-Year Note Auction,4.474,-,4.291,2026-09-11 06:00:46
-Wed Sep 9 2026,02:00,USD,Low,Consumer Credit Change,18.06,11.7,14.56,2026-09-11 06:00:46
-Wed Sep 9 2026,18:00,USD,Low,MBA Purchase Index,157.5,-,157.8,2026-09-11 06:00:46
-Wed Sep 9 2026,18:00,USD,Medium,MBA 30-Year Mortgage Rate,6.85,-,6.79,2026-09-11 06:00:46
-Wed Sep 9 2026,18:00,USD,Low,MBA Mortgage Applications,-2.7,-,0.8,2026-09-11 06:00:46
-Wed Sep 9 2026,18:00,USD,Low,MBA Mortgage Refinance Index,687.3,-,732.6,2026-09-11 06:00:46
-Wed Sep 9 2026,18:00,USD,Low,MBA Mortgage Market Index,240.6,-,247.3,2026-09-11 06:00:46
-Wed Sep 9 2026,19:15,USD,Medium,ADP Employment Change Weekly,12,-,10,2026-09-11 06:00:46
-Wed Sep 9 2026,19:55,USD,Low,Redbook YoY,8.3,-,9.6,2026-09-11 06:00:46
-Wed Sep 9 2026,22:30,USD,Low,17-Week Bill Auction,3.895,-,3.855,2026-09-11 06:00:46
-Thu Sep 10 2026,00:00,USD,Low,10-Year Note Auction,4.834,-,4.683,2026-09-11 06:00:46
-Thu Sep 10 2026,04:00,USD,Medium,API Crude Oil Stock Change,-0.3,-1.3,-2.6,2026-09-11 06:00:46
-Thu Sep 10 2026,19:30,USD,Low,Jobless Claims 4-week Average,206,-,207.5,2026-09-11 06:00:46
-Thu Sep 10 2026,19:30,USD,High,PPI MoM,0.4,0.4,0.1,2026-09-11 06:00:46
-Thu Sep 10 2026,19:30,USD,Low,PPI,157.411,-,156.784,2026-09-11 06:00:46
-Thu Sep 10 2026,19:30,USD,Low,PPI YoY,5.4,5.3,4.8,2026-09-11 06:00:46
-Thu Sep 10 2026,19:30,USD,Low,Continuing Jobless Claims,1774,1780,1775,2026-09-11 06:00:46
-Thu Sep 10 2026,19:30,USD,Low,"PPI Ex Food, Energy and Trade YoY",4.7,-,4.7,2026-09-11 06:00:46
-Thu Sep 10 2026,19:30,USD,Low,Core PPI YoY,4.6,4.6,4.3,2026-09-11 06:00:46
-Thu Sep 10 2026,19:30,USD,Low,"PPI Ex Food, Energy and Trade MoM",0.3,-,0.4,2026-09-11 06:00:46
-Thu Sep 10 2026,19:30,USD,Medium,Initial Jobless Claims,206,205,207,2026-09-11 06:00:46
-Thu Sep 10 2026,19:30,USD,Medium,Core PPI MoM,0.2,0.3,0.3,2026-09-11 06:00:46
-Thu Sep 10 2026,20:20,USD,Low,NY Fed Bill Purchases 4 to 12 months,-,2.122,-,2026-09-11 06:00:46
-Thu Sep 10 2026,21:00,USD,High,Existing Home Sales,3.98,3.98,4.06,2026-09-11 06:00:46
-Thu Sep 10 2026,21:00,USD,Low,Wholesale Inventories MoM,1.3,1.3,0.4,2026-09-11 06:00:46
-Thu Sep 10 2026,21:00,USD,Medium,Existing Home Sales MoM,-2,-,-1.7,2026-09-11 06:00:46
-Thu Sep 10 2026,21:30,USD,Low,EIA Natural Gas Stocks Change,40,31,30,2026-09-11 06:00:46
-Thu Sep 10 2026,22:30,USD,Low,4-Week Bill Auction,3.775,-,3.7,2026-09-11 06:00:46
-Thu Sep 10 2026,22:30,USD,Low,8-Week Bill Auction,3.845,-,3.75,2026-09-11 06:00:46
-Thu Sep 10 2026,23:00,USD,Low,EIA Heating Oil Stocks Change,0.01,-,-0.033,2026-09-11 06:00:46
-Thu Sep 10 2026,23:00,USD,Low,EIA Gasoline Production Change,-0.537,-,0.073,2026-09-11 06:00:46
-Thu Sep 10 2026,23:00,USD,Medium,EIA Crude Oil Stocks Change,-0.391,-1.6,-4.45,2026-09-11 06:00:46
-Thu Sep 10 2026,23:00,USD,Medium,EIA Gasoline Stocks Change,1.269,-1.4,-1.173,2026-09-11 06:00:46
-Thu Sep 10 2026,23:00,USD,Low,EIA Refinery Crude Runs Change,0.09,-,0.103,2026-09-11 06:00:46
-Thu Sep 10 2026,23:00,USD,Low,EIA Cushing Crude Oil Stocks Change,-0.684,-,0.08,2026-09-11 06:00:46
-Thu Sep 10 2026,23:00,USD,Low,EIA Distillate Fuel Production Change,0.222,-,-0.009,2026-09-11 06:00:46
-Thu Sep 10 2026,23:00,USD,Low,EIA Distillate Stocks Change,2.087,-0.7,0.796,2026-09-11 06:00:46
-Thu Sep 10 2026,23:00,USD,Low,EIA Crude Oil Imports Change,1.12,-,-0.079,2026-09-11 06:00:46
-Thu Sep 10 2026,23:00,USD,Low,15-Year Mortgage Rate,6.09,-,6.04,2026-09-11 06:00:46
-Thu Sep 10 2026,23:00,USD,Low,30-Year Mortgage Rate,6.76,-,6.71,2026-09-11 06:00:46
-Fri Sep 11 2026,00:00,USD,Low,30-Year Bond Auction,5.308,-,5.216,2026-09-11 06:00:46
-Fri Sep 11 2026,03:30,USD,Low,Fed Balance Sheet,6.741,-,6.737,2026-09-11 06:00:46
-Fri Sep 11 2026,19:30,USD,High,Inflation Rate MoM,-,0.4,0.1,2026-09-11 06:00:46
-Fri Sep 11 2026,19:30,USD,High,Inflation Rate YoY,-,3.4,3.4,2026-09-11 06:00:46
-Fri Sep 11 2026,19:30,USD,High,Core Inflation Rate YoY,-,2.4,2.5,2026-09-11 06:00:46
-Fri Sep 11 2026,19:30,USD,Medium,CPI,-,334.85,333.92,2026-09-11 06:00:46
-Fri Sep 11 2026,19:30,USD,Medium,CPI s.a,-,-,332.81,2026-09-11 06:00:46
-Fri Sep 11 2026,19:30,USD,High,Core Inflation Rate MoM,-,0.2,0.2,2026-09-11 06:00:46
-Fri Sep 11 2026,21:00,USD,Low,Michigan 5 Year Inflation Expectations Prel,-,-,3.3,2026-09-11 06:00:46
-Fri Sep 11 2026,21:00,USD,Low,Michigan Consumer Expectations Prel,-,50.5,51.5,2026-09-11 06:00:46
-Fri Sep 11 2026,21:00,USD,Low,Michigan Inflation Expectations Prel,-,-,4,2026-09-11 06:00:46
-Fri Sep 11 2026,21:00,USD,High,Michigan Consumer Sentiment Prel,-,51,51.7,2026-09-11 06:00:46
-Fri Sep 11 2026,21:00,USD,Low,Michigan Current Conditions Prel,-,51.3,51.9,2026-09-11 06:00:46
-Fri Sep 11 2026,23:00,USD,Low,WASDE Report,-,-,-,2026-09-11 06:00:46
-Sat Sep 12 2026,00:00,USD,Low,Baker Hughes Oil Rig Count,-,-,449,2026-09-11 06:00:46
-Sat Sep 12 2026,00:00,USD,Low,Baker Hughes Total Rigs Count,-,-,588,2026-09-11 06:00:46
-Sat Sep 12 2026,01:00,USD,Medium,Monthly Budget Statement,-,-404,-432,2026-09-11 06:00:46
-Mon Sep 14 2026,22:30,USD,Low,6-Month Bill Auction,-,-,3.89,2026-09-11 06:00:46
-Mon Sep 14 2026,22:30,USD,Low,3-Month Bill Auction,-,-,3.8,2026-09-11 06:00:46
-Tue Sep 15 2026,19:15,USD,Medium,ADP Employment Change Weekly,-,-,12,2026-09-11 06:00:46
-Tue Sep 15 2026,19:30,USD,Medium,NY Empire State Manufacturing Index,-,-,20.6,2026-09-11 06:00:46
-Tue Sep 15 2026,19:55,USD,Low,Redbook YoY,-,-,8.3,2026-09-11 06:00:46
-Tue Sep 15 2026,22:30,USD,Low,6-Week Bill Auction,-,-,3.74,2026-09-11 06:00:46
-Tue Sep 15 2026,23:00,USD,Low,NOPA Crush Report,-,-,-,2026-09-11 06:00:46
-Wed Sep 16 2026,00:00,USD,Low,20-Year Bond Auction,-,-,5.204,2026-09-11 06:00:46
-Wed Sep 16 2026,03:30,USD,Medium,API Crude Oil Stock Change,-,-,-0.3,2026-09-11 06:00:46
-Wed Sep 16 2026,18:00,USD,Medium,MBA 30-Year Mortgage Rate,-,-,6.85,2026-09-11 06:00:46
-Wed Sep 16 2026,18:00,USD,Low,MBA Mortgage Market Index,-,-,240.6,2026-09-11 06:00:46
-Wed Sep 16 2026,18:00,USD,Low,MBA Purchase Index,-,-,157.5,2026-09-11 06:00:46
-Wed Sep 16 2026,18:00,USD,Low,MBA Mortgage Applications,-,-,-2.7,2026-09-11 06:00:46
-Wed Sep 16 2026,18:00,USD,Low,MBA Mortgage Refinance Index,-,-,687.3,2026-09-11 06:00:46
-Wed Sep 16 2026,19:30,USD,Low,Retail Sales Ex Gas/Autos MoM,-,-,-0.2,2026-09-11 06:00:46
-Wed Sep 16 2026,19:30,USD,Medium,Retail Sales Control Group MoM,-,-,-0.4,2026-09-11 06:00:46
-Wed Sep 16 2026,19:30,USD,Medium,Import Prices MoM,-,-,-0.4,2026-09-11 06:00:46
-Wed Sep 16 2026,19:30,USD,Medium,Export Prices MoM,-,-,-1.3,2026-09-11 06:00:46
-Wed Sep 16 2026,19:30,USD,High,Retail Sales MoM,-,-,-0.6,2026-09-11 06:00:46
-Wed Sep 16 2026,19:30,USD,Low,Import Prices YoY,-,-,5.9,2026-09-11 06:00:46
-Wed Sep 16 2026,19:30,USD,Medium,Retail Sales Ex Autos MoM,-,-,-0.3,2026-09-11 06:00:46
-Wed Sep 16 2026,19:30,USD,Low,Retail Sales YoY,-,-,5,2026-09-11 06:00:46
-Wed Sep 16 2026,19:30,USD,Low,NY Fed Services Activity Index,-,-,0.5,2026-09-11 06:00:46
-Wed Sep 16 2026,19:30,USD,Low,Export Prices YoY,-,-,8.2,2026-09-11 06:00:46
-Wed Sep 16 2026,21:00,USD,Medium,Business Inventories MoM,-,-,0,2026-09-11 06:00:46
-Wed Sep 16 2026,21:00,USD,Medium,NAHB Housing Market Index,-,-,35,2026-09-11 06:00:46
-Wed Sep 16 2026,21:00,USD,Low,Retail Inventories Ex Autos MoM,-,0.7,-0.5,2026-09-11 06:00:46
-Wed Sep 16 2026,21:30,USD,Low,EIA Crude Oil Imports Change,-,-,1.12,2026-09-11 06:00:46
-Wed Sep 16 2026,21:30,USD,Low,EIA Refinery Crude Runs Change,-,-,0.09,2026-09-11 06:00:46
-Wed Sep 16 2026,21:30,USD,Low,EIA Gasoline Production Change,-,-,-0.537,2026-09-11 06:00:46
-Wed Sep 16 2026,21:30,USD,Low,EIA Distillate Stocks Change,-,-,2.087,2026-09-11 06:00:46
-Wed Sep 16 2026,21:30,USD,Low,EIA Distillate Fuel Production Change,-,-,0.222,2026-09-11 06:00:46
-Wed Sep 16 2026,21:30,USD,Low,EIA Cushing Crude Oil Stocks Change,-,-,-0.684,2026-09-11 06:00:46
-Wed Sep 16 2026,21:30,USD,Medium,EIA Gasoline Stocks Change,-,-,1.269,2026-09-11 06:00:46
-Wed Sep 16 2026,21:30,USD,Medium,EIA Crude Oil Stocks Change,-,-,-0.391,2026-09-11 06:00:46
-Wed Sep 16 2026,21:30,USD,Low,EIA Heating Oil Stocks Change,-,-,0.01,2026-09-11 06:00:46
-Wed Sep 16 2026,22:30,USD,Low,17-Week Bill Auction,-,-,-,2026-09-11 06:00:46
-Thu Sep 17 2026,01:00,USD,Low,Interest Rate Projection - Longer,-,-,3.1,2026-09-11 06:00:46
-Thu Sep 17 2026,01:00,USD,Low,Interest Rate Projection - Current,-,-,3.8,2026-09-11 06:00:46
-Thu Sep 17 2026,01:00,USD,Low,Interest Rate Projection - 1st Yr,-,-,3.6,2026-09-11 06:00:46
-Thu Sep 17 2026,01:00,USD,Low,Interest Rate Projection - 2nd Yr,-,-,3.4,2026-09-11 06:00:46
-Thu Sep 17 2026,01:00,USD,High,Fed Interest Rate Decision,-,-,3.75,2026-09-11 06:00:46
-Thu Sep 17 2026,01:00,USD,High,FOMC Economic Projections,-,-,-,2026-09-11 06:00:46
-Thu Sep 17 2026,01:00,USD,Low,Interest Rate Projection - 3rd Yr,-,-,3.1,2026-09-11 06:00:46
-Thu Sep 17 2026,01:30,USD,High,Fed Press Conference,-,-,-,2026-09-11 06:00:46
-Thu Sep 17 2026,03:00,USD,Low,Overall Net Capital Flows,-,-,133.5,2026-09-11 06:00:46
-Thu Sep 17 2026,03:00,USD,Low,Foreign Bond Investment,-,-,6.8,2026-09-11 06:00:46
-Thu Sep 17 2026,03:00,USD,Medium,Net Long-term TIC Flows,-,-,172.7,2026-09-11 06:00:46
-Thu Sep 17 2026,19:30,USD,Medium,Building Permits MoM Prel,-,-,4.3,2026-09-11 06:00:46
-Thu Sep 17 2026,19:30,USD,Low,Philly Fed Employment,-,-,27.9,2026-09-11 06:00:46
-Thu Sep 17 2026,19:30,USD,Low,Philly Fed CAPEX Index,-,-,48.2,2026-09-11 06:00:46
-Thu Sep 17 2026,19:30,USD,Low,Jobless Claims 4-week Average,-,-,206,2026-09-11 06:00:46
-Thu Sep 17 2026,19:30,USD,Low,Philly Fed New Orders,-,-,30.1,2026-09-11 06:00:46
-Thu Sep 17 2026,19:30,USD,Low,Philly Fed Business Conditions,-,-,73.6,2026-09-11 06:00:46
-Thu Sep 17 2026,19:30,USD,Low,Philly Fed Prices Paid,-,-,40.9,2026-09-11 06:00:46
-Thu Sep 17 2026,19:30,USD,Low,Continuing Jobless Claims,-,-,1774,2026-09-11 06:00:46
-Thu Sep 17 2026,19:30,USD,Medium,Housing Starts MoM,-,-,-12.4,2026-09-11 06:00:46
-Thu Sep 17 2026,19:30,USD,Medium,Initial Jobless Claims,-,-,206,2026-09-11 06:00:46
-Thu Sep 17 2026,19:30,USD,Medium,Philadelphia Fed Manufacturing Index,-,-,47.4,2026-09-11 06:00:46
-Thu Sep 17 2026,19:30,USD,High,Building Permits Prel,-,-,1.433,2026-09-11 06:00:46
-Thu Sep 17 2026,19:30,USD,High,Housing Starts,-,-,1.239,2026-09-11 06:00:46
-Thu Sep 17 2026,21:00,USD,Medium,Pending Home Sales MoM,-,-,-2.3,2026-09-11 06:00:46
-Thu Sep 17 2026,21:00,USD,Medium,Pending Home Sales YoY,-,-,-2.2,2026-09-11 06:00:46
-Thu Sep 17 2026,21:30,USD,Low,EIA Natural Gas Stocks Change,-,-,40,2026-09-11 06:00:46
-Thu Sep 17 2026,22:30,USD,Low,8-Week Bill Auction,-,-,3.845,2026-09-11 06:00:46
-Thu Sep 17 2026,22:30,USD,Low,4-Week Bill Auction,-,-,3.775,2026-09-11 06:00:46
-Thu Sep 17 2026,23:00,USD,Low,30-Year Mortgage Rate,-,-,6.76,2026-09-11 06:00:46
-Thu Sep 17 2026,23:00,USD,Low,15-Year Mortgage Rate,-,-,6.09,2026-09-11 06:00:46
-Fri Sep 18 2026,00:00,USD,Low,10-Year TIPS Auction,-,-,2.438,2026-09-11 06:00:46
-Fri Sep 18 2026,03:30,USD,Low,Fed Balance Sheet,-,-,-,2026-09-11 06:00:46
-Fri Sep 18 2026,20:15,USD,Medium,Industrial Production MoM,-,-,0.2,2026-09-11 06:00:46
-Fri Sep 18 2026,20:15,USD,Low,Manufacturing Production MoM,-,-,0.2,2026-09-11 06:00:46
-Fri Sep 18 2026,20:15,USD,Low,Capacity Utilization,-,-,76.3,2026-09-11 06:00:46
-Fri Sep 18 2026,20:15,USD,Low,Manufacturing Production YoY,-,-,1.2,2026-09-11 06:00:46
-Fri Sep 18 2026,20:15,USD,Low,Industrial Production YoY,-,-,1.1,2026-09-11 06:00:46
-Fri Sep 18 2026,21:00,USD,Low,CB Leading Index MoM,-,-,0.2,2026-09-11 06:00:46
-Sat Sep 19 2026,00:00,USD,Low,Baker Hughes Oil Rig Count,-,-,-,2026-09-11 06:00:46
-Sat Sep 19 2026,00:00,USD,Low,Baker Hughes Total Rigs Count,-,-,-,2026-09-11 06:00:46
+Fri Sep 4 2026,19:30,USD,High,Unemployment Rate,4.1,4.1,4.1,2026-09-11 11:08:54
+Fri Sep 4 2026,19:30,USD,Low,U-6 Unemployment Rate,7.7,-,7.9,2026-09-11 11:08:54
+Fri Sep 4 2026,19:30,USD,Low,Average Weekly Hours,34.4,34.3,34.3,2026-09-11 11:08:54
+Fri Sep 4 2026,19:30,USD,Medium,Average Hourly Earnings MoM,0.3,0.3,0.2,2026-09-11 11:08:54
+Fri Sep 4 2026,19:30,USD,Medium,Average Hourly Earnings YoY,3.1,3,3.2,2026-09-11 11:08:54
+Fri Sep 4 2026,19:30,USD,Medium,Participation Rate,61.6,-,61.4,2026-09-11 11:08:54
+Fri Sep 4 2026,19:30,USD,High,Non Farm Payrolls,162,56,21,2026-09-11 11:08:54
+Fri Sep 4 2026,19:30,USD,Low,Manufacturing Payrolls,16,5,14,2026-09-11 11:08:54
+Fri Sep 4 2026,19:30,USD,Low,Nonfarm Payrolls Private,127,45,71,2026-09-11 11:08:54
+Fri Sep 4 2026,19:30,USD,Low,Government Payrolls,35,-,-50,2026-09-11 11:08:54
+Sat Sep 5 2026,00:00,USD,Low,Baker Hughes Total Rigs Count,588,-,588,2026-09-11 11:08:54
+Sat Sep 5 2026,00:00,USD,Low,Baker Hughes Oil Rig Count,449,-,447,2026-09-11 11:08:54
+Mon Sep 7 2026,07:00,USD,Low,Labor Day,-,-,-,2026-09-11 11:08:54
+Tue Sep 8 2026,17:00,USD,Low,NFIB Business Optimism Index,98.7,99.3,99.8,2026-09-11 11:08:54
+Tue Sep 8 2026,20:00,USD,Low,Used Car Prices MoM,-0.9,-,-1.4,2026-09-11 11:08:54
+Tue Sep 8 2026,20:00,USD,Low,Used Car Prices YoY,0.4,-,1.3,2026-09-11 11:08:54
+Tue Sep 8 2026,22:00,USD,Low,Consumer Inflation Expectations,3.6,-,3.6,2026-09-11 11:08:54
+Tue Sep 8 2026,22:30,USD,Low,3-Month Bill Auction,3.8,-,3.77,2026-09-11 11:08:54
+Tue Sep 8 2026,22:30,USD,Low,6-Month Bill Auction,3.89,-,3.885,2026-09-11 11:08:54
+Wed Sep 9 2026,00:00,USD,Low,6-Week Bill Auction,3.74,-,3.735,2026-09-11 11:08:54
+Wed Sep 9 2026,00:00,USD,Low,3-Year Note Auction,4.474,-,4.291,2026-09-11 11:08:54
+Wed Sep 9 2026,02:00,USD,Low,Consumer Credit Change,18.06,11.7,14.56,2026-09-11 11:08:54
+Wed Sep 9 2026,18:00,USD,Medium,MBA 30-Year Mortgage Rate,6.85,-,6.79,2026-09-11 11:08:54
+Wed Sep 9 2026,18:00,USD,Low,MBA Mortgage Applications,-2.7,-,0.8,2026-09-11 11:08:54
+Wed Sep 9 2026,18:00,USD,Low,MBA Mortgage Refinance Index,687.3,-,732.6,2026-09-11 11:08:54
+Wed Sep 9 2026,18:00,USD,Low,MBA Mortgage Market Index,240.6,-,247.3,2026-09-11 11:08:54
+Wed Sep 9 2026,18:00,USD,Low,MBA Purchase Index,157.5,-,157.8,2026-09-11 11:08:54
+Wed Sep 9 2026,19:15,USD,Medium,ADP Employment Change Weekly,12,-,10,2026-09-11 11:08:54
+Wed Sep 9 2026,19:55,USD,Low,Redbook YoY,8.3,-,9.6,2026-09-11 11:08:54
+Wed Sep 9 2026,22:30,USD,Low,17-Week Bill Auction,3.895,-,3.855,2026-09-11 11:08:54
+Thu Sep 10 2026,00:00,USD,Low,10-Year Note Auction,4.834,-,4.683,2026-09-11 11:08:54
+Thu Sep 10 2026,04:00,USD,Medium,API Crude Oil Stock Change,-0.3,-1.3,-2.6,2026-09-11 11:08:54
+Thu Sep 10 2026,19:30,USD,Low,PPI,157.411,-,156.784,2026-09-11 11:08:54
+Thu Sep 10 2026,19:30,USD,Low,"PPI Ex Food, Energy and Trade MoM",0.3,-,0.4,2026-09-11 11:08:54
+Thu Sep 10 2026,19:30,USD,Low,PPI YoY,5.4,5.3,4.8,2026-09-11 11:08:54
+Thu Sep 10 2026,19:30,USD,Low,Continuing Jobless Claims,1774,1780,1775,2026-09-11 11:08:54
+Thu Sep 10 2026,19:30,USD,Low,Jobless Claims 4-week Average,206,-,207.5,2026-09-11 11:08:54
+Thu Sep 10 2026,19:30,USD,Low,"PPI Ex Food, Energy and Trade YoY",4.7,-,4.7,2026-09-11 11:08:54
+Thu Sep 10 2026,19:30,USD,Low,Core PPI YoY,4.6,4.6,4.3,2026-09-11 11:08:54
+Thu Sep 10 2026,19:30,USD,Medium,Initial Jobless Claims,206,205,207,2026-09-11 11:08:54
+Thu Sep 10 2026,19:30,USD,Medium,Core PPI MoM,0.2,0.3,0.3,2026-09-11 11:08:54
+Thu Sep 10 2026,19:30,USD,High,PPI MoM,0.4,0.4,0.1,2026-09-11 11:08:54
+Thu Sep 10 2026,20:20,USD,Low,NY Fed Bill Purchases 4 to 12 months,-,2.122,-,2026-09-11 11:08:54
+Thu Sep 10 2026,21:00,USD,Medium,Existing Home Sales MoM,-2,-,-1.7,2026-09-11 11:08:54
+Thu Sep 10 2026,21:00,USD,High,Existing Home Sales,3.98,3.98,4.06,2026-09-11 11:08:54
+Thu Sep 10 2026,21:00,USD,Low,Wholesale Inventories MoM,1.3,1.3,0.4,2026-09-11 11:08:54
+Thu Sep 10 2026,21:30,USD,Low,EIA Natural Gas Stocks Change,40,31,30,2026-09-11 11:08:54
+Thu Sep 10 2026,22:30,USD,Low,4-Week Bill Auction,3.775,-,3.7,2026-09-11 11:08:54
+Thu Sep 10 2026,22:30,USD,Low,8-Week Bill Auction,3.845,-,3.75,2026-09-11 11:08:54
+Thu Sep 10 2026,23:00,USD,Low,EIA Cushing Crude Oil Stocks Change,-0.684,-,0.08,2026-09-11 11:08:54
+Thu Sep 10 2026,23:00,USD,Low,EIA Distillate Fuel Production Change,0.222,-,-0.009,2026-09-11 11:08:54
+Thu Sep 10 2026,23:00,USD,Low,EIA Distillate Stocks Change,2.087,-0.7,0.796,2026-09-11 11:08:54
+Thu Sep 10 2026,23:00,USD,Low,EIA Gasoline Production Change,-0.537,-,0.073,2026-09-11 11:08:54
+Thu Sep 10 2026,23:00,USD,Low,EIA Crude Oil Imports Change,1.12,-,-0.079,2026-09-11 11:08:54
+Thu Sep 10 2026,23:00,USD,Low,30-Year Mortgage Rate,6.76,-,6.71,2026-09-11 11:08:54
+Thu Sep 10 2026,23:00,USD,Low,15-Year Mortgage Rate,6.09,-,6.04,2026-09-11 11:08:54
+Thu Sep 10 2026,23:00,USD,Low,EIA Heating Oil Stocks Change,0.01,-,-0.033,2026-09-11 11:08:54
+Thu Sep 10 2026,23:00,USD,Low,EIA Refinery Crude Runs Change,0.09,-,0.103,2026-09-11 11:08:54
+Thu Sep 10 2026,23:00,USD,Medium,EIA Crude Oil Stocks Change,-0.391,-1.6,-4.45,2026-09-11 11:08:54
+Thu Sep 10 2026,23:00,USD,Medium,EIA Gasoline Stocks Change,1.269,-1.4,-1.173,2026-09-11 11:08:54
+Fri Sep 11 2026,00:00,USD,Low,30-Year Bond Auction,5.308,-,5.216,2026-09-11 11:08:54
+Fri Sep 11 2026,03:30,USD,Low,Fed Balance Sheet,6.741,-,6.737,2026-09-11 11:08:54
+Fri Sep 11 2026,19:30,USD,High,Inflation Rate YoY,-,3.4,3.4,2026-09-11 11:08:54
+Fri Sep 11 2026,19:30,USD,Medium,CPI s.a,-,-,332.81,2026-09-11 11:08:54
+Fri Sep 11 2026,19:30,USD,Medium,CPI,-,334.85,333.92,2026-09-11 11:08:54
+Fri Sep 11 2026,19:30,USD,High,Inflation Rate MoM,-,0.4,0.1,2026-09-11 11:08:54
+Fri Sep 11 2026,19:30,USD,High,Core Inflation Rate MoM,-,0.2,0.2,2026-09-11 11:08:54
+Fri Sep 11 2026,19:30,USD,High,Core Inflation Rate YoY,-,2.4,2.5,2026-09-11 11:08:54
+Fri Sep 11 2026,21:00,USD,Low,Michigan 5 Year Inflation Expectations Prel,-,-,3.3,2026-09-11 11:08:54
+Fri Sep 11 2026,21:00,USD,Low,Michigan Consumer Expectations Prel,-,50.5,51.5,2026-09-11 11:08:54
+Fri Sep 11 2026,21:00,USD,Low,Michigan Inflation Expectations Prel,-,-,4,2026-09-11 11:08:54
+Fri Sep 11 2026,21:00,USD,High,Michigan Consumer Sentiment Prel,-,51,51.7,2026-09-11 11:08:54
+Fri Sep 11 2026,21:00,USD,Low,Michigan Current Conditions Prel,-,51.3,51.9,2026-09-11 11:08:54
+Fri Sep 11 2026,23:00,USD,Low,WASDE Report,-,-,-,2026-09-11 11:08:54
+Sat Sep 12 2026,00:00,USD,Low,Baker Hughes Oil Rig Count,-,-,449,2026-09-11 11:08:54
+Sat Sep 12 2026,00:00,USD,Low,Baker Hughes Total Rigs Count,-,-,588,2026-09-11 11:08:54
+Sat Sep 12 2026,01:00,USD,Medium,Monthly Budget Statement,-,-404,-432,2026-09-11 11:08:54
+Mon Sep 14 2026,22:30,USD,Low,6-Month Bill Auction,-,-,3.89,2026-09-11 11:08:54
+Mon Sep 14 2026,22:30,USD,Low,3-Month Bill Auction,-,-,3.8,2026-09-11 11:08:54
+Tue Sep 15 2026,19:15,USD,Medium,ADP Employment Change Weekly,-,-,12,2026-09-11 11:08:54
+Tue Sep 15 2026,19:30,USD,Medium,NY Empire State Manufacturing Index,-,-,20.6,2026-09-11 11:08:54
+Tue Sep 15 2026,19:55,USD,Low,Redbook YoY,-,-,8.3,2026-09-11 11:08:54
+Tue Sep 15 2026,22:30,USD,Low,6-Week Bill Auction,-,-,3.74,2026-09-11 11:08:54
+Tue Sep 15 2026,23:00,USD,Low,NOPA Crush Report,-,-,-,2026-09-11 11:08:54
+Wed Sep 16 2026,00:00,USD,Low,20-Year Bond Auction,-,-,5.204,2026-09-11 11:08:54
+Wed Sep 16 2026,03:30,USD,Medium,API Crude Oil Stock Change,-,-,-0.3,2026-09-11 11:08:54
+Wed Sep 16 2026,18:00,USD,Low,MBA Mortgage Market Index,-,-,240.6,2026-09-11 11:08:54
+Wed Sep 16 2026,18:00,USD,Low,MBA Mortgage Refinance Index,-,-,687.3,2026-09-11 11:08:54
+Wed Sep 16 2026,18:00,USD,Low,MBA Mortgage Applications,-,-,-2.7,2026-09-11 11:08:54
+Wed Sep 16 2026,18:00,USD,Low,MBA Purchase Index,-,-,157.5,2026-09-11 11:08:54
+Wed Sep 16 2026,18:00,USD,Medium,MBA 30-Year Mortgage Rate,-,-,6.85,2026-09-11 11:08:54
+Wed Sep 16 2026,19:30,USD,Low,NY Fed Services Activity Index,-,-,0.5,2026-09-11 11:08:54
+Wed Sep 16 2026,19:30,USD,High,Retail Sales MoM,-,-,-0.6,2026-09-11 11:08:54
+Wed Sep 16 2026,19:30,USD,Medium,Retail Sales Ex Autos MoM,-,-,-0.3,2026-09-11 11:08:54
+Wed Sep 16 2026,19:30,USD,Medium,Export Prices MoM,-,-,-1.3,2026-09-11 11:08:54
+Wed Sep 16 2026,19:30,USD,Medium,Import Prices MoM,-,-,-0.4,2026-09-11 11:08:54
+Wed Sep 16 2026,19:30,USD,Medium,Retail Sales Control Group MoM,-,-,-0.4,2026-09-11 11:08:54
+Wed Sep 16 2026,19:30,USD,Low,Retail Sales Ex Gas/Autos MoM,-,-,-0.2,2026-09-11 11:08:54
+Wed Sep 16 2026,19:30,USD,Low,Import Prices YoY,-,-,5.9,2026-09-11 11:08:54
+Wed Sep 16 2026,19:30,USD,Low,Export Prices YoY,-,-,8.2,2026-09-11 11:08:54
+Wed Sep 16 2026,19:30,USD,Low,Retail Sales YoY,-,-,5,2026-09-11 11:08:54
+Wed Sep 16 2026,21:00,USD,Medium,Business Inventories MoM,-,-,0,2026-09-11 11:08:54
+Wed Sep 16 2026,21:00,USD,Medium,NAHB Housing Market Index,-,-,35,2026-09-11 11:08:54
+Wed Sep 16 2026,21:00,USD,Low,Retail Inventories Ex Autos MoM,-,0.7,-0.5,2026-09-11 11:08:54
+Wed Sep 16 2026,21:30,USD,Low,EIA Refinery Crude Runs Change,-,-,0.09,2026-09-11 11:08:54
+Wed Sep 16 2026,21:30,USD,Low,EIA Distillate Stocks Change,-,-,2.087,2026-09-11 11:08:54
+Wed Sep 16 2026,21:30,USD,Low,EIA Gasoline Production Change,-,-,-0.537,2026-09-11 11:08:54
+Wed Sep 16 2026,21:30,USD,Low,EIA Heating Oil Stocks Change,-,-,0.01,2026-09-11 11:08:54
+Wed Sep 16 2026,21:30,USD,Medium,EIA Crude Oil Stocks Change,-,-,-0.391,2026-09-11 11:08:54
+Wed Sep 16 2026,21:30,USD,Low,EIA Crude Oil Imports Change,-,-,1.12,2026-09-11 11:08:54
+Wed Sep 16 2026,21:30,USD,Low,EIA Cushing Crude Oil Stocks Change,-,-,-0.684,2026-09-11 11:08:54
+Wed Sep 16 2026,21:30,USD,Medium,EIA Gasoline Stocks Change,-,-,1.269,2026-09-11 11:08:54
+Wed Sep 16 2026,21:30,USD,Low,EIA Distillate Fuel Production Change,-,-,0.222,2026-09-11 11:08:54
+Wed Sep 16 2026,22:30,USD,Low,17-Week Bill Auction,-,-,3.895,2026-09-11 11:08:54
+Thu Sep 17 2026,01:00,USD,High,FOMC Economic Projections,-,-,-,2026-09-11 11:08:54
+Thu Sep 17 2026,01:00,USD,Low,Interest Rate Projection - 3rd Yr,-,-,3.1,2026-09-11 11:08:54
+Thu Sep 17 2026,01:00,USD,Low,Interest Rate Projection - Current,-,-,3.8,2026-09-11 11:08:54
+Thu Sep 17 2026,01:00,USD,Low,Interest Rate Projection - Longer,-,-,3.1,2026-09-11 11:08:54
+Thu Sep 17 2026,01:00,USD,Low,Interest Rate Projection - 2nd Yr,-,-,3.4,2026-09-11 11:08:54
+Thu Sep 17 2026,01:00,USD,Low,Interest Rate Projection - 1st Yr,-,-,3.6,2026-09-11 11:08:54
+Thu Sep 17 2026,01:00,USD,High,Fed Interest Rate Decision,-,4,3.75,2026-09-11 11:08:54
+Thu Sep 17 2026,01:30,USD,High,Fed Press Conference,-,-,-,2026-09-11 11:08:54
+Thu Sep 17 2026,03:00,USD,Medium,Net Long-term TIC Flows,-,-,172.7,2026-09-11 11:08:54
+Thu Sep 17 2026,03:00,USD,Low,Foreign Bond Investment,-,-,6.8,2026-09-11 11:08:54
+Thu Sep 17 2026,03:00,USD,Low,Overall Net Capital Flows,-,-,133.5,2026-09-11 11:08:54
+Thu Sep 17 2026,19:30,USD,Low,Continuing Jobless Claims,-,-,1774,2026-09-11 11:08:54
+Thu Sep 17 2026,19:30,USD,Medium,Housing Starts MoM,-,-,-12.4,2026-09-11 11:08:54
+Thu Sep 17 2026,19:30,USD,Medium,Building Permits MoM Prel,-,-,4.3,2026-09-11 11:08:54
+Thu Sep 17 2026,19:30,USD,Medium,Initial Jobless Claims,-,-,206,2026-09-11 11:08:54
+Thu Sep 17 2026,19:30,USD,Medium,Philadelphia Fed Manufacturing Index,-,-,47.4,2026-09-11 11:08:54
+Thu Sep 17 2026,19:30,USD,High,Building Permits Prel,-,-,1.433,2026-09-11 11:08:54
+Thu Sep 17 2026,19:30,USD,High,Housing Starts,-,-,1.239,2026-09-11 11:08:54
+Thu Sep 17 2026,19:30,USD,Low,Philly Fed CAPEX Index,-,-,48.2,2026-09-11 11:08:54
+Thu Sep 17 2026,19:30,USD,Low,Philly Fed New Orders,-,-,30.1,2026-09-11 11:08:54
+Thu Sep 17 2026,19:30,USD,Low,Philly Fed Business Conditions,-,-,73.6,2026-09-11 11:08:54
+Thu Sep 17 2026,19:30,USD,Low,Philly Fed Prices Paid,-,-,40.9,2026-09-11 11:08:54
+Thu Sep 17 2026,19:30,USD,Low,Jobless Claims 4-week Average,-,-,206,2026-09-11 11:08:54
+Thu Sep 17 2026,19:30,USD,Low,Philly Fed Employment,-,-,27.9,2026-09-11 11:08:54
+Thu Sep 17 2026,21:00,USD,Medium,Pending Home Sales YoY,-,-,-2.2,2026-09-11 11:08:54
+Thu Sep 17 2026,21:00,USD,Medium,Pending Home Sales MoM,-,-,-2.3,2026-09-11 11:08:54
+Thu Sep 17 2026,21:30,USD,Low,EIA Natural Gas Stocks Change,-,-,40,2026-09-11 11:08:54
+Thu Sep 17 2026,22:30,USD,Low,8-Week Bill Auction,-,-,3.845,2026-09-11 11:08:54
+Thu Sep 17 2026,22:30,USD,Low,4-Week Bill Auction,-,-,3.775,2026-09-11 11:08:54
+Thu Sep 17 2026,23:00,USD,Low,15-Year Mortgage Rate,-,-,6.09,2026-09-11 11:08:54
+Thu Sep 17 2026,23:00,USD,Low,30-Year Mortgage Rate,-,-,6.76,2026-09-11 11:08:54
+Fri Sep 18 2026,00:00,USD,Low,10-Year TIPS Auction,-,-,2.438,2026-09-11 11:08:54
+Fri Sep 18 2026,03:30,USD,Low,Fed Balance Sheet,-,-,-,2026-09-11 11:08:54
+Fri Sep 18 2026,20:15,USD,Low,Industrial Production YoY,-,-,1.1,2026-09-11 11:08:54
+Fri Sep 18 2026,20:15,USD,Low,Capacity Utilization,-,-,76.3,2026-09-11 11:08:54
+Fri Sep 18 2026,20:15,USD,Medium,Industrial Production MoM,-,-,0.2,2026-09-11 11:08:54
+Fri Sep 18 2026,20:15,USD,Low,Manufacturing Production MoM,-,-,0.2,2026-09-11 11:08:54
+Fri Sep 18 2026,20:15,USD,Low,Manufacturing Production YoY,-,-,1.2,2026-09-11 11:08:54
+Fri Sep 18 2026,20:30,USD,Medium,Fed Bowman Speech,-,-,-,2026-09-11 11:08:54
+Fri Sep 18 2026,21:00,USD,Low,CB Leading Index MoM,-,-,0.2,2026-09-11 11:08:54
+Sat Sep 19 2026,00:00,USD,Low,Baker Hughes Oil Rig Count,-,-,-,2026-09-11 11:08:54
+Sat Sep 19 2026,00:00,USD,Low,Baker Hughes Total Rigs Count,-,-,-,2026-09-11 11:08:54
