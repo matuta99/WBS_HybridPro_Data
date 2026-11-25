@@ -1,306 +1,309 @@
 Date,Time,Currency,Impact,Event,Actual,Forecast,Previous,Scrape_Time
-Tue Nov 17 2026,20:15,USD,Medium,ADP Employment Change Weekly,23750,-,19250,2026-11-24 16:16:31
-Tue Nov 17 2026,20:30,USD,Medium,Export Prices MoM,1.1,0.5,2.4,2026-11-24 16:16:31
-Tue Nov 17 2026,20:30,USD,Medium,Import Prices MoM,1.1,0.7,1.1,2026-11-24 16:16:31
-Tue Nov 17 2026,20:30,USD,Low,Retail Sales Control Group,0.6,0.4,0.5,2026-11-24 16:16:31
-Tue Nov 17 2026,20:30,USD,Medium,Retail Sales Ex Autos MoM,0.6,0.4,1.1,2026-11-24 16:16:31
-Tue Nov 17 2026,20:30,USD,High,Retail Sales MoM,0.2,0.2,0.8,2026-11-24 16:16:31
-Tue Nov 17 2026,20:30,USD,Low,Retail Sales Ex Gas/Autos MoM,0.5,-,0.5,2026-11-24 16:16:31
-Tue Nov 17 2026,20:30,USD,Low,Retail Sales YoY,6.82,-,6.57,2026-11-24 16:16:31
-Tue Nov 17 2026,20:55,USD,Low,Redbook YoY,9.5,-,10.1,2026-11-24 16:16:31
-Tue Nov 17 2026,21:15,USD,Low,Capacity Utilization,76.4,76.8,76.8,2026-11-24 16:16:31
-Tue Nov 17 2026,21:15,USD,Low,Manufacturing Production MoM,0.3,0.2,0.3,2026-11-24 16:16:31
-Tue Nov 17 2026,21:15,USD,Medium,Industrial Production MoM,-0.4,0.1,0.7,2026-11-24 16:16:31
-Tue Nov 17 2026,21:15,USD,Low,Industrial Production YoY,2.15,-,2.14,2026-11-24 16:16:31
-Tue Nov 17 2026,22:00,USD,Medium,Business Inventories MoM,0.5,0.5,0.4,2026-11-24 16:16:31
-Tue Nov 17 2026,22:00,USD,Low,Retail Inventories Ex Autos MoM,0.5,-,0.1,2026-11-24 16:16:31
-Tue Nov 17 2026,22:00,USD,Medium,NAHB Housing Market Index,25,29,29,2026-11-24 16:16:31
-Wed Nov 18 2026,04:30,USD,Low,API Cushing Number,-1.691,-,0.182,2026-11-24 16:16:31
-Wed Nov 18 2026,04:30,USD,Medium,API Crude Oil Stock Change,5.278,-0.477,8.968,2026-11-24 16:16:31
-Wed Nov 18 2026,04:30,USD,Low,API Distillate Stocks,0.351,1.05,1.515,2026-11-24 16:16:31
-Wed Nov 18 2026,04:30,USD,Low,API Gasoline Stocks,5.122,1.7,0.004,2026-11-24 16:16:31
-Wed Nov 18 2026,04:30,USD,Low,API Heating Oil,-0.273,-,0.433,2026-11-24 16:16:31
-Wed Nov 18 2026,04:30,USD,Low,API Crude Imports,-0.178,-,0.241,2026-11-24 16:16:31
-Wed Nov 18 2026,04:30,USD,Low,API Product Imports,0.147,-,0.05,2026-11-24 16:16:31
-Wed Nov 18 2026,04:30,USD,Low,API Crude Runs,0.051,-,0.249,2026-11-24 16:16:31
-Wed Nov 18 2026,19:00,USD,Medium,MBA 5/1 ARM Contract Rate,6.38,-,6.28,2026-11-24 16:16:31
-Wed Nov 18 2026,19:00,USD,Medium,MBA 5/1 ARM Effective Rate,6.78,-,6.7,2026-11-24 16:16:31
-Wed Nov 18 2026,19:00,USD,Medium,MBA 15-Year Mortgage Contract Rate,6.64,-,6.64,2026-11-24 16:16:31
-Wed Nov 18 2026,19:00,USD,Medium,MBA 15-Year Mortgage Effective Rate,6.9,-,6.88,2026-11-24 16:16:31
-Wed Nov 18 2026,19:00,USD,Medium,MBA 15-Year Mortgage Points,1.03,-,0.97,2026-11-24 16:16:31
-Wed Nov 18 2026,19:00,USD,Low,MBA Mortgage Applications,-2.3,-,6.2,2026-11-24 16:16:31
-Wed Nov 18 2026,19:00,USD,Medium,MBA 30-Year Mortgage Rate,7.35,-,7.21,2026-11-24 16:16:31
-Wed Nov 18 2026,19:00,USD,Low,MBA Mortgage Market Index,199.8,-,204.6,2026-11-24 16:16:31
-Wed Nov 18 2026,19:00,USD,Low,MBA Purchase Index,137.6,-,141.2,2026-11-24 16:16:31
-Wed Nov 18 2026,19:00,USD,Low,MBA Mortgage Refinance Index,532.8,-,540.7,2026-11-24 16:16:31
-Wed Nov 18 2026,19:00,USD,Medium,MBA 5/1 ARM Points,1.07,-,1.14,2026-11-24 16:16:31
-Wed Nov 18 2026,20:30,USD,High,Housing Starts,1.309,1.245,1.191,2026-11-24 16:16:31
-Wed Nov 18 2026,20:30,USD,Medium,Housing Starts MoM,9.9,-,-7,2026-11-24 16:16:31
-Wed Nov 18 2026,20:30,USD,High,Building Permits Prel,1.295,1.377,1.4,2026-11-24 16:16:31
-Wed Nov 18 2026,20:30,USD,Medium,Building Permits MoM Prel,-7.4,-,-0.2,2026-11-24 16:16:31
-Wed Nov 18 2026,22:00,USD,Medium,Pending Home Sales Index,63,-,66.1,2026-11-24 16:16:31
-Wed Nov 18 2026,22:00,USD,Medium,Pending Home Sales MoM,-4.7,-2,-7.2,2026-11-24 16:16:31
-Wed Nov 18 2026,22:30,USD,Medium,EIA Ethanol Production,1126,-,1130,2026-11-24 16:16:31
-Wed Nov 18 2026,22:30,USD,Medium,EIA Ethanol Stocks,24908,-,24345,2026-11-24 16:16:31
-Wed Nov 18 2026,22:30,USD,Low,EIA Cushing Crude Oil Stocks Change,-1.209,-,0.106,2026-11-24 16:16:31
-Wed Nov 18 2026,22:30,USD,Low,EIA Crude Oil Imports Change,-2.155,-,0.544,2026-11-24 16:16:31
-Wed Nov 18 2026,22:30,USD,Low,EIA Refinery Crude Runs Change,-0.129,-,0.322,2026-11-24 16:16:31
-Wed Nov 18 2026,22:30,USD,Low,EIA Distillate Fuel Production Change,0.14,-,-0.063,2026-11-24 16:16:31
-Wed Nov 18 2026,22:30,USD,Low,EIA Gasoline Production Change,-0.202,-,-0.078,2026-11-24 16:16:31
-Wed Nov 18 2026,22:30,USD,Medium,EIA Crude Oil Stocks Change,3.38,-0.477,4.657,2026-11-24 16:16:31
-Wed Nov 18 2026,22:30,USD,Low,EIA Distillate Stocks Change,1.571,1.05,4.071,2026-11-24 16:16:31
-Wed Nov 18 2026,22:30,USD,Medium,EIA Gasoline Stocks Change,5.192,1.7,1.799,2026-11-24 16:16:31
-Wed Nov 18 2026,22:30,USD,Low,EIA Heating Oil Stocks Change,-0.775,-,0.335,2026-11-24 16:16:31
-Wed Nov 18 2026,22:30,USD,Low,United States-EIA OIL STOCKS-EIA Weekly Rfg Stocks*,-0.002,-,0,2026-11-24 16:16:31
-Wed Nov 18 2026,22:30,USD,Low,EIA Product Imports Change,0.568,-,-0.25,2026-11-24 16:16:31
-Wed Nov 18 2026,22:30,USD,Low,EIA Refinery Utilization Change,0.5,0.2,0.7,2026-11-24 16:16:31
-Wed Nov 18 2026,22:30,USD,Medium,EIA Crude Oil Exports Change,1.033,-,-0.22,2026-11-24 16:16:31
-Thu Nov 19 2026,01:00,USD,Medium,20-Year Bond Auction Allotted at High,70.87,-,60.05,2026-11-24 16:16:31
-Thu Nov 19 2026,01:00,USD,Medium,20-Year Bond Auction Bid-to-Cover,2.63,-,2.73,2026-11-24 16:16:31
-Thu Nov 19 2026,01:00,USD,Low,20-Year Bond Auction,5.459,-,5.469,2026-11-24 16:16:31
-Thu Nov 19 2026,01:00,USD,Medium,20-Year Bond Auction Total Accepted,16,-,13,2026-11-24 16:16:31
-Thu Nov 19 2026,04:00,USD,Low,Foreign Bond Investment,80.8,-,108.6,2026-11-24 16:16:31
-Thu Nov 19 2026,04:00,USD,Low,Overall Net Capital Flows,261,-,203,2026-11-24 16:16:31
-Thu Nov 19 2026,04:00,USD,Medium,Net Long-term TIC Flows,155.3,-,285,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,Philly Fed Business Conditions,33.6,-,33,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,Philly Fed CAPEX Index,18.9,-,34.9,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Medium,Philadelphia Fed Manufacturing Index,6.3,20,20.9,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,Philly Fed Employment,11.6,-,9.1,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,Philly Fed New Orders,-0.4,-,4.3,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,Philly Fed Prices Paid,58.2,-,43.2,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Beef Net Export Sales,7.1,-,9.6,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Beef Gross Export Sales,8.8,-,12.2,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Corn Net Export Sales Next Year,41.9,-,594.4,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Corn Net Export Sales Total,1630,-,3475.8,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Meal Net Export Sales Next Year,1,-,-0.2,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Meal Net Export Sales,198.1,-,360.9,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Meal Net Export Sales Total,199.1,-,360.7,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Corn Net Export Sales,1588.1,-,2881.4,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Corn Gross Export Sales,1627,-,2922.3,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,United States-ExportSales-Soybn Oil Exp Sls Nxt Yr Net *,0,-,0,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Oil Net Export Sales,0.9,-,1.7,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Oil Net Export Sales Total,0.9,-,1.7,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Medium,USDA Pork Net Export Sales,32.1,-,39.5,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Medium,USDA Pork Gross Export Sales,36.2,-,41.5,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Net Export Sales Next Year,0,-,11.2,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Net Export Sales,1501,-,1154.8,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Gross Export Sales,1622.1,-,1388.2,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Net Export Sales Total,1501,-,1166,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Upland Cotton Net Export Sales,118.7,-,157.3,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Upland Cotton Gross Export Sales,128.4,-,162.3,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Wheat Net Export Sales Next Year,0,-,0,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Wheat Net Export Sales,344.8,-,182.8,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Wheat Gross Export Sales,408.7,-,198.7,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,USDA Wheat Net Export Sales Total,344.8,-,182.8,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,Jobless Claims 4-week Average,197.75,-,195.75,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Medium,Initial Jobless Claims,203,197,202,2026-11-24 16:16:31
-Thu Nov 19 2026,20:30,USD,Low,Continuing Jobless Claims,1763,1710,1693,2026-11-24 16:16:31
-Thu Nov 19 2026,22:00,USD,Low,CB Leading Index MoM,-0.3,0,0,2026-11-24 16:16:31
-Thu Nov 19 2026,22:30,USD,Low,EIA Natural Gas Stocks Change,20,-,61,2026-11-24 16:16:31
-Thu Nov 19 2026,23:00,USD,Low,Kansas Fed Composite Index,18,-,11,2026-11-24 16:16:31
-Thu Nov 19 2026,23:00,USD,Low,Kansas Fed Manufacturing Index,23,-,16,2026-11-24 16:16:31
-Thu Nov 19 2026,23:30,USD,Medium,4-Week Bill Auction Allotted at High,57.47,-,26.54,2026-11-24 16:16:31
-Thu Nov 19 2026,23:30,USD,Medium,4-Week Bill Auction Bid-to-Cover,2.55,-,2.94,2026-11-24 16:16:31
-Thu Nov 19 2026,23:30,USD,Low,4-Week Bill Auction,4.05,-,3.955,2026-11-24 16:16:31
-Thu Nov 19 2026,23:30,USD,Medium,4-Week Bill Auction Total Accepted,-,-,-,2026-11-24 16:16:31
-Fri Nov 20 2026,00:00,USD,Low,30-Year Mortgage Rate,7.28,-,7.11,2026-11-24 16:16:31
-Fri Nov 20 2026,01:00,USD,Medium,10-Year TIPS Auction Allotted at High,90.74,-,93.14,2026-11-24 16:16:31
-Fri Nov 20 2026,01:00,USD,Medium,10-Year TIPS Auction Bid-to-Cover,2.43,-,2.24,2026-11-24 16:16:31
-Fri Nov 20 2026,01:00,USD,Low,10-Year TIPS Auction,2.903,-,2.653,2026-11-24 16:16:31
-Fri Nov 20 2026,01:00,USD,Medium,10-Year TIPS Auction Total Accepted,19,-,19,2026-11-24 16:16:31
-Fri Nov 20 2026,04:30,USD,Low,Fed Balance Sheet,6.74145,-,6.75887,2026-11-24 16:16:31
-Fri Nov 20 2026,22:00,USD,Low,Michigan Inflation Expectations Final,3.7,-,4.7,2026-11-24 16:16:31
-Fri Nov 20 2026,22:00,USD,Low,Michigan 5 Year Inflation Expectations Final,3.3,-,3.5,2026-11-24 16:16:31
-Fri Nov 20 2026,22:00,USD,Low,Michigan Current Conditions Final,49.4,51.6,46.7,2026-11-24 16:16:31
-Fri Nov 20 2026,22:00,USD,Low,Michigan Consumer Expectations Final,52.9,-,48.8,2026-11-24 16:16:31
-Fri Nov 20 2026,22:00,USD,Medium,Michigan Consumer Sentiment Final,51.5,51.5,48,2026-11-24 16:16:31
-Sat Nov 21 2026,02:00,USD,Medium,Baker Hughes Gas Rig Count,128,-,127,2026-11-24 16:16:31
-Sat Nov 21 2026,02:00,USD,Low,Baker Hughes Oil Rig Count,469,-,463,2026-11-24 16:16:31
-Sat Nov 21 2026,03:00,USD,Low,Cattle Marketed,95,95,93,2026-11-24 16:16:31
-Sat Nov 21 2026,03:00,USD,Low,Cattle Placed on Feed,93,96.6,88,2026-11-24 16:16:31
-Sat Nov 21 2026,03:00,USD,Low,Cattle on Feed,99,99.7,100,2026-11-24 16:16:31
-Mon Nov 23 2026,20:30,USD,Medium,Chicago Fed National Activity Index,-0.06,-,0.05,2026-11-24 16:16:31
-Mon Nov 23 2026,21:45,USD,Medium,S&P Global Services PMI Flash,-,55.7,-,2026-11-24 16:16:31
-Mon Nov 23 2026,21:45,USD,Medium,S&P Global Composite PMI Flash,-,-,-,2026-11-24 16:16:31
-Mon Nov 23 2026,21:45,USD,Medium,S&P Global Manufacturing PMI Flash,-,54.5,-,2026-11-24 16:16:31
-Mon Nov 23 2026,23:00,USD,Low,USDA Corn Export Inspections,1190.786,-,869.714,2026-11-24 16:16:31
-Mon Nov 23 2026,23:00,USD,Low,USDA Soybean Export Inspections,1555.054,-,1734.7,2026-11-24 16:16:31
-Mon Nov 23 2026,23:00,USD,Low,USDA Wheat Export Inspections,344.886,-,413.546,2026-11-24 16:16:31
-Mon Nov 23 2026,23:30,USD,Medium,3-Month Bill Auction Allotted at High,20.69,-,93.85,2026-11-24 16:16:31
-Mon Nov 23 2026,23:30,USD,Medium,3-Month Bill Auction Bid-to-Cover,2.74,-,2.76,2026-11-24 16:16:31
-Mon Nov 23 2026,23:30,USD,Low,3-Month Bill Auction,4.18,-,4.155,2026-11-24 16:16:31
-Mon Nov 23 2026,23:30,USD,Medium,3-Month Bill Auction Total Accepted,-,-,-,2026-11-24 16:16:31
-Mon Nov 23 2026,23:30,USD,Medium,6-Month Bill Auction Allotted at High,53.42,-,7.39,2026-11-24 16:16:31
-Mon Nov 23 2026,23:30,USD,Medium,6-Month Bill Auction Bid-to-Cover,2.6,-,2.83,2026-11-24 16:16:31
-Mon Nov 23 2026,23:30,USD,Low,6-Month Bill Auction,4.34,-,4.31,2026-11-24 16:16:31
-Mon Nov 23 2026,23:30,USD,Medium,6-Month Bill Auction Total Accepted,88.2431,-,87.8472,2026-11-24 16:16:31
-Tue Nov 24 2026,01:00,USD,Medium,2-Year Note Auction Allotted at High,74.54,-,80.83,2026-11-24 16:16:31
-Tue Nov 24 2026,01:00,USD,Medium,2-Year Note Auction Bid-to-Cover,2.65,-,2.59,2026-11-24 16:16:31
-Tue Nov 24 2026,01:00,USD,Low,2-Year Note Auction,4.7,-,4.708,2026-11-24 16:16:31
-Tue Nov 24 2026,01:00,USD,Medium,2-Year Note Auction Total Accepted,69.0001,-,69.0001,2026-11-24 16:16:31
-Tue Nov 24 2026,20:15,USD,Medium,ADP Employment Change Weekly,21000,-,23000,2026-11-24 16:16:31
-Tue Nov 24 2026,20:55,USD,Low,Redbook YoY,11.3,-,9.5,2026-11-24 16:16:31
-Tue Nov 24 2026,21:00,USD,Low,House Price Index,444.4,-,444.3,2026-11-24 16:16:31
-Tue Nov 24 2026,21:00,USD,Low,House Price Index MoM,0,-,0.2,2026-11-24 16:16:31
-Tue Nov 24 2026,21:00,USD,Low,House Price Index YoY,2.5,-,2.4,2026-11-24 16:16:31
-Tue Nov 24 2026,21:00,USD,Low,S&P/Case-Shiller Home Price MoM,-0.5,-,-0.4,2026-11-24 16:16:31
-Tue Nov 24 2026,21:00,USD,Medium,S&P/Case-Shiller 20-City Home Price MoM s.a,0.1,0.2,0.2,2026-11-24 16:16:31
-Tue Nov 24 2026,21:00,USD,Medium,S&P/Case-Shiller Home Price YoY,2.6,2.7,2.6,2026-11-24 16:16:31
-Tue Nov 24 2026,22:00,USD,Medium,CB Consumer Confidence,103.3,92.5,91.9,2026-11-24 16:16:31
-Tue Nov 24 2026,22:00,USD,Low,Richmond Fed Manufacturing Shipments Index,2,-,0,2026-11-24 16:16:31
-Tue Nov 24 2026,22:00,USD,Low,Richmond Fed Composite Index,3,-,-2,2026-11-24 16:16:31
-Tue Nov 24 2026,22:00,USD,Low,Richmond Fed Services Revenues Index,-7,-,2,2026-11-24 16:16:31
-Tue Nov 24 2026,23:30,USD,Medium,52-Week Bill Auction Allotted at High,-,-,-,2026-11-24 16:16:31
-Tue Nov 24 2026,23:30,USD,Medium,52-Week Bill Auction Bid-to-Cover,-,-,-,2026-11-24 16:16:31
-Tue Nov 24 2026,23:30,USD,Low,52-Week Bill Auction,-,-,-,2026-11-24 16:16:31
-Tue Nov 24 2026,23:30,USD,Medium,52-Week Bill Auction Total Accepted,-,-,-,2026-11-24 16:16:31
-Wed Nov 25 2026,01:00,USD,Medium,5-Year Note Auction Allotted at High,-,-,-,2026-11-24 16:16:31
-Wed Nov 25 2026,01:00,USD,Medium,5-Year Note Auction Bid-to-Cover,-,-,-,2026-11-24 16:16:31
-Wed Nov 25 2026,01:00,USD,Low,5-Year Note Auction,-,-,-,2026-11-24 16:16:31
-Wed Nov 25 2026,01:00,USD,Medium,5-Year Note Auction Total Accepted,-,-,-,2026-11-24 16:16:31
-Wed Nov 25 2026,01:00,USD,Medium,2-Year FRN Auction Allotted at High,-,-,-,2026-11-24 16:16:31
-Wed Nov 25 2026,01:00,USD,Medium,2-Year FRN Auction Bid-to-Cover,-,-,-,2026-11-24 16:16:31
-Wed Nov 25 2026,01:00,USD,Low,2-Year FRN Auction,-,-,-,2026-11-24 16:16:31
-Wed Nov 25 2026,01:00,USD,Medium,2-Year FRN Auction Total Accepted,-,-,-,2026-11-24 16:16:31
-Wed Nov 25 2026,01:00,USD,Low,Money Supply,-,-,23.4139,2026-11-24 16:16:31
-Wed Nov 25 2026,03:00,USD,Low,Cold Storage Beef Stocks,-,-,400.006,2026-11-24 16:16:31
-Wed Nov 25 2026,03:00,USD,Low,Cold Storage Frozen Orange Juice Stocks,-,-,0.477,2026-11-24 16:16:31
-Wed Nov 25 2026,03:00,USD,Low,Cold Storage Pork Belly Stocks,-,-,19.7,2026-11-24 16:16:31
-Wed Nov 25 2026,04:30,USD,Low,API Cushing Number,-,-,-1.691,2026-11-24 16:16:31
-Wed Nov 25 2026,04:30,USD,Medium,API Crude Oil Stock Change,-,0.9,5.278,2026-11-24 16:16:31
-Wed Nov 25 2026,04:30,USD,Low,API Distillate Stocks,-,1.5,0.351,2026-11-24 16:16:31
-Wed Nov 25 2026,04:30,USD,Low,API Gasoline Stocks,-,2,5.122,2026-11-24 16:16:31
-Wed Nov 25 2026,04:30,USD,Low,API Heating Oil,-,-,-0.273,2026-11-24 16:16:31
-Wed Nov 25 2026,04:30,USD,Low,API Crude Imports,-,-,-0.178,2026-11-24 16:16:31
-Wed Nov 25 2026,04:30,USD,Low,API Product Imports,-,-,0.147,2026-11-24 16:16:31
-Wed Nov 25 2026,04:30,USD,Low,API Crude Runs,-,-,0.051,2026-11-24 16:16:31
-Wed Nov 25 2026,19:00,USD,Medium,MBA 5/1 ARM Contract Rate,-,-,6.38,2026-11-24 16:16:31
-Wed Nov 25 2026,19:00,USD,Medium,MBA 5/1 ARM Effective Rate,-,-,6.78,2026-11-24 16:16:31
-Wed Nov 25 2026,19:00,USD,Medium,MBA 15-Year Mortgage Contract Rate,-,-,6.64,2026-11-24 16:16:31
-Wed Nov 25 2026,19:00,USD,Medium,MBA 15-Year Mortgage Effective Rate,-,-,6.9,2026-11-24 16:16:31
-Wed Nov 25 2026,19:00,USD,Medium,MBA 15-Year Mortgage Points,-,-,1.03,2026-11-24 16:16:31
-Wed Nov 25 2026,19:00,USD,Low,MBA Mortgage Applications,-,-,-2.3,2026-11-24 16:16:31
-Wed Nov 25 2026,19:00,USD,Medium,MBA 30-Year Mortgage Rate,-,-,7.35,2026-11-24 16:16:31
-Wed Nov 25 2026,19:00,USD,Low,MBA Mortgage Market Index,-,-,199.8,2026-11-24 16:16:31
-Wed Nov 25 2026,19:00,USD,Low,MBA Purchase Index,-,-,137.6,2026-11-24 16:16:31
-Wed Nov 25 2026,19:00,USD,Low,MBA Mortgage Refinance Index,-,-,532.8,2026-11-24 16:16:31
-Wed Nov 25 2026,19:00,USD,Medium,MBA 5/1 ARM Points,-,-,1.07,2026-11-24 16:16:31
-Wed Nov 25 2026,20:00,USD,Low,Building Permits Final,-,-,1.398,2026-11-24 16:16:31
-Wed Nov 25 2026,20:00,USD,Low,Building Permits MoM Final,-,-,-0.4,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Low,Real Personal Spending MoM,-,-,0,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,High,Personal Spending MoM,-,0.4,0.5,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Medium,PCE Services Prices ex Energy & Housing MoM,-,-,0.4,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Medium,"PCE Prices ex Food, Energy & Housing MoM",-,-,0.3,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Low,Core PCE Price Index YoY,-,3.2,3.1,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Medium,PCE Price Index MoM,-,0.3,0.5,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,High,Core PCE Price Index MoM,-,0.3,0.3,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Medium,PCE Price Index YoY,-,3.8,3.6,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,High,Personal Income MoM,-,0.4,0.2,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Low,Core PCE Prices QoQ 2nd Est,-,2.5,3.6,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Medium,GDP Price Index QoQ 2nd Est,-,2.3,6.4,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,High,GDP Growth Rate QoQ 2nd Est,-,3.5,1.5,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Low,GDP Sales QoQ 2nd Est,-,-,2.2,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Low,Real Consumer Spending QoQ 2nd Est,-,-,3.4,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Low,PCE Prices QoQ 2nd Est,-,-,5.3,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Medium,"PCE Prices ex Food, Energy & Housing QoQ 2nd Est",-,-,3.4,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Medium,PCE Services Prices ex Energy & Housing QoQ 2nd Est,-,-,3.7,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Low,Durable Goods Orders ex Defense MoM,-,-,2.2,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,High,Durable Goods Orders MoM,-,0.6,1.8,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Medium,Durable Goods Orders Ex Transp MoM,-,0.5,0.5,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Low,Non Defense Goods Orders Ex Air,-,0.7,0.5,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Medium,Corporate Profits QoQ Prel,-,-,8.2,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Low,Jobless Claims 4-week Average,-,-,197.75,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Medium,Initial Jobless Claims,-,200,203,2026-11-24 16:16:31
-Wed Nov 25 2026,20:30,USD,Low,Continuing Jobless Claims,-,1721,1763,2026-11-24 16:16:31
-Wed Nov 25 2026,22:00,USD,Low,Dallas Fed Trimmed Mean PCE,-,-,2.8,2026-11-24 16:16:31
-Wed Nov 25 2026,22:00,USD,Medium,New Home Sales,-,0.65,0.676,2026-11-24 16:16:31
-Wed Nov 25 2026,22:00,USD,Medium,New Home Sales MoM,-,-,-0.6,2026-11-24 16:16:31
-Wed Nov 25 2026,22:00,USD,Medium,4-Week Bill Auction Allotted at High,-,-,-,2026-11-24 16:16:31
-Wed Nov 25 2026,22:00,USD,Medium,4-Week Bill Auction Bid-to-Cover,-,-,-,2026-11-24 16:16:31
-Wed Nov 25 2026,22:00,USD,Low,4-Week Bill Auction,-,-,-,2026-11-24 16:16:31
-Wed Nov 25 2026,22:00,USD,Medium,4-Week Bill Auction Total Accepted,-,-,-,2026-11-24 16:16:31
-Wed Nov 25 2026,22:30,USD,Medium,EIA Ethanol Production,-,-,1126,2026-11-24 16:16:31
-Wed Nov 25 2026,22:30,USD,Medium,EIA Ethanol Stocks,-,-,24908,2026-11-24 16:16:31
-Wed Nov 25 2026,22:30,USD,Low,EIA Cushing Crude Oil Stocks Change,-,-,-1.209,2026-11-24 16:16:31
-Wed Nov 25 2026,22:30,USD,Low,EIA Crude Oil Imports Change,-,-,-2.155,2026-11-24 16:16:31
-Wed Nov 25 2026,22:30,USD,Low,EIA Refinery Crude Runs Change,-,-,-0.129,2026-11-24 16:16:31
-Wed Nov 25 2026,22:30,USD,Low,EIA Distillate Fuel Production Change,-,-,0.14,2026-11-24 16:16:31
-Wed Nov 25 2026,22:30,USD,Low,EIA Gasoline Production Change,-,-,-0.202,2026-11-24 16:16:31
-Wed Nov 25 2026,22:30,USD,Medium,EIA Crude Oil Stocks Change,-,0.9,3.38,2026-11-24 16:16:31
-Wed Nov 25 2026,22:30,USD,Low,EIA Distillate Stocks Change,-,1.5,1.571,2026-11-24 16:16:31
-Wed Nov 25 2026,22:30,USD,Medium,EIA Gasoline Stocks Change,-,2,5.192,2026-11-24 16:16:31
-Wed Nov 25 2026,22:30,USD,Low,EIA Heating Oil Stocks Change,-,-,-0.775,2026-11-24 16:16:31
-Wed Nov 25 2026,22:30,USD,Low,United States-EIA OIL STOCKS-EIA Weekly Rfg Stocks*,-,-,-0.002,2026-11-24 16:16:31
-Wed Nov 25 2026,22:30,USD,Low,EIA Product Imports Change,-,-,0.568,2026-11-24 16:16:31
-Wed Nov 25 2026,22:30,USD,Low,EIA Refinery Utilization Change,-,0.3,0.5,2026-11-24 16:16:31
-Wed Nov 25 2026,22:30,USD,Medium,EIA Crude Oil Exports Change,-,-,1.033,2026-11-24 16:16:31
-Wed Nov 25 2026,23:30,USD,Medium,7-Year Note Auction Allotted at High,-,-,-,2026-11-24 16:16:31
-Wed Nov 25 2026,23:30,USD,Medium,7-Year Note Auction Bid-to-Cover,-,-,-,2026-11-24 16:16:31
-Wed Nov 25 2026,23:30,USD,Low,7-Year Note Auction,-,-,-,2026-11-24 16:16:31
-Wed Nov 25 2026,23:30,USD,Medium,7-Year Note Auction Total Accepted,-,-,-,2026-11-24 16:16:31
-Thu Nov 26 2026,00:00,USD,Low,EIA Natural Gas Stocks Change,-,-,20,2026-11-24 16:16:31
-Thu Nov 26 2026,00:00,USD,Low,30-Year Mortgage Rate,-,-,7.28,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Medium,Retail Inventories Ex Autos MoM Adv,-,-,0.4,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Medium,Wholesale Inventories MoM Adv,-,-,0.6,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Medium,Goods Trade Balance Adv,-,-133,-134.9,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Beef Net Export Sales,-,-,7.1,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Beef Gross Export Sales,-,-,8.8,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Corn Net Export Sales Next Year,-,-,41.9,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Corn Net Export Sales Total,-,-,1630,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Meal Net Export Sales Next Year,-,-,1,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Meal Net Export Sales,-,-,198.1,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Meal Net Export Sales Total,-,-,199.1,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Corn Net Export Sales,-,-,1588.1,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Corn Gross Export Sales,-,-,1627,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,United States-ExportSales-Soybn Oil Exp Sls Nxt Yr Net *,-,-,0,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Oil Net Export Sales,-,-,0.9,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Oil Net Export Sales Total,-,-,0.9,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Medium,USDA Pork Net Export Sales,-,-,32.1,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Medium,USDA Pork Gross Export Sales,-,-,36.2,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Net Export Sales Next Year,-,-,0,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Net Export Sales,-,-,1501,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Gross Export Sales,-,-,1622.1,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Net Export Sales Total,-,-,1501,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Upland Cotton Net Export Sales,-,-,118.7,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Upland Cotton Gross Export Sales,-,-,128.4,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Wheat Net Export Sales Next Year,-,-,0,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Wheat Net Export Sales,-,-,344.8,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Wheat Gross Export Sales,-,-,408.7,2026-11-24 16:16:31
-Fri Nov 27 2026,20:30,USD,Low,USDA Wheat Net Export Sales Total,-,-,344.8,2026-11-24 16:16:31
-Sat Nov 28 2026,02:00,USD,Medium,Baker Hughes Gas Rig Count,-,-,128,2026-11-24 16:16:31
-Sat Nov 28 2026,02:00,USD,Low,Baker Hughes Oil Rig Count,-,-,469,2026-11-24 16:16:31
-Sat Nov 28 2026,04:30,USD,Low,Fed Balance Sheet,-,-,6.74145,2026-11-24 16:16:31
-Mon Nov 30 2026,21:45,USD,Medium,Chicago PMI,-,-,55.3,2026-11-24 16:16:31
-Mon Nov 30 2026,22:30,USD,Medium,Dallas Fed Manufacturing Index,-,-,13.4,2026-11-24 16:16:31
-Mon Nov 30 2026,23:00,USD,Low,USDA Corn Export Inspections,-,-,1190.786,2026-11-24 16:16:31
-Mon Nov 30 2026,23:00,USD,Low,USDA Soybean Export Inspections,-,-,1555.054,2026-11-24 16:16:31
-Mon Nov 30 2026,23:00,USD,Low,USDA Wheat Export Inspections,-,-,344.886,2026-11-24 16:16:31
-Mon Nov 30 2026,23:30,USD,Medium,3-Month Bill Auction Allotted at High,-,-,-,2026-11-24 16:16:31
-Mon Nov 30 2026,23:30,USD,Medium,3-Month Bill Auction Bid-to-Cover,-,-,-,2026-11-24 16:16:31
-Mon Nov 30 2026,23:30,USD,Low,3-Month Bill Auction,-,-,-,2026-11-24 16:16:31
-Mon Nov 30 2026,23:30,USD,Medium,3-Month Bill Auction Total Accepted,-,-,-,2026-11-24 16:16:31
-Mon Nov 30 2026,23:30,USD,Medium,6-Month Bill Auction Allotted at High,-,-,-,2026-11-24 16:16:31
-Mon Nov 30 2026,23:30,USD,Medium,6-Month Bill Auction Bid-to-Cover,-,-,-,2026-11-24 16:16:31
-Mon Nov 30 2026,23:30,USD,Low,6-Month Bill Auction,-,-,-,2026-11-24 16:16:31
-Mon Nov 30 2026,23:30,USD,Medium,6-Month Bill Auction Total Accepted,-,-,-,2026-11-24 16:16:31
-Tue Dec 1 2026,20:55,USD,Low,Redbook YoY,-,-,11.3,2026-11-24 16:16:31
-Tue Dec 1 2026,21:45,USD,Low,S&P Global Manufacturing PMI Final,-,-,-,2026-11-24 16:16:31
-Tue Dec 1 2026,22:00,USD,Low,Construction Spending MoM,-,-,-1.9,2026-11-24 16:16:31
-Tue Dec 1 2026,22:00,USD,Medium,ISM Manufacturing Employment,-,-,52.4,2026-11-24 16:16:31
-Tue Dec 1 2026,22:00,USD,Low,ISM Manufacturing New Orders,-,-,55.5,2026-11-24 16:16:31
-Tue Dec 1 2026,22:00,USD,Low,ISM Manufacturing Prices,-,-,75.2,2026-11-24 16:16:31
-Tue Dec 1 2026,22:00,USD,High,ISM Manufacturing PMI,-,55.2,55.5,2026-11-24 16:16:31
-Tue Dec 1 2026,22:00,USD,High,JOLTs Job Openings,-,-,7.523,2026-11-24 16:16:31
-Tue Dec 1 2026,22:00,USD,Medium,Truck Sales,-,-,13.09,2026-11-24 16:16:31
-Tue Dec 1 2026,22:00,USD,Medium,Car Sales,-,-,2.45,2026-11-24 16:16:31
-Tue Dec 1 2026,22:00,USD,Low,JOLTs Job Quits,-,-,3.365,2026-11-24 16:16:31
-Tue Dec 1 2026,22:30,USD,Low,Dallas Fed Services Revenues Index,-,-,4.4,2026-11-24 16:16:31
-Tue Dec 1 2026,22:30,USD,Low,Dallas Fed Services Index,-,-,4,2026-11-24 16:16:31
-Wed Dec 2 2026,04:30,USD,Low,API Cushing Number,-,-,-,2026-11-24 16:16:31
-Wed Dec 2 2026,04:30,USD,Medium,API Crude Oil Stock Change,-,-,-,2026-11-24 16:16:31
-Wed Dec 2 2026,04:30,USD,Low,API Distillate Stocks,-,-,-,2026-11-24 16:16:31
-Wed Dec 2 2026,04:30,USD,Low,API Gasoline Stocks,-,-,-,2026-11-24 16:16:31
-Wed Dec 2 2026,04:30,USD,Low,API Heating Oil,-,-,-,2026-11-24 16:16:31
-Wed Dec 2 2026,04:30,USD,Low,API Crude Imports,-,-,-,2026-11-24 16:16:31
-Wed Dec 2 2026,04:30,USD,Low,API Product Imports,-,-,-,2026-11-24 16:16:31
-Wed Dec 2 2026,04:30,USD,Low,API Crude Runs,-,-,-,2026-11-24 16:16:31
+Wed Nov 18 2026,19:00,USD,Medium,MBA 5/1 ARM Contract Rate,6.38,-,6.28,2026-11-25 00:46:18
+Wed Nov 18 2026,19:00,USD,Medium,MBA 5/1 ARM Effective Rate,6.78,-,6.7,2026-11-25 00:46:18
+Wed Nov 18 2026,19:00,USD,Medium,MBA 15-Year Mortgage Contract Rate,6.64,-,6.64,2026-11-25 00:46:18
+Wed Nov 18 2026,19:00,USD,Medium,MBA 15-Year Mortgage Effective Rate,6.9,-,6.88,2026-11-25 00:46:18
+Wed Nov 18 2026,19:00,USD,Medium,MBA 15-Year Mortgage Points,1.03,-,0.97,2026-11-25 00:46:18
+Wed Nov 18 2026,19:00,USD,Low,MBA Mortgage Applications,-2.3,-,6.2,2026-11-25 00:46:18
+Wed Nov 18 2026,19:00,USD,Medium,MBA 30-Year Mortgage Rate,7.35,-,7.21,2026-11-25 00:46:18
+Wed Nov 18 2026,19:00,USD,Low,MBA Mortgage Market Index,199.8,-,204.6,2026-11-25 00:46:18
+Wed Nov 18 2026,19:00,USD,Low,MBA Purchase Index,137.6,-,141.2,2026-11-25 00:46:18
+Wed Nov 18 2026,19:00,USD,Low,MBA Mortgage Refinance Index,532.8,-,540.7,2026-11-25 00:46:18
+Wed Nov 18 2026,19:00,USD,Medium,MBA 5/1 ARM Points,1.07,-,1.14,2026-11-25 00:46:18
+Wed Nov 18 2026,20:30,USD,High,Housing Starts,1.309,1.245,1.191,2026-11-25 00:46:18
+Wed Nov 18 2026,20:30,USD,Medium,Housing Starts MoM,9.9,-,-7,2026-11-25 00:46:18
+Wed Nov 18 2026,20:30,USD,High,Building Permits Prel,1.295,1.377,1.4,2026-11-25 00:46:18
+Wed Nov 18 2026,20:30,USD,Medium,Building Permits MoM Prel,-7.4,-,-0.2,2026-11-25 00:46:18
+Wed Nov 18 2026,22:00,USD,Medium,Pending Home Sales Index,63,-,66.1,2026-11-25 00:46:18
+Wed Nov 18 2026,22:00,USD,Medium,Pending Home Sales MoM,-4.7,-2,-7.2,2026-11-25 00:46:18
+Wed Nov 18 2026,22:30,USD,Medium,EIA Ethanol Production,1126,-,1130,2026-11-25 00:46:18
+Wed Nov 18 2026,22:30,USD,Medium,EIA Ethanol Stocks,24908,-,24345,2026-11-25 00:46:18
+Wed Nov 18 2026,22:30,USD,Low,EIA Cushing Crude Oil Stocks Change,-1.209,-,0.106,2026-11-25 00:46:18
+Wed Nov 18 2026,22:30,USD,Low,EIA Crude Oil Imports Change,-2.155,-,0.544,2026-11-25 00:46:18
+Wed Nov 18 2026,22:30,USD,Low,EIA Refinery Crude Runs Change,-0.129,-,0.322,2026-11-25 00:46:18
+Wed Nov 18 2026,22:30,USD,Low,EIA Distillate Fuel Production Change,0.14,-,-0.063,2026-11-25 00:46:18
+Wed Nov 18 2026,22:30,USD,Low,EIA Gasoline Production Change,-0.202,-,-0.078,2026-11-25 00:46:18
+Wed Nov 18 2026,22:30,USD,Medium,EIA Crude Oil Stocks Change,3.38,-0.477,4.657,2026-11-25 00:46:18
+Wed Nov 18 2026,22:30,USD,Low,EIA Distillate Stocks Change,1.571,1.05,4.071,2026-11-25 00:46:18
+Wed Nov 18 2026,22:30,USD,Medium,EIA Gasoline Stocks Change,5.192,1.7,1.799,2026-11-25 00:46:18
+Wed Nov 18 2026,22:30,USD,Low,EIA Heating Oil Stocks Change,-0.775,-,0.335,2026-11-25 00:46:18
+Wed Nov 18 2026,22:30,USD,Low,United States-EIA OIL STOCKS-EIA Weekly Rfg Stocks*,-0.002,-,0,2026-11-25 00:46:18
+Wed Nov 18 2026,22:30,USD,Low,EIA Product Imports Change,0.568,-,-0.25,2026-11-25 00:46:18
+Wed Nov 18 2026,22:30,USD,Low,EIA Refinery Utilization Change,0.5,0.2,0.7,2026-11-25 00:46:18
+Wed Nov 18 2026,22:30,USD,Medium,EIA Crude Oil Exports Change,1.033,-,-0.22,2026-11-25 00:46:18
+Thu Nov 19 2026,01:00,USD,Medium,20-Year Bond Auction Allotted at High,70.87,-,60.05,2026-11-25 00:46:18
+Thu Nov 19 2026,01:00,USD,Medium,20-Year Bond Auction Bid-to-Cover,2.63,-,2.73,2026-11-25 00:46:18
+Thu Nov 19 2026,01:00,USD,Low,20-Year Bond Auction,5.459,-,5.469,2026-11-25 00:46:18
+Thu Nov 19 2026,01:00,USD,Medium,20-Year Bond Auction Total Accepted,16,-,13,2026-11-25 00:46:18
+Thu Nov 19 2026,04:00,USD,Low,Foreign Bond Investment,80.8,-,108.6,2026-11-25 00:46:18
+Thu Nov 19 2026,04:00,USD,Low,Overall Net Capital Flows,261,-,203,2026-11-25 00:46:18
+Thu Nov 19 2026,04:00,USD,Medium,Net Long-term TIC Flows,155.3,-,285,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,Philly Fed Business Conditions,33.6,-,33,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,Philly Fed CAPEX Index,18.9,-,34.9,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Medium,Philadelphia Fed Manufacturing Index,6.3,20,20.9,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,Philly Fed Employment,11.6,-,9.1,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,Philly Fed New Orders,-0.4,-,4.3,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,Philly Fed Prices Paid,58.2,-,43.2,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Beef Net Export Sales,7.1,-,9.6,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Beef Gross Export Sales,8.8,-,12.2,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Corn Net Export Sales Next Year,41.9,-,594.4,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Corn Net Export Sales Total,1630,-,3475.8,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Meal Net Export Sales Next Year,1,-,-0.2,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Meal Net Export Sales,198.1,-,360.9,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Meal Net Export Sales Total,199.1,-,360.7,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Corn Net Export Sales,1588.1,-,2881.4,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Corn Gross Export Sales,1627,-,2922.3,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,United States-ExportSales-Soybn Oil Exp Sls Nxt Yr Net *,0,-,0,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Oil Net Export Sales,0.9,-,1.7,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Oil Net Export Sales Total,0.9,-,1.7,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Medium,USDA Pork Net Export Sales,32.1,-,39.5,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Medium,USDA Pork Gross Export Sales,36.2,-,41.5,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Net Export Sales Next Year,0,-,11.2,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Net Export Sales,1501,-,1154.8,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Gross Export Sales,1622.1,-,1388.2,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Soybean Net Export Sales Total,1501,-,1166,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Upland Cotton Net Export Sales,118.7,-,157.3,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Upland Cotton Gross Export Sales,128.4,-,162.3,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Wheat Net Export Sales Next Year,0,-,0,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Wheat Net Export Sales,344.8,-,182.8,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Wheat Gross Export Sales,408.7,-,198.7,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,USDA Wheat Net Export Sales Total,344.8,-,182.8,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,Jobless Claims 4-week Average,197.75,-,195.75,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Medium,Initial Jobless Claims,203,197,202,2026-11-25 00:46:18
+Thu Nov 19 2026,20:30,USD,Low,Continuing Jobless Claims,1763,1710,1693,2026-11-25 00:46:18
+Thu Nov 19 2026,22:00,USD,Low,CB Leading Index MoM,-0.3,0,0,2026-11-25 00:46:18
+Thu Nov 19 2026,22:30,USD,Low,EIA Natural Gas Stocks Change,20,-,61,2026-11-25 00:46:18
+Thu Nov 19 2026,23:00,USD,Low,Kansas Fed Composite Index,18,-,11,2026-11-25 00:46:18
+Thu Nov 19 2026,23:00,USD,Low,Kansas Fed Manufacturing Index,23,-,16,2026-11-25 00:46:18
+Thu Nov 19 2026,23:30,USD,Medium,4-Week Bill Auction Allotted at High,57.47,-,26.54,2026-11-25 00:46:18
+Thu Nov 19 2026,23:30,USD,Medium,4-Week Bill Auction Bid-to-Cover,2.55,-,2.94,2026-11-25 00:46:18
+Thu Nov 19 2026,23:30,USD,Low,4-Week Bill Auction,4.05,-,3.955,2026-11-25 00:46:18
+Thu Nov 19 2026,23:30,USD,Medium,4-Week Bill Auction Total Accepted,-,-,-,2026-11-25 00:46:18
+Fri Nov 20 2026,00:00,USD,Low,30-Year Mortgage Rate,7.28,-,7.11,2026-11-25 00:46:18
+Fri Nov 20 2026,01:00,USD,Medium,10-Year TIPS Auction Allotted at High,90.74,-,93.14,2026-11-25 00:46:18
+Fri Nov 20 2026,01:00,USD,Medium,10-Year TIPS Auction Bid-to-Cover,2.43,-,2.24,2026-11-25 00:46:18
+Fri Nov 20 2026,01:00,USD,Low,10-Year TIPS Auction,2.903,-,2.653,2026-11-25 00:46:18
+Fri Nov 20 2026,01:00,USD,Medium,10-Year TIPS Auction Total Accepted,19,-,19,2026-11-25 00:46:18
+Fri Nov 20 2026,04:30,USD,Low,Fed Balance Sheet,6.74145,-,6.75887,2026-11-25 00:46:18
+Fri Nov 20 2026,22:00,USD,Low,Michigan Inflation Expectations Final,3.7,-,4.7,2026-11-25 00:46:18
+Fri Nov 20 2026,22:00,USD,Low,Michigan 5 Year Inflation Expectations Final,3.3,-,3.5,2026-11-25 00:46:18
+Fri Nov 20 2026,22:00,USD,Low,Michigan Current Conditions Final,49.4,51.6,46.7,2026-11-25 00:46:18
+Fri Nov 20 2026,22:00,USD,Low,Michigan Consumer Expectations Final,52.9,-,48.8,2026-11-25 00:46:18
+Fri Nov 20 2026,22:00,USD,Medium,Michigan Consumer Sentiment Final,51.5,51.5,48,2026-11-25 00:46:18
+Sat Nov 21 2026,02:00,USD,Medium,Baker Hughes Gas Rig Count,128,-,127,2026-11-25 00:46:18
+Sat Nov 21 2026,02:00,USD,Low,Baker Hughes Oil Rig Count,469,-,463,2026-11-25 00:46:18
+Sat Nov 21 2026,03:00,USD,Low,Cattle Marketed,95,95,93,2026-11-25 00:46:18
+Sat Nov 21 2026,03:00,USD,Low,Cattle Placed on Feed,93,96.6,88,2026-11-25 00:46:18
+Sat Nov 21 2026,03:00,USD,Low,Cattle on Feed,99,99.7,100,2026-11-25 00:46:18
+Mon Nov 23 2026,20:30,USD,Medium,Chicago Fed National Activity Index,-0.06,-,0.05,2026-11-25 00:46:18
+Mon Nov 23 2026,21:45,USD,Medium,S&P Global Services PMI Flash,-,55.7,-,2026-11-25 00:46:18
+Mon Nov 23 2026,21:45,USD,Medium,S&P Global Composite PMI Flash,-,-,-,2026-11-25 00:46:18
+Mon Nov 23 2026,21:45,USD,Medium,S&P Global Manufacturing PMI Flash,-,54.5,-,2026-11-25 00:46:18
+Mon Nov 23 2026,23:00,USD,Low,USDA Corn Export Inspections,1190.786,-,869.714,2026-11-25 00:46:18
+Mon Nov 23 2026,23:00,USD,Low,USDA Soybean Export Inspections,1555.054,-,1734.7,2026-11-25 00:46:18
+Mon Nov 23 2026,23:00,USD,Low,USDA Wheat Export Inspections,344.886,-,413.546,2026-11-25 00:46:18
+Mon Nov 23 2026,23:30,USD,Medium,3-Month Bill Auction Allotted at High,20.69,-,93.85,2026-11-25 00:46:18
+Mon Nov 23 2026,23:30,USD,Medium,3-Month Bill Auction Bid-to-Cover,2.74,-,2.76,2026-11-25 00:46:18
+Mon Nov 23 2026,23:30,USD,Low,3-Month Bill Auction,4.18,-,4.155,2026-11-25 00:46:18
+Mon Nov 23 2026,23:30,USD,Medium,3-Month Bill Auction Total Accepted,-,-,-,2026-11-25 00:46:18
+Mon Nov 23 2026,23:30,USD,Medium,6-Month Bill Auction Allotted at High,53.42,-,7.39,2026-11-25 00:46:18
+Mon Nov 23 2026,23:30,USD,Medium,6-Month Bill Auction Bid-to-Cover,2.6,-,2.83,2026-11-25 00:46:18
+Mon Nov 23 2026,23:30,USD,Low,6-Month Bill Auction,4.34,-,4.31,2026-11-25 00:46:18
+Mon Nov 23 2026,23:30,USD,Medium,6-Month Bill Auction Total Accepted,88.2431,-,87.8472,2026-11-25 00:46:18
+Tue Nov 24 2026,01:00,USD,Medium,2-Year Note Auction Allotted at High,74.54,-,80.83,2026-11-25 00:46:18
+Tue Nov 24 2026,01:00,USD,Medium,2-Year Note Auction Bid-to-Cover,2.65,-,2.59,2026-11-25 00:46:18
+Tue Nov 24 2026,01:00,USD,Low,2-Year Note Auction,4.7,-,4.708,2026-11-25 00:46:18
+Tue Nov 24 2026,01:00,USD,Medium,2-Year Note Auction Total Accepted,69.0001,-,69.0001,2026-11-25 00:46:18
+Tue Nov 24 2026,20:15,USD,Medium,ADP Employment Change Weekly,21000,-,23000,2026-11-25 00:46:18
+Tue Nov 24 2026,20:55,USD,Low,Redbook YoY,11.3,-,9.5,2026-11-25 00:46:18
+Tue Nov 24 2026,21:00,USD,Low,House Price Index,444.4,-,444.3,2026-11-25 00:46:18
+Tue Nov 24 2026,21:00,USD,Low,House Price Index MoM,0,-,0.2,2026-11-25 00:46:18
+Tue Nov 24 2026,21:00,USD,Low,House Price Index YoY,2.5,-,2.4,2026-11-25 00:46:18
+Tue Nov 24 2026,21:00,USD,Low,S&P/Case-Shiller Home Price MoM,-0.5,-,-0.4,2026-11-25 00:46:18
+Tue Nov 24 2026,21:00,USD,Medium,S&P/Case-Shiller 20-City Home Price MoM s.a,0.1,0.2,0.2,2026-11-25 00:46:18
+Tue Nov 24 2026,21:00,USD,Medium,S&P/Case-Shiller Home Price YoY,2.6,2.7,2.6,2026-11-25 00:46:18
+Tue Nov 24 2026,22:00,USD,Medium,CB Consumer Confidence,103.3,92.5,91.9,2026-11-25 00:46:18
+Tue Nov 24 2026,22:00,USD,Low,Richmond Fed Manufacturing Shipments Index,2,-,0,2026-11-25 00:46:18
+Tue Nov 24 2026,22:00,USD,Low,Richmond Fed Composite Index,3,-,-2,2026-11-25 00:46:18
+Tue Nov 24 2026,22:00,USD,Low,Richmond Fed Services Revenues Index,-7,-,2,2026-11-25 00:46:18
+Tue Nov 24 2026,23:30,USD,Medium,52-Week Bill Auction Allotted at High,96.47,-,65.33,2026-11-25 00:46:18
+Tue Nov 24 2026,23:30,USD,Medium,52-Week Bill Auction Bid-to-Cover,3.04,-,3.15,2026-11-25 00:46:18
+Tue Nov 24 2026,23:30,USD,Low,52-Week Bill Auction,4.365,-,4.29,2026-11-25 00:46:18
+Tue Nov 24 2026,23:30,USD,Medium,52-Week Bill Auction Total Accepted,58.111,-,58.8048,2026-11-25 00:46:18
+Wed Nov 25 2026,01:00,USD,Medium,5-Year Note Auction Allotted at High,63.47,-,98.6,2026-11-25 00:46:18
+Wed Nov 25 2026,01:00,USD,Medium,5-Year Note Auction Bid-to-Cover,2.37,-,2.33,2026-11-25 00:46:18
+Wed Nov 25 2026,01:00,USD,Low,5-Year Note Auction,4.719,-,4.845,2026-11-25 00:46:18
+Wed Nov 25 2026,01:00,USD,Medium,5-Year Note Auction Total Accepted,70,-,70.0001,2026-11-25 00:46:18
+Wed Nov 25 2026,01:00,USD,Medium,2-Year FRN Auction Allotted at High,57.1,-,11.37,2026-11-25 00:46:18
+Wed Nov 25 2026,01:00,USD,Medium,2-Year FRN Auction Bid-to-Cover,2.87,-,3.05,2026-11-25 00:46:18
+Wed Nov 25 2026,01:00,USD,Low,2-Year FRN Auction,0.05,-,0.038,2026-11-25 00:46:18
+Wed Nov 25 2026,01:00,USD,Medium,2-Year FRN Auction Total Accepted,28.0001,-,30,2026-11-25 00:46:18
+Wed Nov 25 2026,01:00,USD,Low,Money Supply,23.5328,-,23.4139,2026-11-25 00:46:18
+Wed Nov 25 2026,03:00,USD,Low,Cold Storage Beef Stocks,420.851,-,400.452,2026-11-25 00:46:18
+Wed Nov 25 2026,03:00,USD,Low,Cold Storage Frozen Orange Juice Stocks,0.48,-,0.477,2026-11-25 00:46:18
+Wed Nov 25 2026,03:00,USD,Low,Cold Storage Pork Belly Stocks,20.938,-,20.73,2026-11-25 00:46:18
+Wed Nov 25 2026,04:30,USD,Low,API Cushing Number,-0.666,-,-1.691,2026-11-25 00:46:18
+Wed Nov 25 2026,04:30,USD,Medium,API Crude Oil Stock Change,0.126,1.45,5.278,2026-11-25 00:46:18
+Wed Nov 25 2026,04:30,USD,Low,API Distillate Stocks,1.647,1.4,0.351,2026-11-25 00:46:18
+Wed Nov 25 2026,04:30,USD,Low,API Gasoline Stocks,-0.047,1.85,5.122,2026-11-25 00:46:18
+Wed Nov 25 2026,04:30,USD,Low,API Heating Oil,-0.09,-,-0.273,2026-11-25 00:46:18
+Wed Nov 25 2026,04:30,USD,Low,API Crude Imports,0.101,-,-0.178,2026-11-25 00:46:18
+Wed Nov 25 2026,04:30,USD,Low,API Product Imports,-0.055,-,0.147,2026-11-25 00:46:18
+Wed Nov 25 2026,04:30,USD,Low,API Crude Runs,0.436,-,0.051,2026-11-25 00:46:18
+Wed Nov 25 2026,19:00,USD,Medium,MBA 5/1 ARM Contract Rate,-,-,6.38,2026-11-25 00:46:18
+Wed Nov 25 2026,19:00,USD,Medium,MBA 5/1 ARM Effective Rate,-,-,6.78,2026-11-25 00:46:18
+Wed Nov 25 2026,19:00,USD,Medium,MBA 15-Year Mortgage Contract Rate,-,-,6.64,2026-11-25 00:46:18
+Wed Nov 25 2026,19:00,USD,Medium,MBA 15-Year Mortgage Effective Rate,-,-,6.9,2026-11-25 00:46:18
+Wed Nov 25 2026,19:00,USD,Medium,MBA 15-Year Mortgage Points,-,-,1.03,2026-11-25 00:46:18
+Wed Nov 25 2026,19:00,USD,Low,MBA Mortgage Applications,-,-,-2.3,2026-11-25 00:46:18
+Wed Nov 25 2026,19:00,USD,Medium,MBA 30-Year Mortgage Rate,-,-,7.35,2026-11-25 00:46:18
+Wed Nov 25 2026,19:00,USD,Low,MBA Mortgage Market Index,-,-,199.8,2026-11-25 00:46:18
+Wed Nov 25 2026,19:00,USD,Low,MBA Purchase Index,-,-,137.6,2026-11-25 00:46:18
+Wed Nov 25 2026,19:00,USD,Low,MBA Mortgage Refinance Index,-,-,532.8,2026-11-25 00:46:18
+Wed Nov 25 2026,19:00,USD,Medium,MBA 5/1 ARM Points,-,-,1.07,2026-11-25 00:46:18
+Wed Nov 25 2026,20:00,USD,Low,Building Permits Final,-,-,1.398,2026-11-25 00:46:18
+Wed Nov 25 2026,20:00,USD,Low,Building Permits MoM Final,-,-,-0.4,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Low,Real Personal Spending MoM,-,-,0,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,High,Personal Spending MoM,-,0.4,0.5,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Medium,PCE Services Prices ex Energy & Housing MoM,-,-,0.4,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Medium,"PCE Prices ex Food, Energy & Housing MoM",-,-,0.3,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Low,Core PCE Price Index YoY,-,3.2,3.1,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Medium,PCE Price Index MoM,-,0.3,0.5,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,High,Core PCE Price Index MoM,-,0.3,0.3,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Medium,PCE Price Index YoY,-,3.8,3.6,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,High,Personal Income MoM,-,0.4,0.2,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Low,Core PCE Prices QoQ 2nd Est,-,2.5,3.6,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Medium,GDP Price Index QoQ 2nd Est,-,2.3,6.4,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,High,GDP Growth Rate QoQ 2nd Est,-,3.5,1.5,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Low,GDP Sales QoQ 2nd Est,-,-,2.2,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Low,Real Consumer Spending QoQ 2nd Est,-,-,3.4,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Low,PCE Prices QoQ 2nd Est,-,-,5.3,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Medium,"PCE Prices ex Food, Energy & Housing QoQ 2nd Est",-,-,3.4,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Medium,PCE Services Prices ex Energy & Housing QoQ 2nd Est,-,-,3.7,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Low,Durable Goods Orders ex Defense MoM,-,-,2.2,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,High,Durable Goods Orders MoM,-,0.6,1.8,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Medium,Durable Goods Orders Ex Transp MoM,-,0.5,0.5,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Low,Non Defense Goods Orders Ex Air,-,0.7,0.5,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Medium,Corporate Profits QoQ Prel,-,-,8.2,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Low,Jobless Claims 4-week Average,-,-,197.75,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Medium,Initial Jobless Claims,-,200,203,2026-11-25 00:46:18
+Wed Nov 25 2026,20:30,USD,Low,Continuing Jobless Claims,-,1721,1763,2026-11-25 00:46:18
+Wed Nov 25 2026,22:00,USD,Low,Dallas Fed Trimmed Mean PCE,-,-,2.8,2026-11-25 00:46:18
+Wed Nov 25 2026,22:00,USD,Medium,New Home Sales,-,0.65,0.676,2026-11-25 00:46:18
+Wed Nov 25 2026,22:00,USD,Medium,New Home Sales MoM,-,-,-0.6,2026-11-25 00:46:18
+Wed Nov 25 2026,22:00,USD,Medium,4-Week Bill Auction Allotted at High,-,-,-,2026-11-25 00:46:18
+Wed Nov 25 2026,22:00,USD,Medium,4-Week Bill Auction Bid-to-Cover,-,-,-,2026-11-25 00:46:18
+Wed Nov 25 2026,22:00,USD,Low,4-Week Bill Auction,-,-,-,2026-11-25 00:46:18
+Wed Nov 25 2026,22:00,USD,Medium,4-Week Bill Auction Total Accepted,-,-,-,2026-11-25 00:46:18
+Wed Nov 25 2026,22:30,USD,Medium,EIA Ethanol Production,-,-,1126,2026-11-25 00:46:18
+Wed Nov 25 2026,22:30,USD,Medium,EIA Ethanol Stocks,-,-,24908,2026-11-25 00:46:18
+Wed Nov 25 2026,22:30,USD,Low,EIA Cushing Crude Oil Stocks Change,-,-,-1.209,2026-11-25 00:46:18
+Wed Nov 25 2026,22:30,USD,Low,EIA Crude Oil Imports Change,-,-,-2.155,2026-11-25 00:46:18
+Wed Nov 25 2026,22:30,USD,Low,EIA Refinery Crude Runs Change,-,-,-0.129,2026-11-25 00:46:18
+Wed Nov 25 2026,22:30,USD,Low,EIA Distillate Fuel Production Change,-,-,0.14,2026-11-25 00:46:18
+Wed Nov 25 2026,22:30,USD,Low,EIA Gasoline Production Change,-,-,-0.202,2026-11-25 00:46:18
+Wed Nov 25 2026,22:30,USD,Medium,EIA Crude Oil Stocks Change,-,1.3,3.38,2026-11-25 00:46:18
+Wed Nov 25 2026,22:30,USD,Low,EIA Distillate Stocks Change,-,1.4,1.571,2026-11-25 00:46:18
+Wed Nov 25 2026,22:30,USD,Medium,EIA Gasoline Stocks Change,-,1.85,5.192,2026-11-25 00:46:18
+Wed Nov 25 2026,22:30,USD,Low,EIA Heating Oil Stocks Change,-,-,-0.775,2026-11-25 00:46:18
+Wed Nov 25 2026,22:30,USD,Low,United States-EIA OIL STOCKS-EIA Weekly Rfg Stocks*,-,-,-0.002,2026-11-25 00:46:18
+Wed Nov 25 2026,22:30,USD,Low,EIA Product Imports Change,-,-,0.568,2026-11-25 00:46:18
+Wed Nov 25 2026,22:30,USD,Low,EIA Refinery Utilization Change,-,0.3,0.5,2026-11-25 00:46:18
+Wed Nov 25 2026,22:30,USD,Medium,EIA Crude Oil Exports Change,-,-,1.033,2026-11-25 00:46:18
+Wed Nov 25 2026,23:30,USD,Medium,7-Year Note Auction Allotted at High,-,-,-,2026-11-25 00:46:18
+Wed Nov 25 2026,23:30,USD,Medium,7-Year Note Auction Bid-to-Cover,-,-,-,2026-11-25 00:46:18
+Wed Nov 25 2026,23:30,USD,Low,7-Year Note Auction,-,-,-,2026-11-25 00:46:18
+Wed Nov 25 2026,23:30,USD,Medium,7-Year Note Auction Total Accepted,-,-,-,2026-11-25 00:46:18
+Thu Nov 26 2026,00:00,USD,Low,EIA Natural Gas Stocks Change,-,-,20,2026-11-25 00:46:18
+Thu Nov 26 2026,00:00,USD,Low,30-Year Mortgage Rate,-,-,7.28,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Medium,Retail Inventories Ex Autos MoM Adv,-,-,0.4,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Medium,Wholesale Inventories MoM Adv,-,-,0.6,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Medium,Goods Trade Balance Adv,-,-133,-134.9,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Beef Net Export Sales,-,-,7.1,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Beef Gross Export Sales,-,-,8.8,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Corn Net Export Sales Next Year,-,-,41.9,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Corn Net Export Sales Total,-,-,1630,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Meal Net Export Sales Next Year,-,-,1,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Meal Net Export Sales,-,-,198.1,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Meal Net Export Sales Total,-,-,199.1,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Corn Net Export Sales,-,-,1588.1,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Corn Gross Export Sales,-,-,1627,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,United States-ExportSales-Soybn Oil Exp Sls Nxt Yr Net *,-,-,0,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Oil Net Export Sales,-,-,0.9,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Oil Net Export Sales Total,-,-,0.9,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Medium,USDA Pork Net Export Sales,-,-,32.1,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Medium,USDA Pork Gross Export Sales,-,-,36.2,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Net Export Sales Next Year,-,-,0,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Net Export Sales,-,-,1501,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Gross Export Sales,-,-,1622.1,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Soybean Net Export Sales Total,-,-,1501,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Upland Cotton Net Export Sales,-,-,118.7,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Upland Cotton Gross Export Sales,-,-,128.4,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Wheat Net Export Sales Next Year,-,-,0,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Wheat Net Export Sales,-,-,344.8,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Wheat Gross Export Sales,-,-,408.7,2026-11-25 00:46:18
+Fri Nov 27 2026,20:30,USD,Low,USDA Wheat Net Export Sales Total,-,-,344.8,2026-11-25 00:46:18
+Sat Nov 28 2026,02:00,USD,Medium,Baker Hughes Gas Rig Count,-,-,128,2026-11-25 00:46:18
+Sat Nov 28 2026,02:00,USD,Low,Baker Hughes Oil Rig Count,-,-,469,2026-11-25 00:46:18
+Sat Nov 28 2026,04:30,USD,Low,Fed Balance Sheet,-,-,6.74145,2026-11-25 00:46:18
+Mon Nov 30 2026,21:45,USD,Medium,Chicago PMI,-,-,55.3,2026-11-25 00:46:18
+Mon Nov 30 2026,22:30,USD,Medium,Dallas Fed Manufacturing Index,-,-,13.4,2026-11-25 00:46:18
+Mon Nov 30 2026,23:00,USD,Low,USDA Corn Export Inspections,-,-,1190.786,2026-11-25 00:46:18
+Mon Nov 30 2026,23:00,USD,Low,USDA Soybean Export Inspections,-,-,1555.054,2026-11-25 00:46:18
+Mon Nov 30 2026,23:00,USD,Low,USDA Wheat Export Inspections,-,-,344.886,2026-11-25 00:46:18
+Mon Nov 30 2026,23:30,USD,Medium,3-Month Bill Auction Allotted at High,-,-,-,2026-11-25 00:46:18
+Mon Nov 30 2026,23:30,USD,Medium,3-Month Bill Auction Bid-to-Cover,-,-,-,2026-11-25 00:46:18
+Mon Nov 30 2026,23:30,USD,Low,3-Month Bill Auction,-,-,-,2026-11-25 00:46:18
+Mon Nov 30 2026,23:30,USD,Medium,3-Month Bill Auction Total Accepted,-,-,-,2026-11-25 00:46:18
+Mon Nov 30 2026,23:30,USD,Medium,6-Month Bill Auction Allotted at High,-,-,-,2026-11-25 00:46:18
+Mon Nov 30 2026,23:30,USD,Medium,6-Month Bill Auction Bid-to-Cover,-,-,-,2026-11-25 00:46:18
+Mon Nov 30 2026,23:30,USD,Low,6-Month Bill Auction,-,-,-,2026-11-25 00:46:18
+Mon Nov 30 2026,23:30,USD,Medium,6-Month Bill Auction Total Accepted,-,-,-,2026-11-25 00:46:18
+Tue Dec 1 2026,20:55,USD,Low,Redbook YoY,-,-,11.3,2026-11-25 00:46:18
+Tue Dec 1 2026,21:45,USD,Low,S&P Global Manufacturing PMI Final,-,-,-,2026-11-25 00:46:18
+Tue Dec 1 2026,22:00,USD,Low,Construction Spending MoM,-,-,-1.9,2026-11-25 00:46:18
+Tue Dec 1 2026,22:00,USD,Medium,ISM Manufacturing Employment,-,-,52.4,2026-11-25 00:46:18
+Tue Dec 1 2026,22:00,USD,Low,ISM Manufacturing New Orders,-,-,55.5,2026-11-25 00:46:18
+Tue Dec 1 2026,22:00,USD,Low,ISM Manufacturing Prices,-,-,75.2,2026-11-25 00:46:18
+Tue Dec 1 2026,22:00,USD,High,ISM Manufacturing PMI,-,55.2,55.5,2026-11-25 00:46:18
+Tue Dec 1 2026,22:00,USD,High,JOLTs Job Openings,-,-,7.523,2026-11-25 00:46:18
+Tue Dec 1 2026,22:00,USD,Medium,Truck Sales,-,-,13.09,2026-11-25 00:46:18
+Tue Dec 1 2026,22:00,USD,Medium,Car Sales,-,-,2.45,2026-11-25 00:46:18
+Tue Dec 1 2026,22:00,USD,Low,JOLTs Job Quits,-,-,3.365,2026-11-25 00:46:18
+Tue Dec 1 2026,22:30,USD,Low,Dallas Fed Services Revenues Index,-,-,4.4,2026-11-25 00:46:18
+Tue Dec 1 2026,22:30,USD,Low,Dallas Fed Services Index,-,-,4,2026-11-25 00:46:18
+Wed Dec 2 2026,04:30,USD,Low,API Cushing Number,-,-,-0.666,2026-11-25 00:46:18
+Wed Dec 2 2026,04:30,USD,Medium,API Crude Oil Stock Change,-,-,0.126,2026-11-25 00:46:18
+Wed Dec 2 2026,04:30,USD,Low,API Distillate Stocks,-,-,1.647,2026-11-25 00:46:18
+Wed Dec 2 2026,04:30,USD,Low,API Gasoline Stocks,-,-,-0.047,2026-11-25 00:46:18
+Wed Dec 2 2026,04:30,USD,Low,API Heating Oil,-,-,-0.09,2026-11-25 00:46:18
+Wed Dec 2 2026,04:30,USD,Low,API Crude Imports,-,-,0.101,2026-11-25 00:46:18
+Wed Dec 2 2026,04:30,USD,Low,API Product Imports,-,-,-0.055,2026-11-25 00:46:18
+Wed Dec 2 2026,04:30,USD,Low,API Crude Runs,-,-,0.436,2026-11-25 00:46:18
+Wed Dec 2 2026,19:00,USD,Medium,MBA 5/1 ARM Contract Rate,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,19:00,USD,Medium,MBA 5/1 ARM Effective Rate,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,19:00,USD,Medium,MBA 15-Year Mortgage Contract Rate,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,19:00,USD,Medium,MBA 15-Year Mortgage Effective Rate,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,19:00,USD,Medium,MBA 15-Year Mortgage Points,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,19:00,USD,Low,MBA Mortgage Applications,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,19:00,USD,Medium,MBA 30-Year Mortgage Rate,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,19:00,USD,Low,MBA Mortgage Market Index,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,19:00,USD,Low,MBA Purchase Index,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,19:00,USD,Low,MBA Mortgage Refinance Index,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,19:00,USD,Medium,MBA 5/1 ARM Points,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,20:15,USD,Medium,ADP Employment Change,-,-,86,2026-11-25 00:46:18
+Wed Dec 2 2026,22:30,USD,Medium,EIA Ethanol Production,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,22:30,USD,Medium,EIA Ethanol Stocks,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,22:30,USD,Low,EIA Cushing Crude Oil Stocks Change,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,22:30,USD,Low,EIA Crude Oil Imports Change,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,22:30,USD,Low,EIA Refinery Crude Runs Change,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,22:30,USD,Low,EIA Distillate Fuel Production Change,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,22:30,USD,Low,EIA Gasoline Production Change,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,22:30,USD,Medium,EIA Crude Oil Stocks Change,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,22:30,USD,Low,EIA Distillate Stocks Change,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,22:30,USD,Medium,EIA Gasoline Stocks Change,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,22:30,USD,Low,EIA Heating Oil Stocks Change,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,22:30,USD,Low,United States-EIA OIL STOCKS-EIA Weekly Rfg Stocks*,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,22:30,USD,Low,EIA Product Imports Change,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,22:30,USD,Low,EIA Refinery Utilization Change,-,-,-,2026-11-25 00:46:18
+Wed Dec 2 2026,22:30,USD,Medium,EIA Crude Oil Exports Change,-,-,-,2026-11-25 00:46:18
